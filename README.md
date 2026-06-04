@@ -1,14 +1,14 @@
 <div align="center">
 
-# AI Evolution Skills
+# AI Co-Evolution Skills
 
-**把好用的 AI 工作流，整理成可以直接复用的能力包。**  
-**Reusable AI capability packs for reading, writing, publishing, and everyday knowledge work.**
+**把人与 AI 协同进化中跑通的工作流，整理成可以直接复用的能力包。**  
+**Reusable capability packs for human-AI co-evolution in real work.**
 
 [中文](#中文) · [English](#english)
 
-![License](https://img.shields.io/github/license/PhilRobinluo/ai-evolution-skills)
-![Skills](https://img.shields.io/badge/skills-1-blue)
+![License](https://img.shields.io/github/license/PhilRobinluo/ai-coevolution-skills)
+![Skills](https://img.shields.io/badge/skills-2-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -25,7 +25,7 @@
 
 这个仓库想解决的是另一件事：
 
-> 把已经跑通的 AI 工作流，沉淀成一个个可以复用、可以安装、可以分享的「能力包」。
+> 把人与 AI 一起做事、一起学习、一起改进时跑通的工作流，沉淀成一个个可以复用、可以安装、可以分享的「能力包」。
 
 它不是一个 prompt 大杂烩，也不是我的私人配置备份。  
 它更像一个逐步长出来的工具箱：每个能力包都应该能完成一个真实任务，并且有清楚的输入、输出、边界和使用方式。
@@ -35,6 +35,7 @@
 | 能力包 | 它解决什么问题 | 状态 |
 | --- | --- | --- |
 | [`bilingual-reader-maker`](skills/bilingual-reader-maker/) | 把英文 PDF / 长文做成中英双语移动阅读版，输出 HTML + PDF。 | Stable |
+| [`concept-explainer`](skills/concept-explainer/) | 在做真实任务时，把陌生工具、命令、配置、架构和报错链路解释成通俗知识卡片。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。
@@ -111,6 +112,7 @@ Skill/CLI 是进阶用户的工具层
 这个仓库会慢慢加入更多能力包：
 
 - 双语读物制作
+- 任务中的概念解释与知识卡片
 - 文章与公众号发布准备
 - 知识库整理
 - 学习材料转 HTML / PDF
@@ -131,7 +133,7 @@ One day you ask AI to translate a PDF. The next day you ask it to turn an articl
 
 This repository is built around a different idea:
 
-> Turn proven AI workflows into reusable capability packs.
+> Turn proven human-AI co-evolution workflows into reusable capability packs.
 
 It is not a random prompt dump.  
 It is not a private config backup.  
@@ -142,6 +144,7 @@ It is a growing library of practical skills that are meant to do real work.
 | Capability Pack | What it does | Status |
 | --- | --- | --- |
 | [`bilingual-reader-maker`](skills/bilingual-reader-maker/) | Turns English PDFs or long articles into polished Chinese-English mobile readers, with HTML and PDF output. | Stable |
+| [`concept-explainer`](skills/concept-explainer/) | Explains unfamiliar tools, commands, configs, architecture, and troubleshooting chains as short knowledge cards during real tasks. | Stable |
 
 The first pack came from a concrete use case: turning an English startup playbook into a bilingual study edition for Chinese readers.
 

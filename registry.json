@@ -1,6 +1,6 @@
 {
-  "name": "ai-evolution-skills",
-  "description": "Reusable AI workflow skills from AI进化俱乐部.",
+  "name": "ai-coevolution-skills",
+  "description": "Reusable capability packs for human-AI co-evolution.",
   "skills": [
     {
       "name": "bilingual-reader-maker",
@@ -9,7 +9,14 @@
       "category": "publishing",
       "status": "stable",
       "path": "skills/bilingual-reader-maker"
+    },
+    {
+      "name": "concept-explainer",
+      "title": "Concept Explainer",
+      "description": "Explain unfamiliar concepts during real tasks with short, memorable knowledge cards.",
+      "category": "learning",
+      "status": "stable",
+      "path": "skills/concept-explainer"
     }
   ]
 }
-
