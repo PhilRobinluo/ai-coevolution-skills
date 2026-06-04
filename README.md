@@ -78,6 +78,7 @@
 ```bash
 mkdir -p ~/.codex/skills
 cp -R skills/bilingual-reader-maker ~/.codex/skills/
+cp -R skills/concept-explainer ~/.codex/skills/
 ```
 
 如果你使用 Claude Code：
@@ -85,12 +86,25 @@ cp -R skills/bilingual-reader-maker ~/.codex/skills/
 ```bash
 mkdir -p ~/.claude/skills
 cp -R skills/bilingual-reader-maker ~/.claude/skills/
+cp -R skills/concept-explainer ~/.claude/skills/
+```
+
+如果你使用 OpenClaw / SkillHub 这类兼容 `SKILL.md` 的 Agent Skills 生态，可以把对应 skill 文件夹复制到你的 skills 目录，或在平台支持 GitHub 导入时填写本仓库地址：
+
+```text
+https://github.com/PhilRobinluo/ai-coevolution-skills
 ```
 
 然后开启新的会话，说：
 
 ```text
 请用 bilingual-reader-maker，把这份英文 PDF 做成中英双语移动阅读版。
+```
+
+或者：
+
+```text
+请用 concept-explainer，一边帮我跑这个 CLI，一边把我不懂的 npm、package.json、环境变量讲成知识卡片。
 ```
 
 ### 仓库原则
@@ -178,6 +192,7 @@ For Codex:
 ```bash
 mkdir -p ~/.codex/skills
 cp -R skills/bilingual-reader-maker ~/.codex/skills/
+cp -R skills/concept-explainer ~/.codex/skills/
 ```
 
 For Claude Code:
@@ -185,12 +200,25 @@ For Claude Code:
 ```bash
 mkdir -p ~/.claude/skills
 cp -R skills/bilingual-reader-maker ~/.claude/skills/
+cp -R skills/concept-explainer ~/.claude/skills/
+```
+
+For OpenClaw, SkillHub, or other `SKILL.md` compatible agent-skill platforms, copy the skill folder into your skills directory, or import this repository when GitHub import is supported:
+
+```text
+https://github.com/PhilRobinluo/ai-coevolution-skills
 ```
 
 Then start a new session and ask:
 
 ```text
 Use bilingual-reader-maker to turn this English PDF into a Chinese-English mobile reader.
+```
+
+Or:
+
+```text
+Use concept-explainer while helping me run this CLI. Explain npm, package.json, and environment variables as short knowledge cards.
 ```
 
 ### Direction
