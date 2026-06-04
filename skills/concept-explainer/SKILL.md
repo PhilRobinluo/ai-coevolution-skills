@@ -80,6 +80,86 @@ Default to 1-3 cards per response. Use up to 5 only for complex tasks.
 
 ---
 
+## User Knowledge Calibration
+
+Knowledge cards should be generated based on the user's level, not merely because a technical word appeared.
+
+### Lightweight User Model
+
+For each task, infer a temporary user model:
+
+```text
+user model = known areas + partially known areas + explicitly unknown areas + concepts required for this task
+```
+
+Use these signals in order:
+
+1. **Explicit user statement**: "I do not understand CLI", "I already know npm", "Do not explain smart contracts".
+2. **Observed operation level**: being able to run a command does not always mean the user understands the concept.
+3. **Task necessity**: if misunderstanding a concept would block the next decision, explain it.
+4. **Card history**: if a card library marks a concept as mastered, do not repeat it.
+5. **When uncertain**: provide one compact card instead of a long lecture.
+
+### Trigger Levels
+
+| Level | User state | Assistant behavior |
+| --- | --- | --- |
+| L0 Mastered | User says they know it, or card library marks `mastered` | Skip the card or give a one-line reminder |
+| L1 Can use but lacks model | User can follow commands but does not know where the concept fits | Generate a compact card focused on role in workflow |
+| L2 New concept | User explicitly does not understand, or concept is central to the task | Generate a full card |
+| L3 Repeated confusion | Card history shows 3+ explanations without mastery | Change analogy, example, or diagram; do not repeat the same card |
+| L4 High-risk concept | Money, credentials, deployment, deletion, contracts, permissions | Give at least a short risk card even if the user says they know it |
+
+### Calibration Prompt
+
+If several foundational concepts appear at once, ask one minimal question:
+
+```text
+Which of these do you already understand: CLI, npm, package.json, environment variables?
+You can answer like: "I know CLI, I do not know npm."
+```
+
+Then respect that answer during the current task.
+
+---
+
+## Knowledge Card Library Lookup
+
+If a local card library exists, check it before explaining.
+
+Recommended local path:
+
+```text
+~/work/coevolution-knowledge-cards
+```
+
+Lookup flow:
+
+```text
+1. Extract candidate concepts.
+2. Search concepts/ and _index.md.
+3. Read the card frontmatter: mastery, explain_count, last_outcome.
+4. Decide: skip / one-line reminder / full explanation / different explanation.
+5. If a new card is created or the user gives feedback, update the session log or suggest writing a concept card.
+```
+
+Recommended fields:
+
+```yaml
+mastery: unknown | introduced | practicing | mastered | confused
+explain_count: 0
+last_outcome: unknown | understood | still_confused | skipped
+```
+
+Rules:
+
+- Mastered concepts should not be repeatedly explained.
+- Introduced but not mastered concepts get a short review.
+- Repeatedly confusing concepts require a different explanation strategy.
+- Missing concepts can be generated as new cards.
+
+---
+
 ## Response Structures
 
 ### Simple Task
