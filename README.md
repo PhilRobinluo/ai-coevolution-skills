@@ -34,15 +34,32 @@
 它不是一个 prompt 大杂烩，也不是我的私人配置备份。  
 它更像一个逐步长出来的工具箱：每个能力包都应该能完成一个真实任务，并且有清楚的输入、输出、边界和使用方式。
 
+### 来源一眼看清
+
+本仓库包含罗老师原创并持续维护的 AI Skills，也会收录经过实际测试的社区优秀 Skills。社区 Skill 的版权归原作者所有，我们优先链接原仓库，并鼓励用户支持原作者。
+
+| 标识 | 类型 | 仓库处理方式 |
+|---|---|---|
+| 🔵 `LLS Original` | 罗老师原创 | 收录完整源码和安装包 |
+| 🟡 `LLS Adapted` | 在许可证允许范围内改编 | 标明原作者、原仓库、许可证和修改内容 |
+| 🟢 `Community Pick` | 罗老师实测推荐 | 默认只提供中文介绍和原仓库链接 |
+
+- [查看透明的来源与归属政策](docs/provenance-policy.md)
+- [查看社区精选目录](community/)
+- [查看获得许可的改编区](adapted/)
+
+> 社区 Skill 由原作者创作，请优先前往原仓库给作者一个 ⭐ Star。
+> 如果你认可罗老师的筛选、测试和中文说明，也欢迎 ⭐ Star 本导航仓库。
+
 ### 现在有什么？
 
-| 能力包 | 它解决什么问题 | 状态 |
-| --- | --- | --- |
-| [`bilingual-reader-maker`](skills/bilingual-reader-maker/) | 把英文 PDF / 长文做成中英双语移动阅读版，输出 HTML + PDF。 | Stable |
-| [`concept-explainer`](skills/concept-explainer/) | 在做真实任务时，把陌生工具、命令、配置、架构和报错链路解释成通俗知识卡片。 | Stable |
-| [`lls-workbuddy-guide`](skills/lls-workbuddy-guide/) | 带新手从真实任务开始，跑通 WorkBuddy 的执行、验收与复用。 | Stable |
-| [`lls-ppt-briefing-coach`](skills/lls-ppt-briefing-coach/) | 用七阶段访谈澄清 PPT 需求，生成可执行的制作指令。 | Stable |
-| [`lls-learning-guide`](skills/lls-learning-guide/) | 陪孩子逐步答题、费曼复述并沉淀学习档案。 | Stable |
+| 能力包 | 来源 | 它解决什么问题 | 状态 |
+| --- | --- | --- | --- |
+| [`bilingual-reader-maker`](skills/bilingual-reader-maker/) | 🔵 LLS Original | 把英文 PDF / 长文做成中英双语移动阅读版，输出 HTML + PDF。 | Stable |
+| [`concept-explainer`](skills/concept-explainer/) | 🔵 LLS Original | 在做真实任务时，把陌生工具、命令、配置、架构和报错链路解释成通俗知识卡片。 | Stable |
+| [`lls-workbuddy-guide`](skills/lls-workbuddy-guide/) | 🔵 LLS Original | 带新手从真实任务开始，跑通 WorkBuddy 的执行、验收与复用。 | Stable |
+| [`lls-ppt-briefing-coach`](skills/lls-ppt-briefing-coach/) | 🔵 LLS Original | 用七阶段访谈澄清 PPT 需求，生成可执行的制作指令。 | Stable |
+| [`lls-learning-guide`](skills/lls-learning-guide/) | 🔵 LLS Original | 陪孩子逐步答题、费曼复述并沉淀学习档案。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。
@@ -168,6 +185,14 @@ This repository is built around a different idea:
 It is not a random prompt dump.  
 It is not a private config backup.  
 It is a growing library of practical skills that are meant to do real work.
+
+### Provenance
+
+- 🔵 **LLS Original**: created and maintained by Luo Laoshi.
+- 🟡 **LLS Adapted**: transparently adapted under the upstream license.
+- 🟢 **Community Pick**: tested recommendation linking to the original repository by default.
+
+Community skills remain the property of their original authors. Please support the upstream author first; Star this repository as well if the testing and Chinese guidance help you.
 
 ### What is inside?
 

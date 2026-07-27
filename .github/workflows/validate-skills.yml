@@ -18,3 +18,5 @@ jobs:
             [[ -d "$skill_dir" ]] || continue
             tools/validate-skill.sh "$skill_dir"
           done
+      - name: Validate provenance policy
+        run: python3 tools/validate-provenance.py

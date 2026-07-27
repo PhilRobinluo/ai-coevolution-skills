@@ -8,7 +8,8 @@
       "description": "Turn English PDFs or articles into polished Chinese-English HTML/PDF study readers.",
       "category": "publishing",
       "status": "stable",
-      "path": "skills/bilingual-reader-maker"
+      "path": "skills/bilingual-reader-maker",
+      "provenance": "lls-original"
     },
     {
       "name": "concept-explainer",
@@ -16,7 +17,8 @@
       "description": "Explain unfamiliar concepts during real tasks with short, memorable knowledge cards.",
       "category": "learning",
       "status": "stable",
-      "path": "skills/concept-explainer"
+      "path": "skills/concept-explainer",
+      "provenance": "lls-original"
     },
     {
       "name": "lls-workbuddy-guide",
@@ -26,7 +28,8 @@
       "status": "stable",
       "version": "1.1.0",
       "path": "skills/lls-workbuddy-guide",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v1.1.0/lls-workbuddy-guide-1.1.0.zip"
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v1.1.0/lls-workbuddy-guide-1.1.0.zip",
+      "provenance": "lls-original"
     },
     {
       "name": "lls-ppt-briefing-coach",
@@ -36,7 +39,8 @@
       "status": "stable",
       "version": "1.0.0",
       "path": "skills/lls-ppt-briefing-coach",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ppt-briefing-coach-v1.0.0/lls-ppt-briefing-coach-1.0.0.zip"
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ppt-briefing-coach-v1.0.0/lls-ppt-briefing-coach-1.0.0.zip",
+      "provenance": "lls-original"
     },
     {
       "name": "lls-learning-guide",
@@ -46,7 +50,9 @@
       "status": "stable",
       "version": "1.0.0",
       "path": "skills/lls-learning-guide",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-learning-guide-v1.0.0/lls-learning-guide-1.0.0.zip"
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-learning-guide-v1.0.0/lls-learning-guide-1.0.0.zip",
+      "provenance": "lls-original"
     }
-  ]
+  ],
+  "provenance_policy": "docs/provenance-policy.md"
 }
