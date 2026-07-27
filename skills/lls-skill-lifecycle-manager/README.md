@@ -6,7 +6,7 @@
 - 当前版本：`2.0.0`
 - [查看 SKILL.md](SKILL.md)
 - [下载安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.0/lls-skill-lifecycle-manager-2.0.0.zip)
-- [校验文件](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.0/lls-skill-lifecycle-manager-2.0.0.zip.sha256)
+- [校验文件](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.0/lls-skill-lifecycle-manager-2.0.0.sha256)
 
 ## 它管理什么
 
@@ -31,4 +31,3 @@
 
 - ⭐ Star：收藏项目
 - 🔔 Watch → Custom → Releases：接收新版通知
-

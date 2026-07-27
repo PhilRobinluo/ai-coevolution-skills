@@ -40,7 +40,10 @@ jobs:
             cd skills
             zip -qr "../dist/$slug-$version.zip" "$slug" -x '*/.DS_Store'
           )
-          sha256sum "dist/$slug-$version.zip" > "dist/$slug-$version.zip.sha256"
+          (
+            cd dist
+            sha256sum "$slug-$version.zip" > "$slug-$version.zip.sha256"
+          )
           unzip -t "dist/$slug-$version.zip"
       - name: Create GitHub release
         env:
