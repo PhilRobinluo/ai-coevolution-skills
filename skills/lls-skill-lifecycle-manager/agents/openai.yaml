@@ -1,0 +1,4 @@
+interface:
+  display_name: "罗老师 Skill 全生命周期与仓库治理管家"
+  short_description: "管理 Skill 从母库、版本、发布到飞书与运行副本的完整生态"
+  default_prompt: "请使用 $lls-skill-lifecycle-manager 审计并推进这个 Skill 的更新、打包、GitHub 发布和飞书联动。"

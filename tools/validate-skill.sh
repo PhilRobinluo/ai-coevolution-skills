@@ -33,10 +33,9 @@ if ! grep -q '^description:' "$skill_dir/SKILL.md"; then
   exit 1
 fi
 
-if grep -R -nE '(OPENAI_API_KEY|ANTHROPIC_API_KEY|WECHAT_APP_SECRET|/Users/philrobin/Library/Containers|xwechat_files|notion\\.site|secret|token)' "$skill_dir"; then
+if grep -R -nE '(OPENAI_API_KEY|ANTHROPIC_API_KEY|WECHAT_APP_SECRET|/Users/philrobin|xwechat_files|notion\\.site|password[[:space:]]*[:=]|secret[[:space:]]*[:=]|token[[:space:]]*[:=]|cookie[[:space:]]*[:=])' "$skill_dir"; then
   echo "Potential private/secret content found; review before publishing." >&2
   exit 1
 fi
 
 echo "OK: $skill_dir"
-

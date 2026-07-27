@@ -9,7 +9,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 ![License](https://img.shields.io/github/license/PhilRobinluo/ai-coevolution-skills)
-![Skills](https://img.shields.io/badge/skills-5-blue)
+![Skills](https://img.shields.io/badge/skills-6-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -60,6 +60,7 @@
 | [`lls-workbuddy-guide`](skills/lls-workbuddy-guide/) | 🔵 LLS Original | 带新手从真实任务开始，跑通 WorkBuddy 的执行、验收与复用。 | Stable |
 | [`lls-ppt-briefing-coach`](skills/lls-ppt-briefing-coach/) | 🔵 LLS Original | 用七阶段访谈澄清 PPT 需求，生成可执行的制作指令。 | Stable |
 | [`lls-learning-guide`](skills/lls-learning-guide/) | 🔵 LLS Original | 陪孩子逐步答题、费曼复述并沉淀学习档案。 | Stable |
+| [`lls-skill-lifecycle-manager`](skills/lls-skill-lifecycle-manager/) | 🔵 LLS Original | 管理 Skill 从母库、版本、发布到飞书和运行副本的完整生态。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。
@@ -203,6 +204,7 @@ Community skills remain the property of their original authors. Please support t
 | [`lls-workbuddy-guide`](skills/lls-workbuddy-guide/) | Guides beginners through real WorkBuddy tasks, verification, and reusable workflows. | Stable |
 | [`lls-ppt-briefing-coach`](skills/lls-ppt-briefing-coach/) | Clarifies presentation needs through a seven-stage interview and produces an actionable brief. | Stable |
 | [`lls-learning-guide`](skills/lls-learning-guide/) | Guides students through problem solving, Feynman retelling, and learning records. | Stable |
+| [`lls-skill-lifecycle-manager`](skills/lls-skill-lifecycle-manager/) | Governs the full skill lifecycle across source, releases, documentation, and runtime copies. | Stable |
 
 The first pack came from a concrete use case: turning an English startup playbook into a bilingual study edition for Chinese readers.
 
