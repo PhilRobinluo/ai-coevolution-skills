@@ -7,11 +7,15 @@
 
 [中文](#中文) · [English](#english)
 
+[![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 ![License](https://img.shields.io/github/license/PhilRobinluo/ai-coevolution-skills)
 ![Skills](https://img.shields.io/badge/skills-5-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
+
+> **一套可以直接下载、安装和使用的中文 AI Skills。**
+> 如果某个 Skill 帮你节省了时间，请点右上角 ⭐ **Star** 收藏这个仓库。你的 Star，也决定我下一步优先更新哪个 Skill。
 
 ---
 
@@ -139,6 +143,14 @@ Skill/CLI 是进阶用户的工具层
 如果你只是想看热闹，可以先 Star。  
 如果你也在把自己的 AI 工作流产品化，欢迎 fork、改造，或者提 issue 分享你的场景。
 
+### 收藏与更新
+
+- ⭐ **Star**：收藏项目、表达支持，方便以后找回来。
+- 🔔 **Watch → Custom → Releases**：接收新版本发布通知。
+- 📦 **Download**：在每个 Skill 页面下载对应的 ZIP 安装包。
+
+> 如果某个 Skill 帮你节省了时间，请点右上角 ⭐ Star 收藏这个仓库。你的 Star，也决定我下一步优先更新哪个 Skill。
+
 ---
 
 ## English
@@ -238,6 +250,12 @@ Skills and CLIs are the advanced working layer.
 ```
 
 This repository will grow slowly, with a bias toward useful, understandable, and shareable workflows.
+
+### Save and follow updates
+
+- ⭐ **Star** saves the project and shows your support.
+- 🔔 **Watch → Custom → Releases** follows new release notifications.
+- 📦 **Download** gets the installable ZIP from each skill page.
 
 ### License
 
