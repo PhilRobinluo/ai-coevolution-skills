@@ -1,0 +1,7 @@
+interface:
+  display_name: "罗老师学习引导"
+  short_description: "陪孩子一步步答题、复述并沉淀学习档案"
+  default_prompt: "Use $lls-learning-guide to guide a student through a question without giving the answer directly, then run Feynman review and record the learning profile."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,20 @@
+name: Validate skills
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate every public skill
+        shell: bash
+        run: |
+          set -euo pipefail
+          for skill_dir in skills/*; do
+            [[ -d "$skill_dir" ]] || continue
+            tools/validate-skill.sh "$skill_dir"
+          done

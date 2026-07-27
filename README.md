@@ -8,7 +8,7 @@
 [中文](#中文) · [English](#english)
 
 ![License](https://img.shields.io/github/license/PhilRobinluo/ai-coevolution-skills)
-![Skills](https://img.shields.io/badge/skills-2-blue)
+![Skills](https://img.shields.io/badge/skills-5-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -36,6 +36,9 @@
 | --- | --- | --- |
 | [`bilingual-reader-maker`](skills/bilingual-reader-maker/) | 把英文 PDF / 长文做成中英双语移动阅读版，输出 HTML + PDF。 | Stable |
 | [`concept-explainer`](skills/concept-explainer/) | 在做真实任务时，把陌生工具、命令、配置、架构和报错链路解释成通俗知识卡片。 | Stable |
+| [`lls-workbuddy-guide`](skills/lls-workbuddy-guide/) | 带新手从真实任务开始，跑通 WorkBuddy 的执行、验收与复用。 | Stable |
+| [`lls-ppt-briefing-coach`](skills/lls-ppt-briefing-coach/) | 用七阶段访谈澄清 PPT 需求，生成可执行的制作指令。 | Stable |
+| [`lls-learning-guide`](skills/lls-learning-guide/) | 陪孩子逐步答题、费曼复述并沉淀学习档案。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。
@@ -110,7 +113,8 @@ https://github.com/PhilRobinluo/ai-coevolution-skills
 ### 仓库原则
 
 ```text
-GitHub 是真源
+私有生产母库是真源
+GitHub 是经过校验的公开镜像与下载入口
 手机/H5 是普通人的入口
 Skill/CLI 是进阶用户的工具层
 ```
@@ -159,6 +163,9 @@ It is a growing library of practical skills that are meant to do real work.
 | --- | --- | --- |
 | [`bilingual-reader-maker`](skills/bilingual-reader-maker/) | Turns English PDFs or long articles into polished Chinese-English mobile readers, with HTML and PDF output. | Stable |
 | [`concept-explainer`](skills/concept-explainer/) | Explains unfamiliar tools, commands, configs, architecture, and troubleshooting chains as short knowledge cards during real tasks. | Stable |
+| [`lls-workbuddy-guide`](skills/lls-workbuddy-guide/) | Guides beginners through real WorkBuddy tasks, verification, and reusable workflows. | Stable |
+| [`lls-ppt-briefing-coach`](skills/lls-ppt-briefing-coach/) | Clarifies presentation needs through a seven-stage interview and produces an actionable brief. | Stable |
+| [`lls-learning-guide`](skills/lls-learning-guide/) | Guides students through problem solving, Feynman retelling, and learning records. | Stable |
 
 The first pack came from a concrete use case: turning an English startup playbook into a bilingual study edition for Chinese readers.
 
@@ -224,7 +231,8 @@ Use concept-explainer while helping me run this CLI. Explain npm, package.json, 
 ### Direction
 
 ```text
-GitHub is the source of truth.
+The private production repository is the source of truth.
+GitHub is the validated public mirror and download layer.
 Mobile/H5 is the beginner-friendly front door.
 Skills and CLIs are the advanced working layer.
 ```

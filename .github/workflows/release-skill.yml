@@ -1,0 +1,58 @@
+name: Package and release one skill
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: Skill directory name under skills/
+        required: true
+        type: string
+      version:
+        description: Semantic version without the v prefix
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate requested skill
+        shell: bash
+        run: |
+          set -euo pipefail
+          slug='${{ inputs.slug }}'
+          version='${{ inputs.version }}'
+          [[ "$slug" =~ ^[a-z0-9]+(-[a-z0-9]+)*$ ]]
+          [[ "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]
+          tools/validate-skill.sh "skills/$slug"
+      - name: Build reproducible ZIP and checksum
+        shell: bash
+        run: |
+          set -euo pipefail
+          slug='${{ inputs.slug }}'
+          version='${{ inputs.version }}'
+          mkdir -p dist
+          (
+            cd skills
+            zip -qr "../dist/$slug-$version.zip" "$slug" -x '*/.DS_Store'
+          )
+          sha256sum "dist/$slug-$version.zip" > "dist/$slug-$version.zip.sha256"
+          unzip -t "dist/$slug-$version.zip"
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          slug='${{ inputs.slug }}'
+          version='${{ inputs.version }}'
+          tag="$slug-v$version"
+          gh release create "$tag" \
+            "dist/$slug-$version.zip" \
+            "dist/$slug-$version.zip.sha256" \
+            --title "$slug $version" \
+            --notes "罗老师 AI Skills 自动打包发布：$slug $version"

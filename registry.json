@@ -17,6 +17,36 @@
       "category": "learning",
       "status": "stable",
       "path": "skills/concept-explainer"
+    },
+    {
+      "name": "lls-workbuddy-guide",
+      "title": "罗老师教你 WorkBuddy",
+      "description": "带新手从真实任务开始，把 WorkBuddy 用成可交付、可验收、可复用的 AI 工作台。",
+      "category": "workbuddy",
+      "status": "stable",
+      "version": "1.1.0",
+      "path": "skills/lls-workbuddy-guide",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v1.1.0/lls-workbuddy-guide-1.1.0.zip"
+    },
+    {
+      "name": "lls-ppt-briefing-coach",
+      "title": "罗老师 PPT 需求澄清策划师",
+      "description": "用七阶段访谈理清 PPT 需求，并生成可直接制作的 PPT 指令。",
+      "category": "presentation",
+      "status": "stable",
+      "version": "1.0.0",
+      "path": "skills/lls-ppt-briefing-coach",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ppt-briefing-coach-v1.0.0/lls-ppt-briefing-coach-1.0.0.zip"
+    },
+    {
+      "name": "lls-learning-guide",
+      "title": "罗老师学习引导",
+      "description": "陪孩子一步步答题、复述并沉淀学习档案。",
+      "category": "learning",
+      "status": "stable",
+      "version": "1.0.0",
+      "path": "skills/lls-learning-guide",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-learning-guide-v1.0.0/lls-learning-guide-1.0.0.zip"
     }
   ]
 }
