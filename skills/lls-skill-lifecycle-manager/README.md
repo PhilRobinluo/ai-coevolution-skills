@@ -3,10 +3,10 @@
 管理 Skill 从唯一生产母库、查重与版本，到自动打包、GitHub Release、飞书说明页、来源版权和运行副本对账的完整生态。
 
 - 来源：🔵 `LLS Original`
-- 当前版本：`2.0.0`
+- 当前版本：`2.0.1`
 - [查看 SKILL.md](SKILL.md)
-- [下载安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.0/lls-skill-lifecycle-manager-2.0.0.zip)
-- [校验文件](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.0/lls-skill-lifecycle-manager-2.0.0.sha256)
+- [下载安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.1/lls-skill-lifecycle-manager-2.0.1.zip)
+- [校验文件](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.1/lls-skill-lifecycle-manager-2.0.1.sha256)
 
 ## 它管理什么
 

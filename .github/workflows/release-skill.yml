@@ -35,10 +35,20 @@ jobs:
           set -euo pipefail
           slug='${{ inputs.slug }}'
           version='${{ inputs.version }}'
-          mkdir -p dist
+          mkdir -p "dist/stage/$slug"
+          # 公开仓库可以有用户说明 README；安装包只复制运行白名单，
+          # 避免发布辅助文件、缓存和后续新增的仓库文档混入运行包。
+          for entry in SKILL.md agents references scripts assets; do
+            if [[ -e "skills/$slug/$entry" ]]; then
+              cp -R "skills/$slug/$entry" "dist/stage/$slug/"
+            fi
+          done
           (
-            cd skills
-            zip -qr "../dist/$slug-$version.zip" "$slug" -x '*/.DS_Store'
+            cd dist/stage
+            zip -Xqr "../$slug-$version.zip" "$slug" \
+              -x '*/.DS_Store' \
+              -x '*/__pycache__/*' \
+              -x '*.pyc'
           )
           (
             cd dist

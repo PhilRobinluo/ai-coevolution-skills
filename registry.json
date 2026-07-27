@@ -59,9 +59,9 @@
       "description": "管理 Skill 从唯一母库、版本和打包，到 GitHub、飞书、来源版权和运行副本对账的完整生态。",
       "category": "skill-governance",
       "status": "stable",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "path": "skills/lls-skill-lifecycle-manager",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.0/lls-skill-lifecycle-manager-2.0.0.zip",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.1/lls-skill-lifecycle-manager-2.0.1.zip",
       "provenance": "lls-original"
     }
   ],
