@@ -9,7 +9,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 [![License](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0_%2B_PolyForm_NC-blue)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-39-blue)
+![Skills](https://img.shields.io/badge/skills-36-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -58,27 +58,17 @@
 另有 3 个 [`Community Pick`](community/) 仅做中文介绍和上游导航。
 
 
-### 精选开源能力已经在仓库内实现
+### 精选开源工具导航
 
-下面三项已经从“推荐链接”升级为可安装的 `LLS Adapted` 公开版。每项都保留上游作者、固定提交、MIT 许可证和罗老师改编记录。
+女娲、达尔文和同事 Skill 都是罗老师推荐的优秀社区项目。本仓库只解释它们分别适合什么场景，并把用户引导到原作者仓库，不复制源码、不重新包装成罗老师改编版。
 
-| 能力包 | 它负责什么 | 上游项目 |
+| 项目 | 适合做什么 | 支持原作者 |
 |---|---|---|
-| [`lls-colleague-skill-distiller`](adapted/lls-colleague-skill-distiller/) | 蒸馏同事、导师或岗位“怎么把工作做好” | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill/tree/dot-skill) |
-| [`lls-nuwa-cognitive-distiller`](adapted/lls-nuwa-cognitive-distiller/) | 蒸馏公开人物或主题“怎样思考、判断与表达” | [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) |
-| [`lls-darwin-skill-optimizer`](adapted/lls-darwin-skill-optimizer/) | 用基线、单变量实验和配对测试持续进化 Skill | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) |
+| `dot-skill`（同事.skill） | 蒸馏“人怎么做事” | [打开原始仓库](https://github.com/titanwings/colleague-skill/tree/dot-skill) |
+| `nuwa-skill`（女娲.skill） | 蒸馏“高手怎么思考” | [打开原始仓库](https://github.com/alchaincyf/nuwa-skill) |
+| `darwin-skill`（达尔文.skill） | 测试并进化已有 Skill | [打开原始仓库](https://github.com/alchaincyf/darwin-skill) |
 
-三者组成一条完整链路：
-
-```text
-同事经验 / 公开高手资料
-          ↓
-同事 Skill / 女娲 Skill：生成第一版能力
-          ↓
-达尔文 Skill：测试、改进、保留或恢复
-          ↓
-进入公开仓库、飞书教程与 SkillHub 发布流程
-```
+详细中文说明见 [`Community Pick`](community/)。喜欢具体 Skill，请优先给原作者 Star。
 
 ### 现在有什么？
 
@@ -159,7 +149,7 @@
 也可在左侧 **「技能」** → **「添加技能」或「查找技能」** 中搜索精确 slug 后安装；不同 WorkBuddy 版本的界面名称可能略有变化。若没有精确匹配，请不要安装同名条目，改用该 Skill README 的 GitHub Release 或手动复制目录。
 
 - [查看全部 WorkBuddy 安装步骤与当前发布状态](docs/how-to-install.md)
-- [浏览 32 个原创 Skill](skills/)；另有 [4 个透明改编 Skill](adapted/)
+- [浏览 35 个原创 Skill](skills/)；另有 [1 个透明改编 Skill](adapted/)
 
 #### Codex / Claude Code 手动安装
 

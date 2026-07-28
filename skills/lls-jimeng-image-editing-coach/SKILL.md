@@ -1,5 +1,6 @@
 ---
 name: lls-jimeng-image-editing-coach
+version: 1.1.0
 description: "指导用户在即梦等图片编辑工具中基于原图做局部替换、扩图、消除、背景调整、风格统一和版本对比。用于用户希望保留主体身份、产品结构或构图，只修改明确区域时；必须先备份原图、建立保留项与修改项，使用小范围遮罩和单变量迭代，再按边缘、光影、结构、文字与隐私逐项验收。"
 license: CC-BY-NC-SA-4.0
 metadata:
@@ -9,7 +10,7 @@ metadata:
 <!-- workbuddy-install: published; slug: lls-jimeng-image-editing-coach -->
 ## 在 WorkBuddy 中找到并安装
 
-在 WorkBuddy 搜索唯一 slug `lls-jimeng-image-editing-coach`，仅在 slug 完全一致时安装；安装后核对 `SKILL.md` 中的 `name`，再新开会话使用。
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-jimeng-image-editing-coach`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-jimeng-image-editing-coach/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
 
 # 罗老师即梦图片编辑教练
 
