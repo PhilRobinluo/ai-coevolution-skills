@@ -22,3 +22,30 @@
 
 机器可读清单见 [`catalog.json`](catalog.json)，完整规则见[来源与归属政策](../docs/provenance-policy.md)。
 
+
+## 2026-07-28 新增精选
+
+### humanizer
+
+- 作者：blader
+- 用途：识别常见AI写作痕迹，适合在公开发布前做语言清理。
+- 原始来源：https://github.com/blader/humanizer
+- 许可证：MIT
+- 分发：只链接上游。
+
+### google-official-seo-guide
+
+- 作者：Google Search Central
+- 用途：以官方资料为准学习抓取、索引、结构化数据和内容规范。
+- 原始来源：https://developers.google.com/search/docs
+- 许可证：Official documentation terms
+- 分发：只链接上游。
+
+### changelog-generator
+
+- 作者：Upstream author pending verification
+- 用途：把Git提交整理成用户看得懂的更新日志；当前先做来源导航。
+- 原始来源：https://github.com/anthropics/skills
+- 许可证：Upstream repository license
+- 分发：只链接上游。
+

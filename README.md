@@ -9,7 +9,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 ![License](https://img.shields.io/github/license/PhilRobinluo/ai-coevolution-skills)
-![Skills](https://img.shields.io/badge/skills-8-blue)
+![Skills](https://img.shields.io/badge/skills-26-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -50,6 +50,12 @@
 
 > 社区 Skill 由原作者创作，请优先前往原仓库给作者一个 ⭐ Star。
 > 如果你认可罗老师的筛选、测试和中文说明，也欢迎 ⭐ Star 本导航仓库。
+
+### 本轮新增 18 个可安装 Skill
+
+覆盖 Skill 创建、标题、命名、Mermaid、截图隐私、最佳实践、GitHub 首页、决策辩论、文件整理、纸质文件修复、视频学习、安全审计、中文幽默、真人化写作、短视频拆解和国际技术文档。完整清单见 [`registry.json`](registry.json)。
+
+另有 3 个 [`Community Pick`](community/) 仅做中文介绍和上游导航。
 
 ### 现在有什么？
 
