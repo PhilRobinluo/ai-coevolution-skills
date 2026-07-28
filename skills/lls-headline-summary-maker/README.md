@@ -12,6 +12,7 @@
 
 - **Skill slug：`lls-headline-summary-maker`**
 - **SkillHub 状态：已发布**
+
 把下面内容粘贴到 WorkBuddy 新会话：
 
 ```text

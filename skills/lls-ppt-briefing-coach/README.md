@@ -11,6 +11,7 @@
 
 - **Skill slug：`lls-ppt-briefing-coach`**
 - **SkillHub 状态：已发布**
+
 ### 路径一：在 WorkBuddy 对话中粘贴
 
 ```text

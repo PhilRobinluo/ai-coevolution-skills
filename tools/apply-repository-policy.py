@@ -96,8 +96,8 @@ def update_readme(path: Path, entry: dict) -> str:
         "pending": "待核验",
     }[entry["skillhub_status"]]
     text = re.sub(
-        r"(?m)^-\s*\*\*SkillHub 状态：.*\*\*\s*$",
-        f"- **SkillHub 状态：{status_text}**",
+        r"(?m)^-[ \t]*\*\*SkillHub 状态：.*\*\*[ \t]*\n(?:[ \t]*\n)?",
+        f"- **SkillHub 状态：{status_text}**\n\n",
         text,
         count=1,
     )

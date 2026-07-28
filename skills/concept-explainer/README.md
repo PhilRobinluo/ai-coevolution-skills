@@ -25,6 +25,7 @@ It is useful when a user is working through a real task but lacks the mental mod
 
 - **Skill slug：`concept-explainer`**
 - **SkillHub 状态：待核验**
+
 ### 路径一：在 WorkBuddy 对话中粘贴
 
 ```text

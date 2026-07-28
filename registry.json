@@ -15,7 +15,8 @@
       "skillhub_url": "https://skillhub.cn/skills/lls-code-anatomy",
       "skillhub_status": "pending_review",
       "provenance": "lls-original",
-      "license": "CC-BY-NC-SA-4.0"
+      "license": "CC-BY-NC-SA-4.0",
+      "release_version": "1.0.1"
     },
     {
       "name": "bilingual-reader-maker",
@@ -143,7 +144,10 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/C9QqwoWa9iz9oNk2fgIcovFRnme",
       "skillhub_url": "https://skillhub.cn/skills/lls-article-screenshot",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0",
+      "code_license": "PolyForm-Noncommercial-1.0.0"
     },
     {
       "name": "lls-best-minds-consultation",
@@ -164,7 +168,9 @@
       },
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/YnPbwZm7KimkTkkW71YcjsBPnqh",
       "skillhub_url": "https://skillhub.cn/skills/lls-best-minds-consultation",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "MIT"
     },
     {
       "name": "lls-best-practices-researcher",
@@ -178,7 +184,9 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/NdYhwEXjhiFXN9kDA0acyjr8n8c",
       "skillhub_url": "https://skillhub.cn/skills/lls-best-practices-researcher",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-chinese-humor",
@@ -192,7 +200,9 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/LTLCwGw6TiCO2CkXUaacP31xnfh",
       "skillhub_url": "https://skillhub.cn/skills/lls-chinese-humor",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-document-print-restorer",
@@ -206,7 +216,10 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/J6KLwLfvAiemc2kXss0cjOVmnnd",
       "skillhub_url": "https://skillhub.cn/skills/lls-document-print-restorer",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0",
+      "code_license": "PolyForm-Noncommercial-1.0.0"
     },
     {
       "name": "lls-github-profile-writer",
@@ -220,7 +233,9 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/VGD7woXEKivcbikHFE2cPCZ6nhf",
       "skillhub_url": "https://skillhub.cn/skills/lls-github-profile-writer",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-headline-summary-maker",
@@ -234,7 +249,9 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/BF5TwVVOMi2UQ8kA7Y8ctW3Jnze",
       "skillhub_url": "https://skillhub.cn/skills/lls-headline-summary-maker",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-human-writing-editor",
@@ -248,7 +265,9 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/N75swTqMXilGu5kzM0LcSOYQnbb",
       "skillhub_url": "https://skillhub.cn/skills/lls-human-writing-editor",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-image-privacy-redactor",
@@ -262,7 +281,9 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/NYC6wTWBEi9QjbkIdOmchBx3nZq",
       "skillhub_url": "https://skillhub.cn/skills/lls-image-privacy-redactor",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-image-renamer",
@@ -276,7 +297,10 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/CPi8wqiefiPDDrkA0XOcklW8n0b",
       "skillhub_url": "https://skillhub.cn/skills/lls-image-renamer",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0",
+      "code_license": "PolyForm-Noncommercial-1.0.0"
     },
     {
       "name": "lls-international-techdoc-writer",
@@ -290,7 +314,9 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/ScG0wCkB1iBb1nkO8MbcnopqnDx",
       "skillhub_url": "https://skillhub.cn/skills/lls-international-techdoc-writer",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-mermaid-validator",
@@ -304,7 +330,10 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/FUN1wZmSWigrl3kpEMmcSXkgn2f",
       "skillhub_url": "https://skillhub.cn/skills/lls-mermaid-validator",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0",
+      "code_license": "PolyForm-Noncommercial-1.0.0"
     },
     {
       "name": "lls-mirror-debate",
@@ -318,7 +347,9 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/LloUwQxfbiZ4LlklTcXcFI7wnZd",
       "skillhub_url": "https://skillhub.cn/skills/lls-mirror-debate",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-naming-coach",
@@ -332,7 +363,9 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/BiZdwoBqCiDKyXkm14eci1HenOf",
       "skillhub_url": "https://skillhub.cn/skills/lls-naming-coach",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-short-video-breakdown",
@@ -346,7 +379,9 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/LyJ8wdz53iFHfkkw7KYc7plMnGh",
       "skillhub_url": "https://skillhub.cn/skills/lls-short-video-breakdown",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-skill-builder",
@@ -360,7 +395,9 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/QtrVwWBpZilxCHkbFECcvQT0ngP",
       "skillhub_url": "https://skillhub.cn/skills/lls-skill-builder",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-skill-security-auditor",
@@ -374,7 +411,10 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/H2Dhw1uuliyAqck3CDxcCMYcnnh",
       "skillhub_url": "https://skillhub.cn/skills/lls-skill-security-auditor",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0",
+      "code_license": "PolyForm-Noncommercial-1.0.0"
     },
     {
       "name": "lls-video-digester",
@@ -388,7 +428,9 @@
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Kd5WwxI7dikwGFkHxEJcWBC6nus",
       "skillhub_url": "https://skillhub.cn/skills/lls-video-digester",
-      "skillhub_status": "published"
+      "skillhub_status": "published",
+      "release_version": "1.0.0",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-ip-positioning-coach",
