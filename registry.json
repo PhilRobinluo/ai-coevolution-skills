@@ -63,6 +63,28 @@
       "path": "skills/lls-skill-lifecycle-manager",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.1/lls-skill-lifecycle-manager-2.0.1.zip",
       "provenance": "lls-original"
+    },
+    {
+      "name": "lls-dialogue-subtext-reader",
+      "title": "罗老师对话潜台词解读",
+      "description": "分清原话事实、可能解释与未知信息，再生成低冲突、可验证的回应。",
+      "category": "communication",
+      "status": "stable",
+      "version": "1.1.0",
+      "path": "skills/lls-dialogue-subtext-reader",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-dialogue-subtext-reader-v1.1.0/lls-dialogue-subtext-reader-1.1.0.zip",
+      "provenance": "lls-original"
+    },
+    {
+      "name": "lls-local-excel-vba-data-processor",
+      "title": "罗老师 Excel VBA 本地数据处理",
+      "description": "在数据不离开本机的前提下设计、测试和验收 Excel VBA 自动化方案。",
+      "category": "data",
+      "status": "stable",
+      "version": "1.1.0",
+      "path": "skills/lls-local-excel-vba-data-processor",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-local-excel-vba-data-processor-v1.1.0/lls-local-excel-vba-data-processor-1.1.0.zip",
+      "provenance": "lls-original"
     }
   ],
   "provenance_policy": "docs/provenance-policy.md"
