@@ -29,8 +29,7 @@
 ## 在 WorkBuddy 安装
 
 - **Skill slug：`lls-skill-lifecycle-manager`**
-- **SkillHub 状态：已在 SkillHub 检索到同 slug 条目。**
-
+- **SkillHub 状态：已发布**
 ### 路径一：在 WorkBuddy 对话中粘贴
 
 ```text

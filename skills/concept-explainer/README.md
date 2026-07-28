@@ -24,8 +24,7 @@ It is useful when a user is working through a real task but lacks the mental mod
 ## 在 WorkBuddy 安装
 
 - **Skill slug：`concept-explainer`**
-- **SkillHub 状态：本仓当前版本未确认已上架 SkillHub。**
-
+- **SkillHub 状态：待核验**
 ### 路径一：在 WorkBuddy 对话中粘贴
 
 ```text

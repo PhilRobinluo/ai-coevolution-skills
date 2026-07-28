@@ -39,8 +39,8 @@ def main() -> int:
         if relative in registered_paths:
             fail(f'duplicate registry slug: {slug}')
         registered_paths.add(relative)
-        if status not in {'published', 'pending'}:
-            fail(f'{slug}: skillhub_status must be published or pending')
+        if status not in {'published', 'pending', 'pending_review'}:
+            fail(f'{slug}: skillhub_status must be published, pending_review or pending')
 
         skill_dir = ROOT / relative
         readme = skill_dir / 'README.md'

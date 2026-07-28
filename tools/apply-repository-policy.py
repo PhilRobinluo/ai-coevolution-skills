@@ -90,8 +90,18 @@ def update_readme(path: Path, entry: dict) -> str:
         if not heading:
             raise ValueError(f"{path}: README 缺少一级标题")
         text = text[: heading.end()] + f"\n\n{version_line}" + text[heading.end() :]
+    status_text = {
+        "published": "已发布",
+        "pending_review": "审核中",
+        "pending": "待核验",
+    }[entry["skillhub_status"]]
+    text = re.sub(
+        r"(?m)^-\s*\*\*SkillHub 状态：.*\*\*\s*$",
+        f"- **SkillHub 状态：{status_text}**",
+        text,
+        count=1,
+    )
     if f"**Skill slug：`{slug}`**" not in text:
-        status_text = "已发布" if entry["skillhub_status"] == "published" else "待核验"
         text = text.rstrip() + f"""
 
 ## 在 WorkBuddy 安装
@@ -135,7 +145,11 @@ def update_install_catalog(path: Path, entries: list[dict]) -> str:
         "| --- | --- | --- |",
     ]
     for entry in entries:
-        status = "已检索到" if entry["skillhub_status"] == "published" else "本仓版本未确认已上架"
+        status = {
+            "published": "已检索到",
+            "pending_review": "审核中",
+            "pending": "本仓版本未确认已上架",
+        }[entry["skillhub_status"]]
         rows.append(
             f"| [`{entry['name']}`](../{entry['path']}/README.md) "
             f"| `{entry['version']}` / `{entry['release_version']}` | {status} |"

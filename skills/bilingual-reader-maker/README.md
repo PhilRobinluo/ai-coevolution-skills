@@ -26,8 +26,7 @@ This avoids hard-to-read side-by-side columns on phones while keeping the materi
 ## 在 WorkBuddy 安装
 
 - **Skill slug：`bilingual-reader-maker`**
-- **SkillHub 状态：本仓当前版本未确认已上架 SkillHub。**
-
+- **SkillHub 状态：待核验**
 ### 路径一：在 WorkBuddy 对话中粘贴
 
 ```text

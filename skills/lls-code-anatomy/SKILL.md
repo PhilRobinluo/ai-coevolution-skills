@@ -1,10 +1,24 @@
 ---
 name: lls-code-anatomy
+version: 1.1.0
 license: CC-BY-NC-SA-4.0
 description: "面向代码初学者和跨专业学习者的中文代码学习教练。用于用户说“解剖这段代码”“逐行讲代码”“看不懂这一行”“帮我做代码学习笔记”时；先建立数据流地图，再对不超过约 30 行的功能块做意图注释、最难行逐 token 解剖、安全小改动与运行验证，最后生成可复习的学习卡片、通用模式和 3 道自测题。不得只解释不练习，也不得把密钥、客户数据或生产配置写进笔记。"
 metadata:
   short-description: 把代码变成看得懂、跑得通、能复习的学习卡片
 ---
+
+<!-- workbuddy-install: pending_review; slug: lls-code-anatomy -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-code-anatomy`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-code-anatomy`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-code-anatomy/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-code-anatomy` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师代码解剖学习法
 
