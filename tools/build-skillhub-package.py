@@ -56,6 +56,11 @@ def main() -> int:
     merged = {**platform, **original}
 
     shutil.copytree(args.source, args.output)
+    # SkillHub 拒绝 .upstream 扩展名；仅在临时发布包中改成 Markdown，
+    # 保留上游许可证正文，公开源码中的来源文件名保持不变。
+    upstream_license = args.output / "LICENSE.upstream"
+    if upstream_license.is_file():
+        upstream_license.rename(args.output / "LICENSE.md")
     rendered = yaml.safe_dump(merged, allow_unicode=True, sort_keys=False).strip()
     (args.output / "SKILL.md").write_text(
         f"---\n{rendered}\n---\n{body}", encoding="utf-8"
