@@ -29,7 +29,7 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 
 | Skill slug | 当前源码 / Release | SkillHub 状态 |
 | --- | --- | --- |
-| [`lls-code-anatomy`](../skills/lls-code-anatomy/README.md) | `1.0.1` / `1.0.1` | 审核中 |
+| [`lls-code-anatomy`](../skills/lls-code-anatomy/README.md) | `1.0.2` / `1.0.1` | 审核中 |
 | [`bilingual-reader-maker`](../skills/bilingual-reader-maker/README.md) | `1.1.0` / `1.1.0` | 本仓版本未确认已上架 |
 | [`concept-explainer`](../skills/concept-explainer/README.md) | `1.1.0` / `1.1.0` | 本仓版本未确认已上架 |
 | [`lls-workbuddy-guide`](../skills/lls-workbuddy-guide/README.md) | `2.1.0` / `2.0.0` | 已检索到 |
