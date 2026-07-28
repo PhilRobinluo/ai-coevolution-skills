@@ -20,3 +20,12 @@ jobs:
           done
       - name: Validate provenance policy
         run: python3 tools/validate-provenance.py
+      - name: Run skill unit tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          for tests_dir in skills/*/tests; do
+            if [[ -d "$tests_dir" ]]; then
+              python3 -m unittest discover -s "$tests_dir" -p 'test_*.py'
+            fi
+          done

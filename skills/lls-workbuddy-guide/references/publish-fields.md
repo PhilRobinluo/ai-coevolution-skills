@@ -2,30 +2,35 @@
 
 - Slug: `lls-workbuddy-guide`
 - 显示名称: `罗老师教你 WorkBuddy`
-- 图标建议: `book-open`、`graduation-cap`、`workflow`、`sparkles`
-- 版本号: `1.2.0`
+- 图标建议: `graduation-cap`、`workflow`、`sparkles`
+- 版本号: `2.0.0`
+- 来源: 🔵 `LLS Original`
 - 飞书教程: `https://m2wlgni9k4.feishu.cn/wiki/DAv2wAGDXig5sDks5wJcz9yWnAb`
 - 飞书版块首页: `https://m2wlgni9k4.feishu.cn/wiki/GaPjwSvF3iENCjkPy97cIrPOnTh`
 - GitHub 源码: `https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-workbuddy-guide`
-- GitHub Release: `https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-workbuddy-guide-v1.2.0`
+- GitHub Release: `https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-workbuddy-guide-v2.0.0`
 - SkillHub: `https://skillhub.cn/skills/lls-workbuddy-guide`
 
 ## 描述
 
-罗老师出品的 WorkBuddy 实操陪跑 skill。它不是被动答疑，而是会从真实任务出发，带用户一步步学会 WorkBuddy 的工作台、SkillHub、插件/MCP、文件处理、浏览器自动化、专家协作、结果验收和流程复用。
+罗老师 WorkBuddy 自适应学习教练。它会从首次诊断和一个真实任务开始，根据学习档案判断当前等级，再用“跟着做、一起做、自己做、教别人、沉淀工作流”五级阶梯逐渐减少提示。内置十关课程、场景卡、四证验收、错误诊断和三分钟复盘，让第一次安装 WorkBuddy 的同学越用越懂。
 
-## 变更说明
+## 2.0.0 变更说明
 
-1.2.0：专项增强主动陪跑能力。新增 10 分钟上手协议、Ask / Plan / Craft 与 Skill / 连接器 / 专家路由、四证验收、失败恢复协议，以及 WorkBuddy 学习版块下的独立飞书专项教程。
-
-1.1.1：打通飞书、GitHub 与 SkillHub 三端入口。飞书负责中文教程，GitHub 负责源码和安装包，SkillHub 负责发现与安装。
-
-1.1.0：重构为主动引导式 WorkBuddy 实操教练。新增场景诊断、七步陪跑流程、核心能力清单、写作/PPT/资料整理/网页操作/代码/SkillHub 实操卡、验收清单和隐私边界，强调“选场景、装能力、喂资料、执行、验收、沉淀复用”的完整路径。
+- 从一次性任务陪跑升级为长期自适应学习教练。
+- 新增首次接待、学习档案和本地档案工具。
+- 新增五级学习阶梯与渐隐提示规则。
+- 新增十关真实任务课程。
+- 新增文档、PPT、表格、PDF、研究、浏览器、代码、SkillHub 场景卡。
+- 新增六类错误诊断与定向恢复。
+- 新增三分钟复盘、能力升级和下一关推荐。
+- 继续采用四证验收与飞书、GitHub、SkillHub 三端闭环。
 
 ## 标签建议
 
 - WorkBuddy
-- 实操陪跑
+- 新手教程
+- 自适应学习
 - AI 工作流
 - SkillHub
 - 罗老师
