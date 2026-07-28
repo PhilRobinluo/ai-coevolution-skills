@@ -9,7 +9,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 [![License](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0_%2B_PolyForm_NC-blue)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-36-blue)
+![Skills](https://img.shields.io/badge/skills-39-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -93,6 +93,9 @@
 | [`lls-ai-drawing-prompt-coach`](skills/lls-ai-drawing-prompt-coach/) | 🔵 LLS Original | 从画面意图到可测试、可迭代的文生图提示词。 | Stable |
 | [`lls-ai-poster-design-coach`](skills/lls-ai-poster-design-coach/) | 🔵 LLS Original | 从传播目标和信息层级推进到海报版式与导出验收。 | Stable |
 | [`lls-jimeng-image-editing-coach`](skills/lls-jimeng-image-editing-coach/) | 🔵 LLS Original | 保留原图关键结构，分区、小步完成图片编辑。 | Stable |
+| [`lls-ai-data-analysis-starter`](skills/lls-ai-data-analysis-starter/) | 🔵 LLS Original | 从业务问题和数据质量开始，完成可复核的数据分析。 | Stable |
+| [`lls-government-publicity-data-analyst`](skills/lls-government-publicity-data-analyst/) | 🔵 LLS Original | 用统一口径分析政务传播与公共服务效果。 | Stable |
+| [`lls-geo-brand-visibility-coach`](skills/lls-geo-brand-visibility-coach/) | 🔵 LLS Original | 用问题集、事实库和来源审计管理生成式搜索可见性。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。
@@ -251,6 +254,9 @@ Community skills remain the property of their original authors. Please support t
 | [`lls-ai-drawing-prompt-coach`](skills/lls-ai-drawing-prompt-coach/) | Turns visual intent into testable and iterative text-to-image prompts. | Stable |
 | [`lls-ai-poster-design-coach`](skills/lls-ai-poster-design-coach/) | Designs poster information hierarchy, layout, assets, and export acceptance. | Stable |
 | [`lls-jimeng-image-editing-coach`](skills/lls-jimeng-image-editing-coach/) | Preserves key image structure through masked, single-variable editing and inspection. | Stable |
+| [`lls-ai-data-analysis-starter`](skills/lls-ai-data-analysis-starter/) | Runs reproducible analysis from business questions and data quality checks. | Stable |
+| [`lls-government-publicity-data-analyst`](skills/lls-government-publicity-data-analyst/) | Measures public communication and service outcomes with governed metrics. | Stable |
+| [`lls-geo-brand-visibility-coach`](skills/lls-geo-brand-visibility-coach/) | Manages generative-search visibility through question sets, facts, sources, and retesting. | Stable |
 
 The first pack came from a concrete use case: turning an English startup playbook into a bilingual study edition for Chinese readers.
 
