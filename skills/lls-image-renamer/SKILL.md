@@ -1,7 +1,7 @@
 ---
 name: lls-image-renamer
 license: CC-BY-NC-SA-4.0
-description: 根据图片内容生成可搜索的文件名，同时保留原始时间戳或设备编号。 当用户需要“笔记和项目里出现IMG_1234、Pasted image等难搜索图片名。”时使用。
+description: 批量规划可搜索、可追溯的图片文件名，在真正改名之前检查重名、越界和引用影响。 当用户要处理相关材料并需要可验证交付物时使用。
 ---
 
 <!-- workbuddy-install: published; slug: lls-image-renamer -->
@@ -23,86 +23,77 @@ description: 根据图片内容生成可搜索的文件名，同时保留原始�
 > 当前版本：1.1.0
 ## 一句话用途
 
-根据图片内容生成可搜索的文件名，同时保留原始时间戳或设备编号。
+把 `IMG_1234.png`、`Pasted image 2026...png` 这类难搜索名称，整理成“内容描述 + 原始标识”的稳定文件名，并留下可审计映射。
 
-## 什么时候使用
+## 适用与边界
 
-笔记和项目里出现IMG_1234、Pasted image等难搜索图片名。
-
-## 哪些情况换别的方法
-
-文件名参与外部系统签名、数据库主键或固定URL。
+适合笔记附件、课程素材、项目截图的批量整理。若文件名是数据库主键、签名参数、固定 URL、代码导入路径或同步软件的外部索引，先盘点依赖，不直接改名。
 
 ## 3 分钟上手
 
-复制下面这句话给 AI：
-
 ```text
-请用 lls-image-renamer，整理这个目录里的截图名称，先只预览。
+请用 lls-image-renamer 扫描这个图片目录：先输出命名规则和 manifest，只预览、不改文件；列出重名与可能受影响的 Markdown 引用。
 ```
 
-## 标准工作流程
+命令示例：
 
-1. **识别图片内容和原文件名信息**
-2. **生成10字内描述并与原名组合**
-3. **先dry-run列出重命名映射**
-4. **执行后搜索并更新全部Markdown引用**
+```bash
+python3 scripts/plan_rename.py --root ./assets --manifest rename-plan.json mapping.json
+python3 scripts/plan_rename.py --root ./assets --manifest rename-result.json --apply mapping.json
+```
 
-## 完整案例
+`mapping.json` 是旧相对路径到新相对路径的对象，例如：
 
-输入：IMG_1234.png，内容是GitHub Release页面。
+```json
+{"IMG_1234.png": "GitHub发布页__IMG_1234.png"}
+```
 
-输出：GitHub发布页__IMG_1234.png，并列出受影响引用。
+## 标准工作流
 
-## 输出标准
+1. **盘点**：记录扩展名、原名、时间或设备编号；搜索 Markdown、HTML、代码和数据库引用。
+2. **定规则**：使用“可检索描述 + 双下划线 + 原始稳定标识”；描述短、客观，不写敏感信息。
+3. **人工复核描述**：AI 只提供候选；不从模糊图像猜测姓名、客户、地点或机密项目。
+4. **生成 manifest**：先 dry-run；逐项显示源、目标、状态和原因。
+5. **阻断风险**：目标已存在、同批目标重名、源文件越出根目录时整批停止。
+6. **执行改名**：用户确认 manifest 后才使用 `--apply`。
+7. **更新引用**：按 manifest 另行修改引用；不要把二进制改名与笔记正文替换混成不可回滚的一步。
+8. **读回验收**：旧路径不存在、新路径可打开、引用搜索无遗漏、文件数量与哈希一致。
 
-最终结果至少包含：
+详细复核表见 [references/rename-review.md](references/rename-review.md)。
 
-- 用户真正要完成的任务；
-- 可执行步骤，而不是只有观点；
-- 关键事实、假设和未知项；
-- 完成前的检查清单；
-- 下一步最小动作。
+## 命名判断
 
-## 隐私、依赖与权限
+- 保留原扩展名；大小写策略在同一目录保持一致。
+- 描述优先回答“这张图以后靠什么词找到”，而不是堆视觉细节。
+- 使用跨平台字符；避开 `/\:*?"<>|`、控制字符、尾随句点和空格。
+- 同一事件多图使用稳定序号，例如 `产品发布会-01__IMG_1234.jpg`。
+- 文件名是公开元数据：客户名、手机号、账号、内网域名用中性类别替代。
 
-文件名本身会公开显示；避免写入客户姓名、手机号和内部项目代号。
+## 失败处理
 
-默认只读取用户明确提供的材料。涉及账号登录、文件写入、网络请求或外部发布时，先说明实际动作与影响范围。
+- **目标重名**：停止，调整规则或序号；不覆盖。
+- **源文件缺失**：重新盘点，不凭旧清单执行。
+- **引用过多**：分批改名，每批提交独立 manifest。
+- **执行中断**：以 manifest 和实际目录为准重建状态，不盲目重跑。
 
-## 质量检查
+## 交付物与验收
 
-交付前逐项检查：
+至少交付命名规则、dry-run manifest、风险项、执行结果、引用更新结果。验收时确认：数量不变、无覆盖、文件可打开、旧引用已清零、manifest 可用于追溯。
 
-1. 是否回答了用户的真实任务；
-2. 是否把事实、推断和建议分开；
-3. 是否给出至少一个可复制的下一步；
-4. 是否移除了本机路径、账号、密钥和客户资料；
-5. 是否说明依赖、权限和失败处理。
+## 版本记录
 
-## 常见问题
-
-### 结果太泛怎么办？
-
-补充目标用户、真实输入、期望输出和一个失败例子，再运行一次。
-
-### 可以直接公开结果吗？
-
-先检查来源、个人信息、客户内容、截图和下载链接，再决定发布范围。
-
-## 版本与更新记录
-
+- 1.1.0：新增批量 manifest、根目录约束、重名阻断、dry-run/apply 和自动测试。
 - 1.0.0：首次公开教学版。
 
 ## 三端入口
 
 - GitHub 源码：https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-image-renamer
-- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-image-renamer-v1.0.0
+- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-image-renamer-v1.1.0
 - 飞书中文教程：https://m2wlgni9k4.feishu.cn/wiki/CPi8wqiefiPDDrkA0XOcklW8n0b
 - SkillHub：搜索唯一 slug `lls-image-renamer`
 
 ## 支持项目
 
-如果这个 Skill 帮你节省了时间，欢迎给总仓库点一个 Star，并使用 Watch Releases 接收新版通知：
+如果这个 Skill 帮你节省了时间，欢迎给总仓库点一个 ⭐ Star；需要新版通知时，请使用 Watch Releases：
 
 https://github.com/PhilRobinluo/ai-coevolution-skills

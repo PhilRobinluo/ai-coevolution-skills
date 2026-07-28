@@ -1,7 +1,7 @@
 ---
 name: lls-mermaid-validator
 license: CC-BY-NC-SA-4.0
-description: 生成并校验 Mermaid 图，减少中文标签、括号和保留字导致的渲染错误。 当用户需要“需要流程图、架构图、时序图或状态图。”时使用。
+description: 生成并实际编译 Mermaid 图，同时检查图的语义、中文标签和无障碍文字备份。 当用户要处理相关材料并需要可验证交付物时使用。
 ---
 
 <!-- workbuddy-install: published; slug: lls-mermaid-validator -->
@@ -23,86 +23,82 @@ description: 生成并校验 Mermaid 图，减少中文标签、括号和保留�
 > 当前版本：1.1.0
 ## 一句话用途
 
-生成并校验 Mermaid 图，减少中文标签、括号和保留字导致的渲染错误。
+把复杂流程变成可读的 Mermaid 图，并用真实编译结果证明它不是“看起来像代码”。
 
-## 什么时候使用
+## 先选对图
 
-需要流程图、架构图、时序图或状态图。
-
-## 哪些情况换别的方法
-
-需要照片级视觉或自由插画的任务。
+- `flowchart`：步骤、分支、责任流转。
+- `sequenceDiagram`：系统或角色之间按时间发生的消息。
+- `stateDiagram-v2`：一个对象的状态与转换条件。
+- `classDiagram` / `erDiagram`：结构关系；不拿来硬画时间流程。
 
 ## 3 分钟上手
 
-复制下面这句话给 AI：
-
 ```text
-请用 lls-mermaid-validator，把这段发布流程画成流程图并校验。
+请用 lls-mermaid-validator：先判断该用哪种图；节点 ID 用短英文、中文标签加双引号；给我 Mermaid 源码、编译结果和纯文字版。
 ```
 
-## 标准工作流程
+本地验证：
 
-1. **选择正确图表类型**
-2. **为中文节点加双引号并保持ID简短**
-3. **运行Mermaid CLI语法校验**
-4. **失败时定位行号、修复并再次校验**
+```bash
+bash scripts/validate-mermaid.sh diagram.mmd --output diagram.svg --report validation.txt
+```
 
-## 完整案例
+脚本优先使用本机 `mmdc`，其次使用已经安装在当前项目里的 `npx --no-install mmdc`；不会在验证时偷偷联网安装依赖。
 
-输入：准备→审核→发布→读回。
+## 标准工作流
 
-输出：通过mmdc校验的Mermaid代码和纯文字版流程。
+1. **明确读者问题**：读者想看顺序、交互、状态还是结构。
+2. **压缩信息**：一张图只表达一个主要问题；超过约 12 个核心节点时考虑拆图。
+3. **分离 ID 与标签**：`review["人工复核（必做）"]`，ID 简短稳定，展示文案可读。
+4. **写转换条件**：分支箭头写清条件，不用“是/否”脱离上下文。
+5. **保存 `.mmd` 源文件**：不要只交聊天中的代码块。
+6. **真实编译**：输出 SVG/PNG 和报告；失败时保留原错误并定位附近语句。
+7. **语义复核**：编译通过不等于逻辑正确，检查漏节点、反向箭头、责任归属和终止状态。
+8. **提供文字版**：让未渲染 Mermaid 的环境也能理解流程。
 
-## 输出标准
+复核表见 [references/compile-and-semantic-review.md](references/compile-and-semantic-review.md)。
 
-最终结果至少包含：
+## 稳定写法
 
-- 用户真正要完成的任务；
-- 可执行步骤，而不是只有观点；
-- 关键事实、假设和未知项；
-- 完成前的检查清单；
-- 下一步最小动作。
+```mermaid
+flowchart TD
+    start["收到发布请求"] --> check{"质量门禁通过？"}
+    check -->|"是"| publish["发布"]
+    check -->|"否"| revise["退回修改"]
+    revise --> check
+```
 
-## 隐私、依赖与权限
+- 中文、括号、标点较多的标签统一加双引号。
+- 不把 `end`、`subgraph` 等保留词当裸 ID。
+- 样式是最后一步；先保证结构和含义。
+- 图中使用角色、系统类别和占位符，移除 Token、客户名、内网地址。
 
-图中用角色和占位符代替真实账号、客户和内部域名。
+## 失败处理
 
-默认只读取用户明确提供的材料。涉及账号登录、文件写入、网络请求或外部发布时，先说明实际动作与影响范围。
+- **找不到 mmdc**：报告 `tool_missing`，给安装位置建议，但不把“未验证”写成“通过”。
+- **语法错误**：缩小到最小失败片段，再逐段恢复。
+- **能编译但难看**：拆图、缩短标签、调整方向；不靠大量 CSS 掩盖结构问题。
+- **平台语法版本不同**：记录编译器版本，并提供纯文字版作为可读兜底。
 
-## 质量检查
+## 验收
 
-交付前逐项检查：
+交付 `.mmd`、渲染文件、验证报告、文字版。至少确认：命令退出码为 0、输出非空、关键分支都有条件、起点终点清楚、敏感信息已移除。
 
-1. 是否回答了用户的真实任务；
-2. 是否把事实、推断和建议分开；
-3. 是否给出至少一个可复制的下一步；
-4. 是否移除了本机路径、账号、密钥和客户资料；
-5. 是否说明依赖、权限和失败处理。
+## 版本记录
 
-## 常见问题
-
-### 结果太泛怎么办？
-
-补充目标用户、真实输入、期望输出和一个失败例子，再运行一次。
-
-### 可以直接公开结果吗？
-
-先检查来源、个人信息、客户内容、截图和下载链接，再决定发布范围。
-
-## 版本与更新记录
-
+- 1.1.0：新增本地依赖策略、真实编译报告、覆盖保护与脚本测试，并强化语义复核。
 - 1.0.0：首次公开教学版。
 
 ## 三端入口
 
 - GitHub 源码：https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-mermaid-validator
-- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-mermaid-validator-v1.0.0
+- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-mermaid-validator-v1.1.0
 - 飞书中文教程：https://m2wlgni9k4.feishu.cn/wiki/FUN1wZmSWigrl3kpEMmcSXkgn2f
 - SkillHub：搜索唯一 slug `lls-mermaid-validator`
 
 ## 支持项目
 
-如果这个 Skill 帮你节省了时间，欢迎给总仓库点一个 Star，并使用 Watch Releases 接收新版通知：
+如果这个 Skill 帮你节省了时间，欢迎给总仓库点一个 ⭐ Star；需要新版通知时，请使用 Watch Releases：
 
 https://github.com/PhilRobinluo/ai-coevolution-skills

@@ -1,12 +1,27 @@
 # 罗老师视频消化助手
 
-提取公开视频字幕，整理核心观点、关键概念、时间点和行动清单。
+- **当前源码版本：`1.1.0`**（最近 Release：`1.1.0`）
+
+把用户提供或公开可用的字幕整理成带时间证据的观点、质疑点和行动清单。
 
 - 来源：LLS Original
-- **当前源码版本：`1.1.0`**（最近 Release：`1.0.0`）
+- **当前源码与 Release 版本：`1.1.0`**
 - 完整用法：见 [SKILL.md](SKILL.md)
 - 飞书教程：https://m2wlgni9k4.feishu.cn/wiki/Kd5WwxI7dikwGFkHxEJcWBC6nus
 - SkillHub slug：`lls-video-digester`
+- Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-video-digester-v1.1.0
+
+## 在 WorkBuddy 安装
+
+把下面内容粘贴到 WorkBuddy 新会话：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-video-digester`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。
+```
+
+## 许可证与商业使用
+
+本 Skill 的原创内容采用 [CC BY-NC-SA 4.0](../../LICENSES/CC-BY-NC-SA-4.0.txt)。 本目录的 `scripts/` 采用 [PolyForm Noncommercial 1.0.0](../../LICENSES/PolyForm-Noncommercial-1.0.0.txt)。企业内部普通办公可按[额外许可](../../ADDITIONAL-PERMISSIONS.md)免费使用；收费课程、转售、客户交付、SaaS、代运营等须取得[商业授权](../../COMMERCIAL-LICENSE.md)。
 
 ## 在 WorkBuddy 安装
 
@@ -20,7 +35,3 @@
 ```
 
 也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-video-digester` 后安装；界面文字可能随 WorkBuddy 版本变化。
-
-## 许可证与商业使用
-
-本 Skill 的原创内容采用 [CC BY-NC-SA 4.0](../../LICENSES/CC-BY-NC-SA-4.0.txt)。企业内部普通办公可按[额外许可](../../ADDITIONAL-PERMISSIONS.md)免费使用；收费课程、转售、客户交付、SaaS、代运营等须取得[商业授权](../../COMMERCIAL-LICENSE.md)。
