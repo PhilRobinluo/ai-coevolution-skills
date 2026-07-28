@@ -1,6 +1,39 @@
 {
   "schema_version": 1,
   "updated_at": "2026-07-28",
-  "items": []
+  "items": [
+    {
+      "name": "humanizer",
+      "category": "writing",
+      "author": "blader",
+      "source_url": "https://github.com/blader/humanizer",
+      "license": "MIT",
+      "verified_version": "2.7.0",
+      "verified_at": "2026-07-28",
+      "recommendation": "识别常见AI写作痕迹，适合在公开发布前做语言清理。",
+      "distribution": "link-only"
+    },
+    {
+      "name": "google-official-seo-guide",
+      "category": "seo",
+      "author": "Google Search Central",
+      "source_url": "https://developers.google.com/search/docs",
+      "license": "Official documentation terms",
+      "verified_version": "2026-07-28 snapshot",
+      "verified_at": "2026-07-28",
+      "recommendation": "以官方资料为准学习抓取、索引、结构化数据和内容规范。",
+      "distribution": "link-only"
+    },
+    {
+      "name": "changelog-generator",
+      "category": "developer-tools",
+      "author": "Upstream author pending verification",
+      "source_url": "https://github.com/anthropics/skills",
+      "license": "Upstream repository license",
+      "verified_version": "catalog-only",
+      "verified_at": "2026-07-28",
+      "recommendation": "把Git提交整理成用户看得懂的更新日志；当前先做来源导航。",
+      "distribution": "link-only"
+    }
+  ]
 }
-
