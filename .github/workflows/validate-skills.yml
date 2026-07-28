@@ -10,6 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install unit test dependencies
+        # 图片修复与脱敏测试都从干净环境调用 Pillow；在这里显式安装，
+        # 避免依赖开发机已有包而产生“本地通过、CI 缺包”的漂移。
+        run: python3 -m pip install Pillow
       - name: Validate every public skill
         shell: bash
         run: |
