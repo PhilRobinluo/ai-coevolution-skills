@@ -9,7 +9,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 [![License](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0_%2B_PolyForm_NC-blue)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-31-blue)
+![Skills](https://img.shields.io/badge/skills-33-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -74,6 +74,9 @@
 | [`lls-ppt-workflow-builder`](skills/lls-ppt-workflow-builder/) | 🔵 LLS Original | 从演示目标推进到逐页制作、演练与验收。 | Stable |
 | [`lls-prompt-basics-coach`](skills/lls-prompt-basics-coach/) | 🔵 LLS Original | 用真实任务和样例测试教普通用户写提示词。 | Stable |
 | [`lls-code-anatomy`](skills/lls-code-anatomy/) | 🔵 LLS Original | 把一小段代码拆成数据流、语法解剖、亲手运行和可复习学习卡片。 | Stable |
+| [`lls-short-video-breakdown`](skills/lls-short-video-breakdown/) | 🔵 LLS Original | 用时间点和原文证据拆解短视频结构、留存、口语与镜头。 | Stable |
+| [`lls-douyin-oral-script-writer`](skills/lls-douyin-oral-script-writer/) | 🔵 LLS Original | 把真实观点写成自然、可信并经过朗读计时的抖音口播稿。 | Stable |
+| [`lls-ai-video-script-planner`](skills/lls-ai-video-script-planner/) | 🔵 LLS Original | 从传播任务推进到分镜、素材、生成提示和制作验收。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。
@@ -226,6 +229,9 @@ Community skills remain the property of their original authors. Please support t
 | [`lls-mermaid-diagram`](skills/lls-mermaid-diagram/) | Selects the right diagram type and validates Mermaid by real compilation. | Stable |
 | [`lls-ppt-workflow-builder`](skills/lls-ppt-workflow-builder/) | Runs a presentation from decision goal and evidence through production and rehearsal. | Stable |
 | [`lls-prompt-basics-coach`](skills/lls-prompt-basics-coach/) | Teaches prompting through clear goals, constraints, formats, and test cases. | Stable |
+| [`lls-short-video-breakdown`](skills/lls-short-video-breakdown/) | Breaks down short videos with timestamps, evidence, retention logic, delivery, and visuals. | Stable |
+| [`lls-douyin-oral-script-writer`](skills/lls-douyin-oral-script-writer/) | Turns real ideas and evidence into natural, timed Douyin spoken scripts. | Stable |
+| [`lls-ai-video-script-planner`](skills/lls-ai-video-script-planner/) | Plans video beats, storyboards, assets, generation prompts, and production acceptance. | Stable |
 
 The first pack came from a concrete use case: turning an English startup playbook into a bilingual study edition for Chinese readers.
 
