@@ -286,7 +286,7 @@ def transform(INPUT):
 
 - 📘 [飞书中文教程与完整案例](https://m2wlgni9k4.feishu.cn/wiki/ToAuwccD2iVp6WkrXPSc0Zuen1c)
 - 💻 [GitHub 源码](https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-code-anatomy)
-- 📦 [GitHub Release 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-code-anatomy-v1.0.1)
+- 📦 [GitHub Release 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-code-anatomy-v1.0.2)
 - 🧩 [SkillHub 查看与安装](https://skillhub.cn/skills/lls-code-anatomy)
 
 如果这个 Skill 帮你真正看懂并改动了一段代码，欢迎给总仓库点一个 ⭐ Star；如需接收新版通知，请使用 Watch Releases。
