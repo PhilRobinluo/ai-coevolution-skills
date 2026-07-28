@@ -23,12 +23,12 @@
     {
       "name": "lls-workbuddy-guide",
       "title": "罗老师教你 WorkBuddy",
-      "description": "带新手从真实任务开始，把 WorkBuddy 用成可交付、可验收、可复用的 AI 工作台。",
+      "description": "用 10 分钟跑通真实任务，学会选择模式、Skill、连接器和专家，并用证据验收结果。",
       "category": "workbuddy",
       "status": "stable",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "path": "skills/lls-workbuddy-guide",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v1.1.1/lls-workbuddy-guide-1.1.1.zip",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v1.2.0/lls-workbuddy-guide-1.2.0.zip",
       "provenance": "lls-original"
     },
     {

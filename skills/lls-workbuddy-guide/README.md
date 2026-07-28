@@ -2,12 +2,21 @@
 
 带新手从真实任务开始，把 WorkBuddy 用成可交付、可验收、可复用的 AI 工作台。
 
-- 当前版本：`1.1.1`
-- [飞书中文完整教程](https://m2wlgni9k4.feishu.cn/wiki/SEcIwM5kginZInkBpspcuOgonPe)
+- 当前版本：`1.2.0`
+- [飞书专项教程：10 分钟上手](https://m2wlgni9k4.feishu.cn/wiki/DAv2wAGDXig5sDks5wJcz9yWnAb)
+- [WorkBuddy 学习版块首页](https://m2wlgni9k4.feishu.cn/wiki/GaPjwSvF3iENCjkPy97cIrPOnTh)
 - [在 SkillHub 查看和安装](https://skillhub.cn/skills/lls-workbuddy-guide)
 - [查看 SKILL.md](SKILL.md)
-- [下载安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v1.1.1/lls-workbuddy-guide-1.1.1.zip)
-- [校验文件](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v1.1.1/lls-workbuddy-guide-1.1.1.zip.sha256)
+- [下载安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v1.2.0/lls-workbuddy-guide-1.2.0.zip)
+- [校验文件](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v1.2.0/lls-workbuddy-guide-1.2.0.zip.sha256)
+
+## 1.2.0 专项优化
+
+- 10 分钟上手协议：从真实任务到验收回执。
+- Ask / Plan / Craft、Skill、连接器和专家的选择规则。
+- 四证验收：成品、事实、格式、外部读回。
+- 失败恢复协议：先定位最小缺口，再定向复测。
+- 飞书 WorkBuddy 版块首页下新增独立专项教程。
 
 ## 三端闭环
 

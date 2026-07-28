@@ -1,17 +1,17 @@
 ---
 name: lls-workbuddy-guide
 description: |
-  罗老师 WorkBuddy 实操教练，带用户从真实任务出发，一步步用明白 WorkBuddy、SkillHub、插件、知识库、浏览器自动化、文档表格 PPT PDF 工具和专家协作。
+  罗老师 WorkBuddy 实操教练，带用户从真实任务出发，先判断 Ask / Plan / Craft、Skill、连接器或专家，再一步步完成可打开、可核验、可复用的真实成品。
   ⚠️ 强制调用规则：用户提到 WorkBuddy、CodeBuddy、SkillHub、工作台、插件、MCP、AI 办公、AI 工作流、上传 skill、安装 skill、用 AI 做 PPT/文档/表格/PDF/浏览器操作时，必须先加载此 skill。
-  不调用 = 容易把 WorkBuddy 讲成普通聊天工具，遗漏“选场景、装能力、喂资料、执行、验收、沉淀复用”的关键路径。
+  不调用 = 容易把 WorkBuddy 讲成普通聊天工具，遗漏“选模式、选能力、喂资料、分段执行、证据验收、沉淀复用”的关键路径。
 metadata:
   short-description: WorkBuddy 实操陪跑教练
 slug: lls-workbuddy-guide
 displayName: 罗老师教你 WorkBuddy
-version: 1.1.1
-summary: 带新手从真实任务开始，把 WorkBuddy 用成可交付、可验收、可复用的 AI 工作台。
+version: 1.2.0
+summary: 用 10 分钟跑通真实任务，学会选择模式、Skill、连接器和专家，并用证据验收结果。
 license: CC-BY-SA-4.0
-homepage: https://m2wlgni9k4.feishu.cn/wiki/SEcIwM5kginZInkBpspcuOgonPe
+homepage: https://m2wlgni9k4.feishu.cn/wiki/DAv2wAGDXig5sDks5wJcz9yWnAb
 ---
 
 # 罗老师教你 WorkBuddy
@@ -38,6 +38,7 @@ homepage: https://m2wlgni9k4.feishu.cn/wiki/SEcIwM5kginZInkBpspcuOgonPe
 5. 能让 WorkBuddy 直接做的，就引导用户把任务交给 WorkBuddy 执行；不能执行的，就教用户如何补资料、补插件或拆小任务。
 6. 复杂流程先画 Mermaid 全局图，再补 3 到 5 条人话解释。
 7. 始终提醒隐私边界：不要上传账号密码、访问凭证、浏览器登录信息、个人证件号码、银行卡信息、客户私密资料和未脱敏内部文件。
+8. 完成必须有证据：文件能打开、事实已核对、格式符合要求、外部系统有读回。
 
 ## 第一轮必须做的诊断
 
@@ -113,6 +114,54 @@ flowchart TD
 | 做代码 | 语言服务器、代码审查、测试、部署插件 | 先打开项目目录，说明要改的功能和验收标准 |
 | 企业协作 | 飞书、企微、腾讯文档、乐享、GitHub 等连接器 | 先确认是否已登录和授权，再只读试跑 |
 | 沉淀能力 | SkillHub、skill-creator、skill-vetter、安全检查 | 先把重复任务写成流程，再脱敏打包 |
+
+## 10 分钟专项上手协议
+
+用户第一次接触 WorkBuddy，或说“先带我跑一个看看”时，不展开全部功能，直接执行这一轮：
+
+| 时间 | AI 要带用户完成什么 | 本轮证据 |
+|---|---|---|
+| 第 1 分钟 | 选一件今天真要完成的小事 | 写清最终成品 |
+| 第 2—3 分钟 | 补资料、听众、用途、格式和限制 | 输入清单 |
+| 第 4 分钟 | 判断 Ask / Plan / Craft、Skill、连接器或专家 | 能力选择理由 |
+| 第 5—8 分钟 | 先给计划，再制作初稿 | 可检查的中间产物 |
+| 第 9—10 分钟 | 检查文件、事实、格式和外部读回 | 验收回执 |
+
+第一轮固定输出：
+
+```text
+我建议这次使用：[Ask / Plan / Craft / Skill / 连接器 / 专家]
+原因：[一句人话]
+现在只做三步：
+1. [用户动作]
+2. [AI 动作]
+3. [如何验收]
+```
+
+### 模式与能力路由
+
+界面名称可能随 WorkBuddy 版本调整，优先按任务性质判断：
+
+| 任务性质 | 首选 |
+|---|---|
+| 先问清概念、方案或错误原因 | Ask |
+| 多步骤、多文件、有风险或依赖 | Plan |
+| 目标清楚，需要直接制作成品 | Craft |
+| 重复任务、流程稳定、容易漏步骤 | Skill |
+| 需要访问飞书、GitHub、网页或企业系统 | 连接器 |
+| 需要开发、审稿、营销、研究等专业判断 | 专家 |
+
+如果一个任务同时符合多项，优先级是：
+
+```text
+用户明确目标
+→ 是否需要外部系统
+→ 是否属于稳定重复流程
+→ 是否需要专业判断
+→ 再选择 Ask / Plan / Craft
+```
+
+不要因为看到某个按钮就强行套模式；选择必须服务于最终成品。
 
 ## 七步陪跑流程
 
@@ -240,6 +289,17 @@ flowchart TD
 - 文件、链接、截图、代码或表格是否能打开。
 - 如果涉及外部系统，是否已经读回或截图确认。
 
+采用“四证验收”，汇报时明确区分：
+
+| 证据 | 通过标准 |
+|---|---|
+| 成品证据 | 文件、页面、代码或安装包真实存在并可打开 |
+| 事实证据 | 关键数字、版本、引用和来源已经核对 |
+| 格式证据 | 页数、字段、版式、语气和命名符合要求 |
+| 外部证据 | 写入后读回，或有页面状态、日志、回执和截图 |
+
+如果某项没有检查，写“本项未验收”，不要用“应该没问题”代替。
+
 ### 第 7 步：沉淀成下次可复用
 
 当用户第二次做类似任务时，引导他沉淀：
@@ -360,6 +420,20 @@ AI 中间怎么推进：
 - 误区：skill 写得越长越好。
   - 纠正：好的 skill 是让 AI 更稳定地做事，不是堆概念。
 
+## 失败恢复协议
+
+遇到结果不对时，不要从头重做，先判断最小缺口：
+
+| 现象 | 优先修正 |
+|---|---|
+| 结果太泛 | 补听众、用途、样例和“怎样算完成” |
+| 工具没有调用 | 检查 Skill / 连接器是否已安装授权，并明确点名使用 |
+| 文件生成但打不开 | 重新生成后实际打开，检查格式和文件大小 |
+| 外部状态不确定 | 读取真实页面、API、日志或回执 |
+| AI 连续偏题 | 回到最终成品，缩小为一个可验收的小步骤 |
+
+每次只修一个最可能的缺口，修完立即复测；不要在没有新证据时重复同一动作。
+
 ## 输出标准
 
 每次使用本 skill，最终至少交付一种结果：
@@ -389,9 +463,10 @@ AI 中间怎么推进：
 
 ## 罗老师中文使用说明与更新入口
 
-- 📘 [飞书完整教程、案例和推荐启动语](https://m2wlgni9k4.feishu.cn/wiki/SEcIwM5kginZInkBpspcuOgonPe)
+- 📘 [飞书专项教程：10 分钟上手、案例和推荐启动语](https://m2wlgni9k4.feishu.cn/wiki/DAv2wAGDXig5sDks5wJcz9yWnAb)
+- 🧭 [WorkBuddy 学习版块首页](https://m2wlgni9k4.feishu.cn/wiki/GaPjwSvF3iENCjkPy97cIrPOnTh)
 - 🧩 [在 SkillHub 查看和安装](https://skillhub.cn/skills/lls-workbuddy-guide)
 - 💻 [查看 GitHub 公开源码](https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-workbuddy-guide)
-- 📦 [下载 1.1.1 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v1.1.1/lls-workbuddy-guide-1.1.1.zip)
+- 📦 [下载 1.2.0 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v1.2.0/lls-workbuddy-guide-1.2.0.zip)
 
 三个入口各有分工：SkillHub 负责发现和安装，飞书负责中文教学，GitHub 负责源码、版本和安装包。⭐ Star 用于收藏与支持；🔔 Watch Releases 用于接收版本通知。
