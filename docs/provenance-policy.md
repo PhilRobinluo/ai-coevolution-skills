@@ -55,7 +55,7 @@
 | 范围 | 默认规则 | 机器可读位置 |
 |---|---|---|
 | `skills/` 下 `lls-original` 的 `SKILL.md`、references、README/docs、原创 assets | `CC-BY-NC-SA-4.0` | `SKILL.md` frontmatter 与 `registry.json` 的 `license` |
-| `skills/**/scripts/**` 和仓库 `tools/**` 的实质软件代码 | `PolyForm-Noncommercial-1.0.0` | 含 scripts 的 Skill 还须有 `code_license` |
+| `skills/**/scripts/**` 和仓库 `tools/**` 的实质软件代码 | `PolyForm-Noncommercial-1.0.0` | 含 scripts 的 Skill 在 `registry.json` 声明 `code_license`，并随包携带许可证正文 |
 | `adapted/` | 上游许可证优先 | `ORIGIN.md`、上游许可证、frontmatter 与 registry 必须一致 |
 | `community/` | 上游许可证；默认仅链接 | `community/catalog.json` |
 
@@ -71,5 +71,4 @@
 python3 tools/validate-provenance.py
 ```
 
-该校验会阻止缺少 `license` 的 Skill、原创内容误用非 CC BY-NC-SA 许可、含脚本却漏标 PolyForm，以及改编内容与上游许可证不一致的情况。
-
+该校验会阻止缺少 `license` 的 Skill、原创内容误用非 CC BY-NC-SA 许可、含脚本却在 registry 漏标 PolyForm、在 SKILL 顶层误加非标准 `code_license`，以及改编内容与上游许可证不一致的情况。

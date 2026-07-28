@@ -3,7 +3,6 @@ name: lls-document-print-restorer
 slug: lls-document-print-restorer
 displayName: 罗老师纸质文件打印修复助手
 version: 1.1.0
-code_license: PolyForm-Noncommercial-1.0.0
 summary: 保守增强拍摄的纸质文件照片，并生成A4打印版PDF。
 license: CC-BY-NC-SA-4.0
 description: 保守增强拍摄的纸质文件照片，并生成A4打印版PDF。 当用户需要“纸质表格、票据或手写页照片偏灰、对比度低、打印不清。”时使用。

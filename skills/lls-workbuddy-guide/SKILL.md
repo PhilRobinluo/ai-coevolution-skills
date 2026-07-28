@@ -11,7 +11,6 @@ displayName: 罗老师教你 WorkBuddy
 version: 2.1.0
 summary: 从首次安装到独立工作，用学习档案、五级阶梯和十关任务让用户越用越懂 WorkBuddy。
 license: CC-BY-NC-SA-4.0
-code_license: PolyForm-Noncommercial-1.0.0
 homepage: https://m2wlgni9k4.feishu.cn/wiki/DAv2wAGDXig5sDks5wJcz9yWnAb
 ---
 

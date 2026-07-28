@@ -4,7 +4,6 @@ description: 管理相互隔离的私有 Skill 母库与公开 Skill 分享库�
 slug: lls-skill-lifecycle-manager
 version: 3.0.0
 license: CC-BY-NC-SA-4.0
-code_license: PolyForm-Noncommercial-1.0.0
 ---
 
 <!-- workbuddy-install: published; slug: lls-skill-lifecycle-manager -->

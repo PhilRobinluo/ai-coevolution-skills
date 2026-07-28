@@ -3,7 +3,6 @@ name: lls-mermaid-validator
 slug: lls-mermaid-validator
 displayName: 罗老师 Mermaid 验证器
 version: 1.1.0
-code_license: PolyForm-Noncommercial-1.0.0
 summary: 生成并校验 Mermaid 图，减少中文标签、括号和保留字导致的渲染错误。
 license: CC-BY-NC-SA-4.0
 description: 生成并校验 Mermaid 图，减少中文标签、括号和保留字导致的渲染错误。 当用户需要“需要流程图、架构图、时序图或状态图。”时使用。

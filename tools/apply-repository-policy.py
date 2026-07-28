@@ -41,13 +41,9 @@ def update_skill(path: Path, entry: dict) -> str:
     )
     frontmatter = replace_field(frontmatter, "version", entry["version"])
     frontmatter = replace_field(frontmatter, "license", license_name)
-    scripts = path.parent / "scripts"
-    has_scripts = scripts.is_dir() and any(item.is_file() for item in scripts.rglob("*"))
-    frontmatter = replace_field(
-        frontmatter,
-        "code_license",
-        CODE_LICENSE if provenance == "lls-original" and has_scripts else None,
-    )
+    # Codex 官方 Skill schema 不接收 code_license 顶层字段；代码许可由
+    # registry.json、LICENSE.md 与 LICENSES/ 中的 PolyForm 正文共同声明。
+    frontmatter = replace_field(frontmatter, "code_license", None)
     body = text[match.end() :]
     body = re.sub(
         r"(?m)^(>\s*当前版本[：:]\s*)`?\d+\.\d+\.\d+`?\s*$",

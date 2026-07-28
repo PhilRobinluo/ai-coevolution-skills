@@ -13,7 +13,7 @@
 ## 许可证
 
 - LLS Original 的 `SKILL.md`、references、README/docs 和原创 assets：`CC-BY-NC-SA-4.0`。
-- 原创 Skill 含实质 `scripts/` 时：frontmatter 与 `registry.json` 额外声明 `code_license: PolyForm-Noncommercial-1.0.0`。
+- 原创 Skill 含实质 `scripts/` 时：`registry.json` 声明 `code_license: PolyForm-Noncommercial-1.0.0`，安装包携带 PolyForm 正文；`SKILL.md` 顶层不增加 `code_license`。
 - LLS Adapted 与第三方材料保持上游许可证、来源、版权和修改记录。
 - 企业内部普通办公按 `ADDITIONAL-PERMISSIONS.md`；收费课程、客户交付、转售、SaaS、代运营等进入商业授权。
 - 历史 MIT 版本已授予的权利继续有效；新版本换证不追溯撤销。

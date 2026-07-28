@@ -130,11 +130,13 @@ def validate(root: Path) -> None:
             fail(f"{name}: SKILL.md license 必须与 registry.json 一致")
         if provenance == "lls-original" and skill_license != ORIGINAL_CONTENT_LICENSE:
             fail(f"{name}: 原创 SKILL.md 必须使用 {ORIGINAL_CONTENT_LICENSE}")
+        if "code_license" in metadata:
+            fail(f"{name}: code_license 不写入 SKILL.md 顶层，改由 registry 与 LICENSE 文件声明")
         if has_material_scripts(skill_dir):
-            if metadata.get("code_license") != CODE_LICENSE:
-                fail(f"{name}: 含 scripts/ 时 code_license 必须是 {CODE_LICENSE}")
             if item.get("code_license") != CODE_LICENSE:
                 fail(f"{name}: registry.json 含 scripts/ 时 code_license 必须是 {CODE_LICENSE}")
+        elif item.get("code_license"):
+            fail(f"{name}: 不含实质 scripts/ 时 registry 不应声明 code_license")
         registered_paths[path] = (provenance, item)
 
     # 目录和台账双向核对：新增文件夹却忘记登记来源或许可证时，校验会直接失败。
