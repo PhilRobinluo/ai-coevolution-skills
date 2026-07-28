@@ -102,6 +102,9 @@
 | [`lls-ai-microdrama-planner`](skills/lls-ai-microdrama-planner/) | 🔵 LLS Original | 从冲突发动机推进到逐集节拍、悬念账本和 AI 制作连续性。 | Stable |
 | [`lls-ai-novel-prompt-engineer`](skills/lls-ai-novel-prompt-engineer/) | 🔵 LLS Original | 用分层上下文、场景循环和写后回填管理长篇小说。 | Stable |
 | [`lls-education-illustration-maker`](skills/lls-education-illustration-maker/) | 🔵 LLS Original | 从学习目标和准确性约束制作可验证的教育插图。 | Stable |
+| [`lls-article-screenshot`](skills/lls-article-screenshot/) | 🔵 LLS Original | 从证据地图推进到最小范围截图、规范命名和隐私复核。 | Stable |
+| [`lls-document-print-restorer`](skills/lls-document-print-restorer/) | 🔵 LLS Original | 保守增强可见内容，生成 A4 PDF、预览和哈希核对报告。 | Stable |
+| [`lls-image-privacy-redactor`](skills/lls-image-privacy-redactor/) | 🔵 LLS Original | 按确认坐标生成脱敏副本、哈希和整图复核报告。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。

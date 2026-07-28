@@ -1,12 +1,20 @@
 # 罗老师图片隐私打码助手
 
-检查公开截图中的账号、路径、密钥和个人资料，并生成可复核的打码版本。
-
-- 来源：LLS Original
-- **当前源码版本：`1.1.0`**（最近 Release：`1.0.0`）
-- 完整用法：见 [SKILL.md](SKILL.md)
+- 类型：🔵 `LLS Original`
+- **当前源码版本：`1.1.0`**（最近 Release：`1.1.0`）
 - 飞书教程：https://m2wlgni9k4.feishu.cn/wiki/NYC6wTWBEi9QjbkIdOmchBx3nZq
-- SkillHub slug：`lls-image-privacy-redactor`
+- SkillHub：https://skillhub.cn/skills/lls-image-privacy-redactor
+- Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-image-privacy-redactor-v1.1.0
+
+按人工确认坐标生成不覆盖原图的脱敏副本、哈希和复核报告；高风险文字默认使用带边距纯色遮挡。
+
+## 在 WorkBuddy 安装
+
+搜索唯一 slug `lls-image-privacy-redactor`，安装到 `~/.workbuddy/skills/`；安装后读回 `SKILL.md` 的 `name` 和实际路径，再新开会话使用。
+
+## 许可证与商业使用
+
+本 Skill 的原创内容采用 [CC BY-NC-SA 4.0](../../LICENSES/CC-BY-NC-SA-4.0.txt)。本目录的 `scripts/` 采用 [PolyForm Noncommercial 1.0.0](../../LICENSES/PolyForm-Noncommercial-1.0.0.txt)。企业内部普通办公可按[额外许可](../../ADDITIONAL-PERMISSIONS.md)免费使用；收费课程、转售、客户交付、SaaS、代运营等须取得[商业授权](../../COMMERCIAL-LICENSE.md)。
 
 ## 在 WorkBuddy 安装
 
@@ -20,7 +28,3 @@
 ```
 
 也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-image-privacy-redactor` 后安装；界面文字可能随 WorkBuddy 版本变化。
-
-## 许可证与商业使用
-
-本 Skill 的原创内容采用 [CC BY-NC-SA 4.0](../../LICENSES/CC-BY-NC-SA-4.0.txt)。企业内部普通办公可按[额外许可](../../ADDITIONAL-PERMISSIONS.md)免费使用；收费课程、转售、客户交付、SaaS、代运营等须取得[商业授权](../../COMMERCIAL-LICENSE.md)。
