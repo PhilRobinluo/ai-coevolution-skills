@@ -3,10 +3,10 @@
 隔离管理私有 Skill 母库与公开 Skill 分享库，并分别完成版本、打包、发布、来源版权和运行副本对账。
 
 - 来源：🔵 `LLS Original`
-- **当前源码版本：`3.0.0`**（最近 Release：`2.0.1`）
+- **当前源码版本：`3.0.0`**（最近 Release：`3.0.0`）
 - [查看 SKILL.md](SKILL.md)
-- [下载安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.1/lls-skill-lifecycle-manager-2.0.1.zip)
-- [校验文件](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.1/lls-skill-lifecycle-manager-2.0.1.sha256)
+- [下载安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v3.0.0/lls-skill-lifecycle-manager-3.0.0.zip)
+- [校验文件](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v3.0.0/lls-skill-lifecycle-manager-2.0.1.sha256)
 
 ## 它管理什么
 
@@ -56,3 +56,10 @@
 ## 许可证与商业使用
 
 本 Skill 的原创内容采用 [CC BY-NC-SA 4.0](../../LICENSES/CC-BY-NC-SA-4.0.txt)。本目录的 `scripts/` 采用 [PolyForm Noncommercial 1.0.0](../../LICENSES/PolyForm-Noncommercial-1.0.0.txt)。企业内部普通办公可按[额外许可](../../ADDITIONAL-PERMISSIONS.md)免费使用；收费课程、转售、客户交付、SaaS、代运营等须取得[商业授权](../../COMMERCIAL-LICENSE.md)。历史 MIT 版本已授予的权利继续有效。
+
+## 三端入口
+
+- GitHub 源码：https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-skill-lifecycle-manager
+- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-skill-lifecycle-manager-v3.0.0
+- 飞书中文教程：https://m2wlgni9k4.feishu.cn/wiki/IunjwDVWSiHmZfkeJLgcikjpnEc
+- SkillHub：https://skillhub.cn/skills/lls-skill-lifecycle-manager

@@ -260,6 +260,6 @@ Mac 的快捷键和安全设置可能不同，要提示用户按界面进入“�
 - [飞书中文教程](https://m2wlgni9k4.feishu.cn/wiki/Gcc5wSTLhiTDMXkQLSUcYTI7nad)
 - [SkillHub 安装页](https://skillhub.cn/skills/lls-local-excel-vba-data-processor)
 - [GitHub 源码](https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-local-excel-vba-data-processor)
-- [GitHub 1.1.1 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-local-excel-vba-data-processor-v1.1.1/lls-local-excel-vba-data-processor-1.1.1.zip)
+- [GitHub 1.1.1 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-local-excel-vba-data-processor-v1.2.0/lls-local-excel-vba-data-processor-1.2.0.zip)
 
 如果这个 Skill 帮你节省了时间，欢迎给总仓库点一个 Star；需要版本提醒时，请在 GitHub 订阅 Releases。

@@ -253,10 +253,10 @@
       "status": "stable",
       "version": "1.2.0",
       "path": "skills/lls-dialogue-subtext-reader",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-dialogue-subtext-reader-v1.1.1/lls-dialogue-subtext-reader-1.1.1.zip",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-dialogue-subtext-reader-v1.2.0/lls-dialogue-subtext-reader-1.2.0.zip",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/UXSKwHcCliUPkvkNbn4cNEysnRc",
       "provenance": "lls-original",
-      "release_version": "1.1.1",
+      "release_version": "1.2.0",
       "skillhub_status": "published",
       "license": "CC-BY-NC-SA-4.0"
     },
@@ -448,10 +448,10 @@
       "status": "stable",
       "version": "1.2.0",
       "path": "skills/lls-ip-positioning-coach",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ip-positioning-coach-v1.1.1/lls-ip-positioning-coach-1.1.1.zip",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ip-positioning-coach-v1.2.0/lls-ip-positioning-coach-1.2.0.zip",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Yh5pw9AcViasgNkfxiLcXVzyno6",
       "provenance": "lls-original",
-      "release_version": "1.1.1",
+      "release_version": "1.2.0",
       "skillhub_status": "published",
       "license": "CC-BY-NC-SA-4.0"
     },
@@ -495,11 +495,12 @@
       "status": "stable",
       "version": "1.1.0",
       "path": "skills/lls-learning-guide",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-learning-guide-v1.0.0/lls-learning-guide-1.0.0.zip",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-learning-guide-v1.1.0/lls-learning-guide-1.1.0.zip",
       "provenance": "lls-original",
       "skillhub_status": "published",
-      "release_version": "1.0.0",
-      "license": "CC-BY-NC-SA-4.0"
+      "release_version": "1.1.0",
+      "license": "CC-BY-NC-SA-4.0",
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Ub1DwTHaUi1AEFkBktpc6x94nDb"
     },
     {
       "name": "lls-local-excel-vba-data-processor",
@@ -509,10 +510,10 @@
       "status": "stable",
       "version": "1.2.0",
       "path": "skills/lls-local-excel-vba-data-processor",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-local-excel-vba-data-processor-v1.1.1/lls-local-excel-vba-data-processor-1.1.1.zip",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-local-excel-vba-data-processor-v1.2.0/lls-local-excel-vba-data-processor-1.2.0.zip",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Gcc5wSTLhiTDMXkQLSUcYTI7nad",
       "provenance": "lls-original",
-      "release_version": "1.1.1",
+      "release_version": "1.2.0",
       "skillhub_status": "published",
       "license": "CC-BY-NC-SA-4.0"
     },
@@ -524,10 +525,10 @@
       "status": "stable",
       "version": "1.2.0",
       "path": "skills/lls-mermaid-diagram",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-mermaid-diagram-v1.1.0/lls-mermaid-diagram-1.1.0.zip",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-mermaid-diagram-v1.2.0/lls-mermaid-diagram-1.2.0.zip",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Ilv9wdwC8ioW0bke4tMcgodinqg",
       "provenance": "lls-original",
-      "release_version": "1.1.0",
+      "release_version": "1.2.0",
       "skillhub_status": "published",
       "license": "CC-BY-NC-SA-4.0"
     },
@@ -588,11 +589,12 @@
       "status": "stable",
       "version": "1.1.0",
       "path": "skills/lls-ppt-briefing-coach",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ppt-briefing-coach-v1.0.0/lls-ppt-briefing-coach-1.0.0.zip",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ppt-briefing-coach-v1.1.0/lls-ppt-briefing-coach-1.1.0.zip",
       "provenance": "lls-original",
       "skillhub_status": "published",
-      "release_version": "1.0.0",
-      "license": "CC-BY-NC-SA-4.0"
+      "release_version": "1.1.0",
+      "license": "CC-BY-NC-SA-4.0",
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/BvIUwJEmsiXjwYkaSpycMnxUnLg"
     },
     {
       "name": "lls-ppt-workflow-builder",
@@ -602,10 +604,10 @@
       "status": "stable",
       "version": "1.2.0",
       "path": "skills/lls-ppt-workflow-builder",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ppt-workflow-builder-v1.1.0/lls-ppt-workflow-builder-1.1.0.zip",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ppt-workflow-builder-v1.2.0/lls-ppt-workflow-builder-1.2.0.zip",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Pi6kwLUdmipuetknXazcWl6AnDb",
       "provenance": "lls-original",
-      "release_version": "1.1.0",
+      "release_version": "1.2.0",
       "skillhub_status": "published",
       "license": "CC-BY-NC-SA-4.0"
     },
@@ -617,10 +619,10 @@
       "status": "stable",
       "version": "1.2.0",
       "path": "skills/lls-prompt-basics-coach",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-prompt-basics-coach-v1.1.0/lls-prompt-basics-coach-1.1.0.zip",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-prompt-basics-coach-v1.2.0/lls-prompt-basics-coach-1.2.0.zip",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/VhZXwm5R0imlOSkMRLTcOJkInYc",
       "provenance": "lls-original",
-      "release_version": "1.1.0",
+      "release_version": "1.2.0",
       "skillhub_status": "published",
       "license": "CC-BY-NC-SA-4.0"
     },
@@ -664,12 +666,13 @@
       "status": "stable",
       "version": "3.0.0",
       "path": "skills/lls-skill-lifecycle-manager",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.1/lls-skill-lifecycle-manager-2.0.1.zip",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v3.0.0/lls-skill-lifecycle-manager-3.0.0.zip",
       "provenance": "lls-original",
-      "release_version": "2.0.1",
+      "release_version": "3.0.0",
       "skillhub_status": "published",
       "license": "CC-BY-NC-SA-4.0",
-      "code_license": "PolyForm-Noncommercial-1.0.0"
+      "code_license": "PolyForm-Noncommercial-1.0.0",
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/IunjwDVWSiHmZfkeJLgcikjpnEc"
     },
     {
       "name": "lls-skill-security-auditor",
@@ -729,12 +732,13 @@
       "status": "stable",
       "version": "2.1.0",
       "path": "skills/lls-workbuddy-guide",
-      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v2.0.0/lls-workbuddy-guide-2.0.0.zip",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v2.1.0/lls-workbuddy-guide-2.1.0.zip",
       "provenance": "lls-original",
       "skillhub_status": "published",
-      "release_version": "2.0.0",
+      "release_version": "2.1.0",
       "license": "CC-BY-NC-SA-4.0",
-      "code_license": "PolyForm-Noncommercial-1.0.0"
+      "code_license": "PolyForm-Noncommercial-1.0.0",
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/DAv2wAGDXig5sDks5wJcz9yWnAb"
     },
     {
       "name": "lls-workbuddy-openclaw-automation",

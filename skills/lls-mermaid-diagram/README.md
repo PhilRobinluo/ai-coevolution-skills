@@ -1,10 +1,10 @@
 # Mermaid 图解助手
 
 - 类型：🔵 `LLS Original`
-- **当前源码版本：`1.2.0`**（最近 Release：`1.1.0`）
+- **当前源码版本：`1.2.0`**（最近 Release：`1.2.0`）
 - 飞书教程：https://m2wlgni9k4.feishu.cn/wiki/Ilv9wdwC8ioW0bke4tMcgodinqg
 - SkillHub：https://skillhub.cn/skills/lls-mermaid-diagram
-- Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-mermaid-diagram-v1.1.0
+- Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-mermaid-diagram-v1.2.0
 
 一句话启动：
 

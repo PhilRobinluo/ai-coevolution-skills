@@ -256,3 +256,10 @@ flowchart TD
 - 如果需要记录个人档案，默认使用昵称或代号。
 - 不把孩子的真实成绩、学校信息、家庭信息写进公开 skill、示例或上传包。
 - 未经家长或用户确认，不自动写入外部系统、公开文档或共享知识库。
+
+## 三端入口
+
+- GitHub 源码：https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-learning-guide
+- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-learning-guide-v1.1.0
+- 飞书中文教程：https://m2wlgni9k4.feishu.cn/wiki/Ub1DwTHaUi1AEFkBktpc6x94nDb
+- SkillHub：https://skillhub.cn/skills/lls-learning-guide

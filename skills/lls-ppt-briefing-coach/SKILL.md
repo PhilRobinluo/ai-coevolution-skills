@@ -239,3 +239,10 @@ license: CC-BY-NC-SA-4.0
 - 如果用户提供客户资料、公司内部数据、学生信息、财务数据或未公开方案，提醒先脱敏。
 - 最终指令中不要写入不必要的真实姓名、手机号、证件号码、合同金额、内部链接或平台凭证。
 - 对外演示类 PPT 要提醒用户确认版权、数据来源和授权边界。
+
+## 三端入口
+
+- GitHub 源码：https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-ppt-briefing-coach
+- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-ppt-briefing-coach-v1.1.0
+- 飞书中文教程：https://m2wlgni9k4.feishu.cn/wiki/BvIUwJEmsiXjwYkaSpycMnxUnLg
+- SkillHub：https://skillhub.cn/skills/lls-ppt-briefing-coach

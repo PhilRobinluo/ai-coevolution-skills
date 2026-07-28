@@ -350,3 +350,10 @@ SkillHub 的最终提交、删除旧附件和批量迁移保留用户确认。
 - WorkBuddy 副本是否保持下游身份？
 - 高风险动作是否保留用户控制权？
 - 台账和下一次升级入口是否更新？
+
+## 三端入口
+
+- GitHub 源码：https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-skill-lifecycle-manager
+- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-skill-lifecycle-manager-v3.0.0
+- 飞书中文教程：https://m2wlgni9k4.feishu.cn/wiki/IunjwDVWSiHmZfkeJLgcikjpnEc
+- SkillHub：https://skillhub.cn/skills/lls-skill-lifecycle-manager

@@ -177,6 +177,6 @@ flowchart LR
 - [飞书中文教程](https://m2wlgni9k4.feishu.cn/wiki/Pi6kwLUdmipuetknXazcWl6AnDb)
 - [SkillHub 安装页](https://skillhub.cn/skills/lls-ppt-workflow-builder)
 - [GitHub 源码](https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-ppt-workflow-builder)
-- [GitHub 1.1.0 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ppt-workflow-builder-v1.1.0/lls-ppt-workflow-builder-1.1.0.zip)
+- [GitHub 1.1.0 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ppt-workflow-builder-v1.2.0/lls-ppt-workflow-builder-1.2.0.zip)
 
 如果这套流程帮你少返工一次，欢迎给总仓库点一个 Star；需要新版提醒时，请订阅 GitHub Releases。

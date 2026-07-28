@@ -44,7 +44,7 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 | [`lls-chinese-humor`](../skills/lls-chinese-humor/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-code-anatomy`](../skills/lls-code-anatomy/README.md) | `1.0.2` / `1.0.2` | 已检索到 |
 | [`lls-deepseek-golden-rules`](../skills/lls-deepseek-golden-rules/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
-| [`lls-dialogue-subtext-reader`](../skills/lls-dialogue-subtext-reader/README.md) | `1.2.0` / `1.1.1` | 已检索到 |
+| [`lls-dialogue-subtext-reader`](../skills/lls-dialogue-subtext-reader/README.md) | `1.2.0` / `1.2.0` | 已检索到 |
 | [`lls-document-print-restorer`](../skills/lls-document-print-restorer/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-douyin-oral-script-writer`](../skills/lls-douyin-oral-script-writer/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-education-illustration-maker`](../skills/lls-education-illustration-maker/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
@@ -56,25 +56,25 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 | [`lls-image-privacy-redactor`](../skills/lls-image-privacy-redactor/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-image-renamer`](../skills/lls-image-renamer/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-international-techdoc-writer`](../skills/lls-international-techdoc-writer/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
-| [`lls-ip-positioning-coach`](../skills/lls-ip-positioning-coach/README.md) | `1.2.0` / `1.1.1` | 已检索到 |
+| [`lls-ip-positioning-coach`](../skills/lls-ip-positioning-coach/README.md) | `1.2.0` / `1.2.0` | 已检索到 |
 | [`lls-jimeng-image-editing-coach`](../skills/lls-jimeng-image-editing-coach/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-leader-speechwriter-expert`](../skills/lls-leader-speechwriter-expert/README.md) | `1.1.1` / `1.1.1` | 已检索到 |
-| [`lls-learning-guide`](../skills/lls-learning-guide/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
-| [`lls-local-excel-vba-data-processor`](../skills/lls-local-excel-vba-data-processor/README.md) | `1.2.0` / `1.1.1` | 已检索到 |
-| [`lls-mermaid-diagram`](../skills/lls-mermaid-diagram/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
+| [`lls-learning-guide`](../skills/lls-learning-guide/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-local-excel-vba-data-processor`](../skills/lls-local-excel-vba-data-processor/README.md) | `1.2.0` / `1.2.0` | 已检索到 |
+| [`lls-mermaid-diagram`](../skills/lls-mermaid-diagram/README.md) | `1.2.0` / `1.2.0` | 已检索到 |
 | [`lls-mermaid-validator`](../skills/lls-mermaid-validator/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-mirror-debate`](../skills/lls-mirror-debate/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-naming-coach`](../skills/lls-naming-coach/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
-| [`lls-ppt-briefing-coach`](../skills/lls-ppt-briefing-coach/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
-| [`lls-ppt-workflow-builder`](../skills/lls-ppt-workflow-builder/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
-| [`lls-prompt-basics-coach`](../skills/lls-prompt-basics-coach/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
+| [`lls-ppt-briefing-coach`](../skills/lls-ppt-briefing-coach/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-ppt-workflow-builder`](../skills/lls-ppt-workflow-builder/README.md) | `1.2.0` / `1.2.0` | 已检索到 |
+| [`lls-prompt-basics-coach`](../skills/lls-prompt-basics-coach/README.md) | `1.2.0` / `1.2.0` | 已检索到 |
 | [`lls-short-video-breakdown`](../skills/lls-short-video-breakdown/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-skill-builder`](../skills/lls-skill-builder/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
-| [`lls-skill-lifecycle-manager`](../skills/lls-skill-lifecycle-manager/README.md) | `3.0.0` / `2.0.1` | 已检索到 |
+| [`lls-skill-lifecycle-manager`](../skills/lls-skill-lifecycle-manager/README.md) | `3.0.0` / `3.0.0` | 已检索到 |
 | [`lls-skill-security-auditor`](../skills/lls-skill-security-auditor/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-slide-storyline-planner`](../skills/lls-slide-storyline-planner/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-video-digester`](../skills/lls-video-digester/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
-| [`lls-workbuddy-guide`](../skills/lls-workbuddy-guide/README.md) | `2.1.0` / `2.0.0` | 已检索到 |
+| [`lls-workbuddy-guide`](../skills/lls-workbuddy-guide/README.md) | `2.1.0` / `2.1.0` | 已检索到 |
 | [`lls-workbuddy-openclaw-automation`](../skills/lls-workbuddy-openclaw-automation/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 
 “已检索到”只表示 SkillHub 有精确 slug；安装后仍要读回 `SKILL.md` 的 name、version 和路径。

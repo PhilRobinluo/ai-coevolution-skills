@@ -160,6 +160,6 @@ mmdc -i diagram.mmd -o diagram.svg
 - [飞书中文教程](https://m2wlgni9k4.feishu.cn/wiki/Ilv9wdwC8ioW0bke4tMcgodinqg)
 - [SkillHub 安装页](https://skillhub.cn/skills/lls-mermaid-diagram)
 - [GitHub 源码](https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-mermaid-diagram)
-- [GitHub 1.1.0 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-mermaid-diagram-v1.1.0/lls-mermaid-diagram-1.1.0.zip)
+- [GitHub 1.1.0 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-mermaid-diagram-v1.2.0/lls-mermaid-diagram-1.2.0.zip)
 
 如果这张图帮你更快看懂复杂问题，欢迎给总仓库点一个 Star；需要新版提醒时，请订阅 GitHub Releases。

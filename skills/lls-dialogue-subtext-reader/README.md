@@ -2,11 +2,11 @@
 
 把聊天、会议或反馈拆成“原话事实、可能解释、未知信息和可验证回应”，避免把猜测当成读心结论。
 
-- **当前源码版本：`1.2.0`**（最近 Release：`1.1.1`）
+- **当前源码版本：`1.2.0`**（最近 Release：`1.2.0`）
 - 来源：🔵 LLS Original
 - SkillHub：https://skillhub.cn/skills/lls-dialogue-subtext-reader
 - 飞书教程：https://m2wlgni9k4.feishu.cn/wiki/UXSKwHcCliUPkvkNbn4cNEysnRc
-- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-dialogue-subtext-reader-v1.1.1
+- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-dialogue-subtext-reader-v1.2.0
 
 ## 适合谁
 

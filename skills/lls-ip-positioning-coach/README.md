@@ -1,11 +1,11 @@
 # IP 定位教练
 
 - 类型：🔵 `LLS Original`
-- **当前源码版本：`1.2.0`**（最近 Release：`1.1.1`）
+- **当前源码版本：`1.2.0`**（最近 Release：`1.2.0`）
 - 用途：通过 7 步互动，生成真实、可持续、可验证的个人 IP 定位。
 - SkillHub：https://skillhub.cn/skills/lls-ip-positioning-coach
 - 飞书教程：https://m2wlgni9k4.feishu.cn/wiki/Yh5pw9AcViasgNkfxiLcXVzyno6
-- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-ip-positioning-coach-v1.1.1
+- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-ip-positioning-coach-v1.2.0
 
 ## 一句话启动
 

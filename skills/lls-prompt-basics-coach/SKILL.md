@@ -190,6 +190,6 @@ metadata:
 - [飞书中文教程](https://m2wlgni9k4.feishu.cn/wiki/VhZXwm5R0imlOSkMRLTcOJkInYc)
 - [SkillHub 安装页](https://skillhub.cn/skills/lls-prompt-basics-coach)
 - [GitHub 源码](https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-prompt-basics-coach)
-- [GitHub 1.1.0 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-prompt-basics-coach-v1.1.0/lls-prompt-basics-coach-1.1.0.zip)
+- [GitHub 1.1.0 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-prompt-basics-coach-v1.2.0/lls-prompt-basics-coach-1.2.0.zip)
 
 如果这套方法帮你少走了提示词弯路，欢迎给总仓库点一个 Star；需要新版提醒时，请订阅 GitHub Releases。

@@ -349,7 +349,7 @@ python scripts/learning_profile.py complete \
 - 🧭 [WorkBuddy 学习版块首页](https://m2wlgni9k4.feishu.cn/wiki/GaPjwSvF3iENCjkPy97cIrPOnTh)
 - 🧩 [在 SkillHub 查看和安装](https://skillhub.cn/skills/lls-workbuddy-guide)
 - 💻 [查看 GitHub 公开源码](https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-workbuddy-guide)
-- 📦 [下载 2.0.0 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v2.0.0/lls-workbuddy-guide-2.0.0.zip)
+- 📦 [下载 2.0.0 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v2.1.0/lls-workbuddy-guide-2.1.0.zip)
 
 三个入口的职责：
 

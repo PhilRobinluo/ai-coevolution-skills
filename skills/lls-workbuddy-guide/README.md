@@ -2,14 +2,14 @@
 
 让第一次安装 WorkBuddy 的同学，在一个真实任务中完成首次成功，并通过学习档案、五级阶梯和十关课程逐渐独立。
 
-- **当前源码版本：`2.1.0`**（最近 Release：`2.0.0`）
+- **当前源码版本：`2.1.0`**（最近 Release：`2.1.0`）
 - 来源：🔵 `LLS Original`
 - [飞书专项教程：从第一次安装到独立工作](https://m2wlgni9k4.feishu.cn/wiki/DAv2wAGDXig5sDks5wJcz9yWnAb)
 - [WorkBuddy 学习版块首页](https://m2wlgni9k4.feishu.cn/wiki/GaPjwSvF3iENCjkPy97cIrPOnTh)
 - [在 SkillHub 查看和安装](https://skillhub.cn/skills/lls-workbuddy-guide)
 - [查看 SKILL.md](SKILL.md)
-- [下载 2.0.0 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v2.0.0/lls-workbuddy-guide-2.0.0.zip)
-- [校验文件](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v2.0.0/lls-workbuddy-guide-2.0.0.zip.sha256)
+- [下载 2.0.0 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v2.1.0/lls-workbuddy-guide-2.1.0.zip)
+- [校验文件](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v2.1.0/lls-workbuddy-guide-2.1.0.zip.sha256)
 
 ## 在 WorkBuddy 安装
 
