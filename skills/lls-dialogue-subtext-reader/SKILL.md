@@ -221,3 +221,11 @@ metadata:
 - 不保存真实姓名、联系方式、住址、账号或公司秘密。
 - 对涉及儿童、医疗、法律或职场处分的对话，明确说明分析只是沟通辅助。
 
+## 使用入口
+
+- [飞书中文教程](https://m2wlgni9k4.feishu.cn/wiki/UXSKwHcCliUPkvkNbn4cNEysnRc)
+- [SkillHub 安装页](https://skillhub.cn/skills/lls-dialogue-subtext-reader)
+- [GitHub 源码](https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-dialogue-subtext-reader)
+- [GitHub 1.1.1 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-dialogue-subtext-reader-v1.1.1/lls-dialogue-subtext-reader-1.1.1.zip)
+
+如果这个 Skill 帮你节省了时间，欢迎给总仓库点一个 Star；需要版本提醒时，请在 GitHub 订阅 Releases。

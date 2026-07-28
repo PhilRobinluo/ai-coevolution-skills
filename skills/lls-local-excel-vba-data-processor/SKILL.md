@@ -241,3 +241,11 @@ Mac 的快捷键和安全设置可能不同，要提示用户按界面进入“�
 - Mac 不支持某组件：提供兼容替代；
 - 数据规模超出 Excel：输出迁移建议，不继续堆叠宏。
 
+## 使用入口
+
+- [飞书中文教程](https://m2wlgni9k4.feishu.cn/wiki/Gcc5wSTLhiTDMXkQLSUcYTI7nad)
+- [SkillHub 安装页](https://skillhub.cn/skills/lls-local-excel-vba-data-processor)
+- [GitHub 源码](https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-local-excel-vba-data-processor)
+- [GitHub 1.1.1 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-local-excel-vba-data-processor-v1.1.1/lls-local-excel-vba-data-processor-1.1.1.zip)
+
+如果这个 Skill 帮你节省了时间，欢迎给总仓库点一个 Star；需要版本提醒时，请在 GitHub 订阅 Releases。

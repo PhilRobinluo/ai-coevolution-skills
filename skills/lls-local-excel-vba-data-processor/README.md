@@ -2,11 +2,11 @@
 
 在数据不离开本机的前提下，把 Excel 清洗、匹配、拆分、汇总和报表工作做成可回滚、可验收的 VBA 方案。
 
-- 版本：`1.1.0`
+- 版本：`1.1.1`
 - 来源：🔵 LLS Original
 - SkillHub：https://skillhub.cn/skills/lls-local-excel-vba-data-processor
-- 飞书教程：发布后补入稳定链接
-- GitHub Release：发布后提供 `lls-local-excel-vba-data-processor-1.1.0.zip`
+- 飞书教程：https://m2wlgni9k4.feishu.cn/wiki/Gcc5wSTLhiTDMXkQLSUcYTI7nad
+- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-local-excel-vba-data-processor-v1.1.1
 
 ## 启动语
 
@@ -15,4 +15,3 @@
 ```
 
 ⭐ Star 用于收藏和支持；🔔 Watch Releases 用于接收更新；📦 Release 用于下载安装包。
-
