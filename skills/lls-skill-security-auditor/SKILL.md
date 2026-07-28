@@ -1,7 +1,7 @@
 ---
 name: lls-skill-security-auditor
 license: CC-BY-NC-SA-4.0
-description: 在安装前检查Skill的权限、脚本、外部请求、提示词注入和数据外传风险。 当用户需要“准备安装社区Skill、插件或包含脚本的能力包。”时使用。
+description: 安装前对 Skill 做静态证据审计、权限建模和人工复核，不把一次扫描当作安全证明。 当用户需要把相关任务变成有证据、可验证的交付时使用。
 ---
 
 <!-- workbuddy-install: published; slug: lls-skill-security-auditor -->
@@ -21,88 +21,67 @@ description: 在安装前检查Skill的权限、脚本、外部请求、提示�
 
 > 类型：LLS Original  
 > 当前版本：1.1.0
-## 一句话用途
+## 审计目标
 
-在安装前检查Skill的权限、脚本、外部请求、提示词注入和数据外传风险。
+回答四件事：它读取什么、写入什么、连接哪里、在什么条件下执行高影响动作。适用于社区 Skill、插件和含脚本的能力包；扫描结果只代表当前文件快照。
 
-## 什么时候使用
+## 只读快速扫描
 
-准备安装社区Skill、插件或包含脚本的能力包。
-
-## 哪些情况换别的方法
-
-把静态扫描结果当成绝对安全证明。
-
-## 3 分钟上手
-
-复制下面这句话给 AI：
-
-```text
-请用 lls-skill-security-auditor，审计这个Skill目录，先只读。
+```bash
+python3 scripts/audit_skill.py TARGET_SKILL > audit.json
 ```
 
-## 标准工作流程
+退出码 1 表示发现 critical 模式，需要人工复核；0 只表示未命中当前 critical 规则，不代表绝对安全。
 
-1. **列出文件、脚本、权限和依赖**
-2. **扫描危险命令、凭证读取和网络外传模式**
-3. **人工阅读命中上下文并区分误报**
-4. **给出风险等级、安装建议和最小权限方案**
+## 标准工作流
 
-## 完整案例
+1. **固定证据**：记录来源 URL、版本/提交、下载 SHA256、许可证和审计时间。
+2. **列文件**：识别脚本、二进制、大文件、隐藏文件、符号链接和生成物。
+3. **建能力图**：文件读取/写入、环境变量、钥匙串、浏览器态、网络域名、子进程、持久化和发布权限。
+4. **静态扫描**：查管道执行、递归删除、`eval`、硬编码凭证、浏览器 Cookie、动态下载和可疑编码。
+5. **读上下文**：区分文档示例、测试夹具和实际执行路径；不把正则命中直接定罪。
+6. **追数据流**：敏感输入从哪里来，经过什么处理，发送到哪里，日志是否留存。
+7. **最小权限试跑**：在隔离副本中禁用真实凭证和写权限，观察实际请求与文件变化。
+8. **给决策**：允许、限权后允许、待修复、隔离观察；每项附证据和复验方法。
 
-输入：含SKILL.md和两个shell脚本的目录。
+使用 [references/audit-report.md](references/audit-report.md) 出报告。
 
-输出：文件清单、命中证据、风险分级、误报说明和处理建议。
+## 风险等级
 
-## 输出标准
+- **Critical**：直接私钥、无确认远程执行、明显凭证外传、不可逆广泛破坏。
+- **High**：读取凭证/Cookie、动态执行字符串、未限定域名上传、系统级持久化。
+- **Medium**：范围过宽的文件访问、未锁版本依赖、日志可能含敏感数据。
+- **Low/Info**：文档不足、哈希缺失、可维护性问题。
 
-最终结果至少包含：
+等级由“能力 + 可达性 + 数据敏感度 + 用户确认 + 可恢复性”共同决定，不只看关键词。
 
-- 用户真正要完成的任务；
-- 可执行步骤，而不是只有观点；
-- 关键事实、假设和未知项；
-- 完成前的检查清单；
-- 下一步最小动作。
+## 输出合同
 
-## 隐私、依赖与权限
+报告包含快照身份、执行摘要、能力清单、逐项发现（相对路径/行号/证据模式/影响/可达条件）、误报说明、最小权限建议、修复优先级、复验步骤和未覆盖范围。密钥只显示类型与脱敏指纹，不抄录值。
 
-审计报告只记录模式与相对路径，不抄录真实密钥内容。
+## 推荐启动语
 
-默认只读取用户明确提供的材料。涉及账号登录、文件写入、网络请求或外部发布时，先说明实际动作与影响范围。
+```text
+请用 lls-skill-security-auditor 对这个 Skill 先做只读审计：固定版本和 SHA，列能力图，运行静态扫描并人工复核上下文；给风险等级、最小权限方案、复验步骤和未覆盖范围。
+```
 
-## 质量检查
+## 局限
 
-交付前逐项检查：
+静态扫描看不到运行时下载、远端服务行为、条件触发和供应链后续变化；通过扫描后仍需固定版本、隔离试跑和更新时重审。
 
-1. 是否回答了用户的真实任务；
-2. 是否把事实、推断和建议分开；
-3. 是否给出至少一个可复制的下一步；
-4. 是否移除了本机路径、账号、密钥和客户资料；
-5. 是否说明依赖、权限和失败处理。
 
-## 常见问题
+## 版本记录
 
-### 结果太泛怎么办？
-
-补充目标用户、真实输入、期望输出和一个失败例子，再运行一次。
-
-### 可以直接公开结果吗？
-
-先检查来源、个人信息、客户内容、截图和下载链接，再决定发布范围。
-
-## 版本与更新记录
-
-- 1.0.0：首次公开教学版。
+- 1.1.0：重写独有方法、证据与验收门禁，消除模板化。
+- 1.0.0：首次公开版。
 
 ## 三端入口
 
 - GitHub 源码：https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-skill-security-auditor
-- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-skill-security-auditor-v1.0.0
-- 飞书中文教程：https://m2wlgni9k4.feishu.cn/wiki/H2Dhw1uuliyAqck3CDxcCMYcnnh
-- SkillHub：搜索唯一 slug `lls-skill-security-auditor`
+- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-skill-security-auditor-v1.1.0
+- 飞书教程：https://m2wlgni9k4.feishu.cn/wiki/H2Dhw1uuliyAqck3CDxcCMYcnnh
+- SkillHub：搜索 `lls-skill-security-auditor`
 
 ## 支持项目
 
-如果这个 Skill 帮你节省了时间，欢迎给总仓库点一个 Star，并使用 Watch Releases 接收新版通知：
-
-https://github.com/PhilRobinluo/ai-coevolution-skills
+有实际帮助时，欢迎 Star 总仓库；需要更新通知请 Watch Releases：https://github.com/PhilRobinluo/ai-coevolution-skills

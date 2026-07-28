@@ -1,12 +1,16 @@
 # 罗老师最佳实践研究助手
 
-从官方资料和多方证据中提炼可执行的最佳实践。
+- **当前源码版本：`1.1.0`**（最近 Release：`1.1.0`）
 
-- 来源：LLS Original
-- **当前源码版本：`1.1.0`**（最近 Release：`1.0.0`）
-- 完整用法：见 [SKILL.md](SKILL.md)
-- 飞书教程：https://m2wlgni9k4.feishu.cn/wiki/NdYhwEXjhiFXN9kDA0acyjr8n8c
-- SkillHub slug：`lls-best-practices-researcher`
+把“大家都这么做”改造成一份有来源等级、有适用条件、能落地验证的研究结论。
+
+- 当前源码与 Release：`1.1.0`
+- [完整用法](SKILL.md)
+- [飞书教程](https://m2wlgni9k4.feishu.cn/wiki/NdYhwEXjhiFXN9kDA0acyjr8n8c)
+- SkillHub：`lls-best-practices-researcher`
+- [Release](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-best-practices-researcher-v1.1.0)
+
+原创内容采用 CC BY-NC-SA 4.0；scripts 采用 PolyForm Noncommercial 1.0.0；商业使用见仓库许可。
 
 ## 在 WorkBuddy 安装
 

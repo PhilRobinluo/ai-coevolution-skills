@@ -1,12 +1,16 @@
 # 罗老师 Skill 安全审计助手
 
-在安装前检查Skill的权限、脚本、外部请求、提示词注入和数据外传风险。
+- **当前源码版本：`1.1.0`**（最近 Release：`1.1.0`）
 
-- 来源：LLS Original
-- **当前源码版本：`1.1.0`**（最近 Release：`1.0.0`）
-- 完整用法：见 [SKILL.md](SKILL.md)
-- 飞书教程：https://m2wlgni9k4.feishu.cn/wiki/H2Dhw1uuliyAqck3CDxcCMYcnnh
-- SkillHub slug：`lls-skill-security-auditor`
+安装前对 Skill 做静态证据审计、权限建模和人工复核，不把一次扫描当作安全证明。
+
+- 当前源码与 Release：`1.1.0`
+- [完整用法](SKILL.md)
+- [飞书教程](https://m2wlgni9k4.feishu.cn/wiki/H2Dhw1uuliyAqck3CDxcCMYcnnh)
+- SkillHub：`lls-skill-security-auditor`
+- [Release](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-skill-security-auditor-v1.1.0)
+
+原创内容采用 CC BY-NC-SA 4.0；scripts 采用 PolyForm Noncommercial 1.0.0；商业使用见仓库许可。
 
 ## 在 WorkBuddy 安装
 

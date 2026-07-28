@@ -40,7 +40,7 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 | [`lls-local-excel-vba-data-processor`](../skills/lls-local-excel-vba-data-processor/README.md) | `1.2.0` / `1.1.1` | 已检索到 |
 | [`lls-article-screenshot`](../skills/lls-article-screenshot/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-best-minds-consultation`](../adapted/lls-best-minds-consultation/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
-| [`lls-best-practices-researcher`](../skills/lls-best-practices-researcher/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-best-practices-researcher`](../skills/lls-best-practices-researcher/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-chinese-humor`](../skills/lls-chinese-humor/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-document-print-restorer`](../skills/lls-document-print-restorer/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-github-profile-writer`](../skills/lls-github-profile-writer/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
@@ -53,8 +53,8 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 | [`lls-mirror-debate`](../skills/lls-mirror-debate/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-naming-coach`](../skills/lls-naming-coach/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-short-video-breakdown`](../skills/lls-short-video-breakdown/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
-| [`lls-skill-builder`](../skills/lls-skill-builder/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
-| [`lls-skill-security-auditor`](../skills/lls-skill-security-auditor/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-skill-builder`](../skills/lls-skill-builder/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-skill-security-auditor`](../skills/lls-skill-security-auditor/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-video-digester`](../skills/lls-video-digester/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-ip-positioning-coach`](../skills/lls-ip-positioning-coach/README.md) | `1.2.0` / `1.1.1` | 已检索到 |
 | [`lls-mermaid-diagram`](../skills/lls-mermaid-diagram/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
