@@ -133,7 +133,7 @@
 也可在左侧 **「技能」** → **「添加技能」或「查找技能」** 中搜索精确 slug 后安装；不同 WorkBuddy 版本的界面名称可能略有变化。若没有精确匹配，请不要安装同名条目，改用该 Skill README 的 GitHub Release 或手动复制目录。
 
 - [查看全部 WorkBuddy 安装步骤与当前发布状态](docs/how-to-install.md)
-- [浏览 30 个原创 Skill](skills/)；另有 [1 个透明改编 Skill](adapted/)
+- [浏览 32 个原创 Skill](skills/)；另有 [1 个透明改编 Skill](adapted/)
 
 #### Codex / Claude Code 手动安装
 

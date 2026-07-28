@@ -29,7 +29,7 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 
 | Skill slug | 当前源码 / Release | SkillHub 状态 |
 | --- | --- | --- |
-| [`lls-code-anatomy`](../skills/lls-code-anatomy/README.md) | `1.0.2` / `1.0.1` | 审核中 |
+| [`lls-code-anatomy`](../skills/lls-code-anatomy/README.md) | `1.0.2` / `1.0.2` | 审核中 |
 | [`bilingual-reader-maker`](../skills/bilingual-reader-maker/README.md) | `1.1.0` / `1.1.0` | 本仓版本未确认已上架 |
 | [`concept-explainer`](../skills/concept-explainer/README.md) | `1.1.0` / `1.1.0` | 本仓版本未确认已上架 |
 | [`lls-workbuddy-guide`](../skills/lls-workbuddy-guide/README.md) | `2.1.0` / `2.0.0` | 已检索到 |
@@ -52,7 +52,7 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 | [`lls-mermaid-validator`](../skills/lls-mermaid-validator/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
 | [`lls-mirror-debate`](../skills/lls-mirror-debate/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
 | [`lls-naming-coach`](../skills/lls-naming-coach/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
-| [`lls-short-video-breakdown`](../skills/lls-short-video-breakdown/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-short-video-breakdown`](../skills/lls-short-video-breakdown/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-skill-builder`](../skills/lls-skill-builder/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
 | [`lls-skill-security-auditor`](../skills/lls-skill-security-auditor/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
 | [`lls-video-digester`](../skills/lls-video-digester/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
@@ -60,6 +60,8 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 | [`lls-mermaid-diagram`](../skills/lls-mermaid-diagram/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
 | [`lls-ppt-workflow-builder`](../skills/lls-ppt-workflow-builder/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
 | [`lls-prompt-basics-coach`](../skills/lls-prompt-basics-coach/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
+| [`lls-douyin-oral-script-writer`](../skills/lls-douyin-oral-script-writer/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-ai-video-script-planner`](../skills/lls-ai-video-script-planner/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 
 “已检索到”只表示 SkillHub 有精确 slug；安装后仍要读回 `SKILL.md` 的 name、version 和路径。
 
