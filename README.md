@@ -9,7 +9,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 [![License](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0_%2B_PolyForm_NC-blue)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-39-blue)
+![Skills](https://img.shields.io/badge/skills-42-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -96,6 +96,9 @@
 | [`lls-ai-data-analysis-starter`](skills/lls-ai-data-analysis-starter/) | 🔵 LLS Original | 从业务问题和数据质量开始，完成可复核的数据分析。 | Stable |
 | [`lls-government-publicity-data-analyst`](skills/lls-government-publicity-data-analyst/) | 🔵 LLS Original | 用统一口径分析政务传播与公共服务效果。 | Stable |
 | [`lls-geo-brand-visibility-coach`](skills/lls-geo-brand-visibility-coach/) | 🔵 LLS Original | 用问题集、事实库和来源审计管理生成式搜索可见性。 | Stable |
+| [`lls-aida-marketing-copywriter`](skills/lls-aida-marketing-copywriter/) | 🔵 LLS Original | 以真实证据和渠道约束写 AIDA 营销文案。 | Stable |
+| [`lls-leader-speechwriter-expert`](skills/lls-leader-speechwriter-expert/) | 🔵 LLS Original | 基于身份、场合和真实材料写正式讲话稿。 | Stable |
+| [`lls-slide-storyline-planner`](skills/lls-slide-storyline-planner/) | 🔵 LLS Original | 从听众认知变化到章节逻辑和逐页结论标题。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。
@@ -257,6 +260,9 @@ Community skills remain the property of their original authors. Please support t
 | [`lls-ai-data-analysis-starter`](skills/lls-ai-data-analysis-starter/) | Runs reproducible analysis from business questions and data quality checks. | Stable |
 | [`lls-government-publicity-data-analyst`](skills/lls-government-publicity-data-analyst/) | Measures public communication and service outcomes with governed metrics. | Stable |
 | [`lls-geo-brand-visibility-coach`](skills/lls-geo-brand-visibility-coach/) | Manages generative-search visibility through question sets, facts, sources, and retesting. | Stable |
+| [`lls-aida-marketing-copywriter`](skills/lls-aida-marketing-copywriter/) | Writes evidence-led AIDA marketing copy under channel and truthfulness constraints. | Stable |
+| [`lls-leader-speechwriter-expert`](skills/lls-leader-speechwriter-expert/) | Produces formal speeches from verified material, role, occasion, timing, and review. | Stable |
+| [`lls-slide-storyline-planner`](skills/lls-slide-storyline-planner/) | Plans audience change, core claim, evidence, chapters, and slide headlines. | Stable |
 
 The first pack came from a concrete use case: turning an English startup playbook into a bilingual study edition for Chinese readers.
 
