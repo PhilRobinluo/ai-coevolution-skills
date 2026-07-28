@@ -2,17 +2,30 @@
 name: lls-article-screenshot
 slug: lls-article-screenshot
 displayName: 罗老师文章截图助手
-version: 1.0.0
+version: 1.1.0
+code_license: PolyForm-Noncommercial-1.0.0
 summary: 为教程建议截图位置，并在 macOS 上生成命名清楚的项目截图。
-license: MIT
+license: CC-BY-NC-SA-4.0
 description: 为教程建议截图位置，并在 macOS 上生成命名清楚的项目截图。 当用户需要“写软件教程、操作说明或产品复盘，需要真实界面证据。”时使用。
 ---
+
+<!-- workbuddy-install: published; slug: lls-article-screenshot -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-article-screenshot`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-article-screenshot`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-article-screenshot/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-article-screenshot` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师文章截图助手
 
 > 类型：LLS Original  
-> 当前版本：1.0.0
-
+> 当前版本：1.1.0
 ## 一句话用途
 
 为教程建议截图位置，并在 macOS 上生成命名清楚的项目截图。

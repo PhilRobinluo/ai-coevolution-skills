@@ -2,17 +2,30 @@
 name: lls-image-renamer
 slug: lls-image-renamer
 displayName: 罗老师图片智能改名助手
-version: 1.0.0
+version: 1.1.0
+code_license: PolyForm-Noncommercial-1.0.0
 summary: 根据图片内容生成可搜索的文件名，同时保留原始时间戳或设备编号。
-license: MIT
+license: CC-BY-NC-SA-4.0
 description: 根据图片内容生成可搜索的文件名，同时保留原始时间戳或设备编号。 当用户需要“笔记和项目里出现IMG_1234、Pasted image等难搜索图片名。”时使用。
 ---
+
+<!-- workbuddy-install: published; slug: lls-image-renamer -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-image-renamer`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-image-renamer`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-image-renamer/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-image-renamer` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师图片智能改名助手
 
 > 类型：LLS Original  
-> 当前版本：1.0.0
-
+> 当前版本：1.1.0
 ## 一句话用途
 
 根据图片内容生成可搜索的文件名，同时保留原始时间戳或设备编号。

@@ -2,17 +2,29 @@
 name: lls-image-privacy-redactor
 slug: lls-image-privacy-redactor
 displayName: 罗老师图片隐私打码助手
-version: 1.0.0
+version: 1.1.0
 summary: 检查公开截图中的账号、路径、密钥和个人资料，并生成可复核的打码版本。
-license: MIT
+license: CC-BY-NC-SA-4.0
 description: 检查公开截图中的账号、路径、密钥和个人资料，并生成可复核的打码版本。 当用户需要“截图准备放进文章、课程、GitHub或飞书。”时使用。
 ---
+
+<!-- workbuddy-install: published; slug: lls-image-privacy-redactor -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-image-privacy-redactor`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-image-privacy-redactor`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-image-privacy-redactor/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-image-privacy-redactor` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师图片隐私打码助手
 
 > 类型：LLS Original  
-> 当前版本：1.0.0
-
+> 当前版本：1.1.0
 ## 一句话用途
 
 检查公开截图中的账号、路径、密钥和个人资料，并生成可复核的打码版本。

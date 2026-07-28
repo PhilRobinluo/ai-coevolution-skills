@@ -1,9 +1,24 @@
 ---
 name: lls-ip-positioning-coach
+version: 1.2.0
+license: CC-BY-NC-SA-4.0
 description: "用于个人品牌、账号定位、目标用户、内容支柱和商业化探索的中文互动教练。通过兴趣、能力、市场、人设、用户等七步逐轮提问，生成三个可比较的 IP 定位方案；必须区分用户事实与推断，避免夸张包装，并给出七天验证动作、隐私与可信度检查。"
 metadata:
   short-description: 用 7 步互动陪跑，帮个人找到真实可信、有商业价值的 IP 定位。
 ---
+
+<!-- workbuddy-install: published; slug: lls-ip-positioning-coach -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-ip-positioning-coach`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-ip-positioning-coach`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-ip-positioning-coach/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-ip-positioning-coach` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师 IP 定位教练
 

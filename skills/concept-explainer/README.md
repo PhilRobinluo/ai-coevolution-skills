@@ -1,5 +1,7 @@
 # Concept Explainer
 
+- **当前源码版本：`1.1.0`**（最近 Release：`1.1.0`）
+
 Explain unfamiliar tools, commands, files, configs, architecture layers, and troubleshooting chains while still doing the user's task.
 
 This skill turns important concepts into short knowledge cards:

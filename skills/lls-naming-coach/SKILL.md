@@ -2,17 +2,29 @@
 name: lls-naming-coach
 slug: lls-naming-coach
 displayName: 罗老师全能命名教练
-version: 1.0.0
+version: 1.1.0
 summary: 为项目、产品、课程、文件和 Skill 生成清楚、可搜索、能长期使用的名字。
-license: MIT
+license: CC-BY-NC-SA-4.0
 description: 为项目、产品、课程、文件和 Skill 生成清楚、可搜索、能长期使用的名字。 当用户需要“新建项目、仓库、课程、产品、文件或 Skill。”时使用。
 ---
+
+<!-- workbuddy-install: published; slug: lls-naming-coach -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-naming-coach`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-naming-coach`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-naming-coach/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-naming-coach` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师全能命名教练
 
 > 类型：LLS Original  
-> 当前版本：1.0.0
-
+> 当前版本：1.1.0
 ## 一句话用途
 
 为项目、产品、课程、文件和 Skill 生成清楚、可搜索、能长期使用的名字。

@@ -2,17 +2,30 @@
 name: lls-skill-security-auditor
 slug: lls-skill-security-auditor
 displayName: 罗老师 Skill 安全审计助手
-version: 1.0.0
+version: 1.1.0
+code_license: PolyForm-Noncommercial-1.0.0
 summary: 在安装前检查Skill的权限、脚本、外部请求、提示词注入和数据外传风险。
-license: MIT
+license: CC-BY-NC-SA-4.0
 description: 在安装前检查Skill的权限、脚本、外部请求、提示词注入和数据外传风险。 当用户需要“准备安装社区Skill、插件或包含脚本的能力包。”时使用。
 ---
+
+<!-- workbuddy-install: published; slug: lls-skill-security-auditor -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-skill-security-auditor`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-skill-security-auditor`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-skill-security-auditor/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-skill-security-auditor` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师 Skill 安全审计助手
 
 > 类型：LLS Original  
-> 当前版本：1.0.0
-
+> 当前版本：1.1.0
 ## 一句话用途
 
 在安装前检查Skill的权限、脚本、外部请求、提示词注入和数据外传风险。

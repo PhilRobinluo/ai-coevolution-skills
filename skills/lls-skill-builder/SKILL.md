@@ -2,17 +2,29 @@
 name: lls-skill-builder
 slug: lls-skill-builder
 displayName: 罗老师 Skill 创建助手
-version: 1.0.0
+version: 1.1.0
 summary: 把模糊想法一步步整理成可复用、可验证的 AI Skill。
-license: MIT
+license: CC-BY-NC-SA-4.0
 description: 把模糊想法一步步整理成可复用、可验证的 AI Skill。 当用户需要“当你有一套反复使用的方法，想把它沉淀成 Skill。”时使用。
 ---
+
+<!-- workbuddy-install: published; slug: lls-skill-builder -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-skill-builder`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-skill-builder`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-skill-builder/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-skill-builder` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师 Skill 创建助手
 
 > 类型：LLS Original  
-> 当前版本：1.0.0
-
+> 当前版本：1.1.0
 ## 一句话用途
 
 把模糊想法一步步整理成可复用、可验证的 AI Skill。

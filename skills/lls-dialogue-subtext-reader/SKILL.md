@@ -1,9 +1,24 @@
 ---
 name: lls-dialogue-subtext-reader
+version: 1.2.0
+license: CC-BY-NC-SA-4.0
 description: 分析聊天、会议、反馈或协商中的言外之意、关系信号和未明说诉求。用于用户问“他这句话什么意思”“这段对话哪里不对”“我该怎么回”时；必须区分原话事实、合理推测和未知信息，给出多种解释与低冲突回应，不把推测写成心理诊断或确定事实。
 metadata:
   short-description: 分清原话、潜台词与不确定性，再给出稳妥回应
 ---
+
+<!-- workbuddy-install: published; slug: lls-dialogue-subtext-reader -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-dialogue-subtext-reader`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-dialogue-subtext-reader`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-dialogue-subtext-reader/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-dialogue-subtext-reader` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师对话潜台词解读
 

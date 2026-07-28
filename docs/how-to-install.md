@@ -27,16 +27,37 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 
 ## 当前公开 Skill 与 SkillHub 状态
 
-| Skill slug | SkillHub 状态 | 找不到精确 slug 时 |
+| Skill slug | 当前源码 / Release | SkillHub 状态 |
 | --- | --- | --- |
-| `bilingual-reader-maker` | 本仓版本未确认已上架 | 手动复制仓库目录；后续可使用 Release 包 |
-| `concept-explainer` | 本仓版本未确认已上架；同名条目不代表本 Skill | 手动复制仓库目录；后续可使用 Release 包 |
-| `lls-learning-guide` | 已检索到 | 使用 README 的 GitHub Release |
-| `lls-ppt-briefing-coach` | 已检索到 | 使用 README 的 GitHub Release |
-| `lls-skill-lifecycle-manager` | 已检索到 | 使用 README 的 GitHub Release |
-| `lls-workbuddy-guide` | 已检索到 | 使用 README 的 GitHub Release |
+| [`bilingual-reader-maker`](../skills/bilingual-reader-maker/README.md) | `1.1.0` / `1.1.0` | 本仓版本未确认已上架 |
+| [`concept-explainer`](../skills/concept-explainer/README.md) | `1.1.0` / `1.1.0` | 本仓版本未确认已上架 |
+| [`lls-workbuddy-guide`](../skills/lls-workbuddy-guide/README.md) | `2.1.0` / `2.0.0` | 已检索到 |
+| [`lls-ppt-briefing-coach`](../skills/lls-ppt-briefing-coach/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-learning-guide`](../skills/lls-learning-guide/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-skill-lifecycle-manager`](../skills/lls-skill-lifecycle-manager/README.md) | `3.0.0` / `2.0.1` | 已检索到 |
+| [`lls-dialogue-subtext-reader`](../skills/lls-dialogue-subtext-reader/README.md) | `1.2.0` / `1.1.1` | 已检索到 |
+| [`lls-local-excel-vba-data-processor`](../skills/lls-local-excel-vba-data-processor/README.md) | `1.2.0` / `1.1.1` | 已检索到 |
+| [`lls-article-screenshot`](../skills/lls-article-screenshot/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-best-minds-consultation`](../adapted/lls-best-minds-consultation/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-best-practices-researcher`](../skills/lls-best-practices-researcher/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-chinese-humor`](../skills/lls-chinese-humor/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-document-print-restorer`](../skills/lls-document-print-restorer/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-github-profile-writer`](../skills/lls-github-profile-writer/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-headline-summary-maker`](../skills/lls-headline-summary-maker/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-human-writing-editor`](../skills/lls-human-writing-editor/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-image-privacy-redactor`](../skills/lls-image-privacy-redactor/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-image-renamer`](../skills/lls-image-renamer/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-international-techdoc-writer`](../skills/lls-international-techdoc-writer/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-mermaid-validator`](../skills/lls-mermaid-validator/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-mirror-debate`](../skills/lls-mirror-debate/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-naming-coach`](../skills/lls-naming-coach/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-short-video-breakdown`](../skills/lls-short-video-breakdown/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-skill-builder`](../skills/lls-skill-builder/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-skill-security-auditor`](../skills/lls-skill-security-auditor/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-video-digester`](../skills/lls-video-digester/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-ip-positioning-coach`](../skills/lls-ip-positioning-coach/README.md) | `1.2.0` / `1.1.1` | 已检索到 |
 
-“已检索到”仅表示 SkillHub 有该 slug；安装后仍要读回 `SKILL.md` 的 name/version，以确认平台版本是否已同步到本仓版本。
+“已检索到”只表示 SkillHub 有精确 slug；安装后仍要读回 `SKILL.md` 的 name、version 和路径。
 
 ## 手动安装（公开仓库）
 

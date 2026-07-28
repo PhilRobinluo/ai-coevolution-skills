@@ -2,17 +2,29 @@
 name: lls-human-writing-editor
 slug: lls-human-writing-editor
 displayName: 罗老师真人化写作助手
-version: 1.0.0
+version: 1.1.0
 summary: 通过节奏、具体细节和真实语气，让AI草稿更自然、更像人在说话。
-license: MIT
+license: CC-BY-NC-SA-4.0
 description: 通过节奏、具体细节和真实语气，让AI草稿更自然、更像人在说话。 当用户需要“文章、演讲和口播已经有事实，需要去除模板腔。”时使用。
 ---
+
+<!-- workbuddy-install: published; slug: lls-human-writing-editor -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-human-writing-editor`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-human-writing-editor`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-human-writing-editor/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-human-writing-editor` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师真人化写作助手
 
 > 类型：LLS Original  
-> 当前版本：1.0.0
-
+> 当前版本：1.1.0
 ## 一句话用途
 
 通过节奏、具体细节和真实语气，让AI草稿更自然、更像人在说话。

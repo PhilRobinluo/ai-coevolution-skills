@@ -1,5 +1,7 @@
 # Bilingual Reader Maker
 
+- **当前源码版本：`1.1.0`**（最近 Release：`1.1.0`）
+
 Turn English PDFs or long articles into polished bilingual study readers.
 
 The default reading experience is mobile-friendly:

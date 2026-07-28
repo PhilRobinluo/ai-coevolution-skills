@@ -3,7 +3,7 @@
 隔离管理私有 Skill 母库与公开 Skill 分享库，并分别完成版本、打包、发布、来源版权和运行副本对账。
 
 - 来源：🔵 `LLS Original`
-- 当前仓库版本：`3.0.0`（最近 Release：`2.0.1`）
+- **当前源码版本：`3.0.0`**（最近 Release：`2.0.1`）
 - [查看 SKILL.md](SKILL.md)
 - [下载安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.1/lls-skill-lifecycle-manager-2.0.1.zip)
 - [校验文件](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-lifecycle-manager-v2.0.1/lls-skill-lifecycle-manager-2.0.1.sha256)

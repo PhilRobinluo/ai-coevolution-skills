@@ -2,17 +2,30 @@
 name: lls-mermaid-validator
 slug: lls-mermaid-validator
 displayName: 罗老师 Mermaid 验证器
-version: 1.0.0
+version: 1.1.0
+code_license: PolyForm-Noncommercial-1.0.0
 summary: 生成并校验 Mermaid 图，减少中文标签、括号和保留字导致的渲染错误。
-license: MIT
+license: CC-BY-NC-SA-4.0
 description: 生成并校验 Mermaid 图，减少中文标签、括号和保留字导致的渲染错误。 当用户需要“需要流程图、架构图、时序图或状态图。”时使用。
 ---
+
+<!-- workbuddy-install: published; slug: lls-mermaid-validator -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-mermaid-validator`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-mermaid-validator`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-mermaid-validator/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-mermaid-validator` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师 Mermaid 验证器
 
 > 类型：LLS Original  
-> 当前版本：1.0.0
-
+> 当前版本：1.1.0
 ## 一句话用途
 
 生成并校验 Mermaid 图，减少中文标签、括号和保留字导致的渲染错误。

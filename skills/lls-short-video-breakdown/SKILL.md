@@ -2,17 +2,29 @@
 name: lls-short-video-breakdown
 slug: lls-short-video-breakdown
 displayName: 罗老师短视频脚本拆解助手
-version: 1.0.0
+version: 1.1.0
 summary: 把公开口播拆成原话、结构、节奏、镜头和可复用打法。
-license: MIT
+license: CC-BY-NC-SA-4.0
 description: 把公开口播拆成原话、结构、节奏、镜头和可复用打法。 当用户需要“复盘公开视频为什么抓人，或为自己的口播做导演标注。”时使用。
 ---
+
+<!-- workbuddy-install: published; slug: lls-short-video-breakdown -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-short-video-breakdown`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-short-video-breakdown`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-short-video-breakdown/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-short-video-breakdown` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师短视频脚本拆解助手
 
 > 类型：LLS Original  
-> 当前版本：1.0.0
-
+> 当前版本：1.1.0
 ## 一句话用途
 
 把公开口播拆成原话、结构、节奏、镜头和可复用打法。

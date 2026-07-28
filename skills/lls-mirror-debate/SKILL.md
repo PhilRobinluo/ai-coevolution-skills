@@ -2,17 +2,29 @@
 name: lls-mirror-debate
 slug: lls-mirror-debate
 displayName: 罗老师照妖镜决策辩论
-version: 1.0.0
+version: 1.1.0
 summary: 让正反双方围绕同一命题交锋，暴露隐藏假设和决策盲点。
-license: MIT
+license: CC-BY-NC-SA-4.0
 description: 让正反双方围绕同一命题交锋，暴露隐藏假设和决策盲点。 当用户需要“在两个方案之间犹豫，或想压力测试一个决定。”时使用。
 ---
+
+<!-- workbuddy-install: published; slug: lls-mirror-debate -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-mirror-debate`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-mirror-debate`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-mirror-debate/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-mirror-debate` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师照妖镜决策辩论
 
 > 类型：LLS Original  
-> 当前版本：1.0.0
-
+> 当前版本：1.1.0
 ## 一句话用途
 
 让正反双方围绕同一命题交锋，暴露隐藏假设和决策盲点。

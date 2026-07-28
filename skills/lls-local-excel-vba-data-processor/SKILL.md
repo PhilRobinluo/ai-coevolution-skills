@@ -1,9 +1,24 @@
 ---
 name: lls-local-excel-vba-data-processor
+version: 1.2.0
+license: CC-BY-NC-SA-4.0
 description: 在数据不离开本机的前提下，设计、审查和交付 Excel VBA 数据处理方案。用于批量清洗、匹配、拆分、汇总、生成报表或处理敏感表格；必须先确认工作簿结构、备份与样例，再给出带中文注释、日志、异常处理、回滚和验收步骤的宏，不要求上传真实数据。
 metadata:
   short-description: 数据留在本地的 Excel VBA 处理与验收
 ---
+
+<!-- workbuddy-install: published; slug: lls-local-excel-vba-data-processor -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-local-excel-vba-data-processor`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-local-excel-vba-data-processor`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-local-excel-vba-data-processor/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-local-excel-vba-data-processor` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师 Excel VBA 本地数据处理
 

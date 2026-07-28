@@ -2,17 +2,29 @@
 name: lls-best-minds-consultation
 slug: lls-best-minds-consultation
 displayName: 罗老师最强大脑会诊
-version: 1.0.0
+version: 1.1.0
 summary: 把复杂问题交给最懂它的公开专家视角会诊，再形成统一行动建议。
 license: MIT
 description: 把复杂问题交给最懂它的公开专家视角会诊，再形成统一行动建议。 当用户需要“策略、方法和重大判断需要多位专家视角。”时使用。
 ---
 
+<!-- workbuddy-install: published; slug: lls-best-minds-consultation -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-best-minds-consultation`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-best-minds-consultation`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-best-minds-consultation/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-best-minds-consultation` 后安装；界面文字可能随 WorkBuddy 版本变化。
+
 # 罗老师最强大脑会诊
 
 > 类型：LLS Adapted  
-> 当前版本：1.0.0
-
+> 当前版本：1.1.0
 ## 一句话用途
 
 把复杂问题交给最懂它的公开专家视角会诊，再形成统一行动建议。

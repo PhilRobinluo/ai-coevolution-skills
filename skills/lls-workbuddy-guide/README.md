@@ -2,7 +2,7 @@
 
 让第一次安装 WorkBuddy 的同学，在一个真实任务中完成首次成功，并通过学习档案、五级阶梯和十关课程逐渐独立。
 
-- 当前仓库版本：`2.1.0`（最近 Release：`2.0.0`）
+- **当前源码版本：`2.1.0`**（最近 Release：`2.0.0`）
 - 来源：🔵 `LLS Original`
 - [飞书专项教程：从第一次安装到独立工作](https://m2wlgni9k4.feishu.cn/wiki/DAv2wAGDXig5sDks5wJcz9yWnAb)
 - [WorkBuddy 学习版块首页](https://m2wlgni9k4.feishu.cn/wiki/GaPjwSvF3iENCjkPy97cIrPOnTh)

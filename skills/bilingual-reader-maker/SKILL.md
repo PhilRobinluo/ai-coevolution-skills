@@ -4,7 +4,6 @@ description: Use when the user asks to make bilingual reading materials, bilingu
 slug: bilingual-reader-maker
 version: 1.1.0
 license: CC-BY-NC-SA-4.0
-code_license: PolyForm-Noncommercial-1.0.0
 ---
 
 <!-- workbuddy-install: pending; slug: bilingual-reader-maker -->

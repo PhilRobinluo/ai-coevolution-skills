@@ -2,17 +2,30 @@
 name: lls-document-print-restorer
 slug: lls-document-print-restorer
 displayName: 罗老师纸质文件打印修复助手
-version: 1.0.0
+version: 1.1.0
+code_license: PolyForm-Noncommercial-1.0.0
 summary: 保守增强拍摄的纸质文件照片，并生成A4打印版PDF。
-license: MIT
+license: CC-BY-NC-SA-4.0
 description: 保守增强拍摄的纸质文件照片，并生成A4打印版PDF。 当用户需要“纸质表格、票据或手写页照片偏灰、对比度低、打印不清。”时使用。
 ---
+
+<!-- workbuddy-install: published; slug: lls-document-print-restorer -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-document-print-restorer`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-document-print-restorer`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-document-print-restorer/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-document-print-restorer` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师纸质文件打印修复助手
 
 > 类型：LLS Original  
-> 当前版本：1.0.0
-
+> 当前版本：1.1.0
 ## 一句话用途
 
 保守增强拍摄的纸质文件照片，并生成A4打印版PDF。

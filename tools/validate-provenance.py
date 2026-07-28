@@ -149,6 +149,8 @@ def validate(root: Path) -> None:
                 fail(f"{relative}: 未以 {expected} 登记到 registry.json")
             if expected == "lls-adapted" and not (child / "ORIGIN.md").is_file():
                 fail(f"{relative}: 改编目录缺少 ORIGIN.md")
+            if expected == "lls-adapted" and not (child / "LICENSE.upstream").is_file():
+                fail(f"{relative}: 改编目录缺少 LICENSE.upstream")
 
     catalog = load_json(root / "community" / "catalog.json")
     items = catalog.get("items")

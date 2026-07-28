@@ -20,6 +20,8 @@ jobs:
           done
       - name: Validate provenance and license policy
         run: python3 tools/validate-provenance.py
+      - name: Validate generated repository policy
+        run: python3 tools/apply-repository-policy.py
       - name: Validate repository isolation
         run: python3 skills/lls-skill-lifecycle-manager/scripts/audit-repository.py --repository . --role public
       - name: Validate WorkBuddy install contract

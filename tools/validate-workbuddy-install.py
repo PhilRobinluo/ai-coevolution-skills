@@ -22,8 +22,7 @@ def main() -> int:
     if not isinstance(entries, list):
         fail('registry.json skills must be a list')
 
-    skill_dirs = {path.parent.name for path in (ROOT / 'skills').glob('*/SKILL.md')}
-    registry_names = set()
+    registered_paths: set[str] = set()
     for entry in entries:
         if not isinstance(entry, dict):
             fail('registry skill must be an object')
@@ -34,17 +33,29 @@ def main() -> int:
             fail('registry skill missing name')
         if not isinstance(version, str) or not version:
             fail(f'{slug}: registry version must be a non-empty string')
-        if slug in registry_names:
+        relative = entry.get('path')
+        if not isinstance(relative, str) or not relative:
+            fail(f'{slug}: registry path must be a non-empty string')
+        if relative in registered_paths:
             fail(f'duplicate registry slug: {slug}')
-        registry_names.add(slug)
+        registered_paths.add(relative)
         if status not in {'published', 'pending'}:
             fail(f'{slug}: skillhub_status must be published or pending')
 
-        readme = ROOT / 'skills' / slug / 'README.md'
-        skill_md = ROOT / 'skills' / slug / 'SKILL.md'
+        skill_dir = ROOT / relative
+        readme = skill_dir / 'README.md'
+        skill_md = skill_dir / 'SKILL.md'
         if not readme.is_file() or not skill_md.is_file():
             fail(f'{slug}: missing README.md or SKILL.md')
         readme_text = readme.read_text(encoding='utf-8')
+        release_version = entry.get('release_version')
+        if not isinstance(release_version, str) or not release_version:
+            fail(f'{slug}: release_version must be a non-empty string')
+        expected_version_line = (
+            f'**当前源码版本：`{version}`**（最近 Release：`{release_version}`）'
+        )
+        if expected_version_line not in readme_text:
+            fail(f'{slug}: README version line is stale or missing')
         # The slug label is deliberately unique so a reader can copy one authoritative value.
         if readme_text.count(f'**Skill slug：`{slug}`**') != 1:
             fail(f'{slug}: README must contain exactly one canonical Skill slug label')
@@ -63,9 +74,14 @@ def main() -> int:
             if required not in skill_text:
                 fail(f'{slug}: SKILL.md missing WorkBuddy install requirement: {required}')
 
-    if registry_names != skill_dirs:
-        fail(f'registry/skills mismatch: registry={sorted(registry_names)}, skills={sorted(skill_dirs)}')
-    print(f'OK: WorkBuddy install contract for {len(registry_names)} public skills')
+    actual_paths = {
+        path.parent.relative_to(ROOT).as_posix()
+        for base in ('skills', 'adapted')
+        for path in (ROOT / base).glob('*/SKILL.md')
+    }
+    if registered_paths != actual_paths:
+        fail(f'registry/path mismatch: registry={sorted(registered_paths)}, actual={sorted(actual_paths)}')
+    print(f'OK: WorkBuddy install contract for {len(registered_paths)} public skills')
     return 0
 
 
