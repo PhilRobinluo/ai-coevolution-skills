@@ -583,6 +583,54 @@
         "changes": "独立重写岗位经验蒸馏流程，强化资料权利、双库隔离、合成试岗与隐私门禁。",
         "adapted_version": "1.0.0"
       }
+    },
+    {
+      "name": "lls-ai-drawing-prompt-coach",
+      "title": "罗老师 AI 绘画提示词教练",
+      "description": "从画面意图、主体、构图和光线推进到可测试、可迭代的文生图提示词。",
+      "category": "image",
+      "status": "stable",
+      "version": "1.1.0",
+      "release_version": "1.1.0",
+      "path": "skills/lls-ai-drawing-prompt-coach",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ai-drawing-prompt-coach-v1.1.0/lls-ai-drawing-prompt-coach-1.1.0.zip",
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Oi8ewpdK6i2VVdkKgHAcm40anNf",
+      "skillhub_url": "https://skillhub.cn/skills/lls-ai-drawing-prompt-coach",
+      "skillhub_status": "published",
+      "provenance": "lls-original",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "name": "lls-ai-poster-design-coach",
+      "title": "罗老师 AI 海报设计教练",
+      "description": "从传播目标和信息层级推进到版式、视觉素材与导出验收。",
+      "category": "design",
+      "status": "stable",
+      "version": "1.1.0",
+      "release_version": "1.1.0",
+      "path": "skills/lls-ai-poster-design-coach",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ai-poster-design-coach-v1.1.0/lls-ai-poster-design-coach-1.1.0.zip",
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/H5q2waxyZiK9F0kgHiNcWSpAnmg",
+      "skillhub_url": "https://skillhub.cn/skills/lls-ai-poster-design-coach",
+      "skillhub_status": "published",
+      "provenance": "lls-original",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "name": "lls-jimeng-image-editing-coach",
+      "title": "罗老师即梦图片编辑教练",
+      "description": "保留原图关键结构，通过分区遮罩、单变量迭代和像素级验收完成编辑。",
+      "category": "image",
+      "status": "stable",
+      "version": "1.1.0",
+      "release_version": "1.1.0",
+      "path": "skills/lls-jimeng-image-editing-coach",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-jimeng-image-editing-coach-v1.1.0/lls-jimeng-image-editing-coach-1.1.0.zip",
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/NpbZwk8wxiFKGfkFyahcE8DBndd",
+      "skillhub_url": "https://skillhub.cn/skills/lls-jimeng-image-editing-coach",
+      "skillhub_status": "published",
+      "provenance": "lls-original",
+      "license": "CC-BY-NC-SA-4.0"
     }
   ],
   "provenance_policy": "docs/provenance-policy.md"

@@ -9,7 +9,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 [![License](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0_%2B_PolyForm_NC-blue)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-36-blue)
+![Skills](https://img.shields.io/badge/skills-39-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -100,6 +100,9 @@
 | [`lls-short-video-breakdown`](skills/lls-short-video-breakdown/) | 🔵 LLS Original | 用时间点和原文证据拆解短视频结构、留存、口语与镜头。 | Stable |
 | [`lls-douyin-oral-script-writer`](skills/lls-douyin-oral-script-writer/) | 🔵 LLS Original | 把真实观点写成自然、可信并经过朗读计时的抖音口播稿。 | Stable |
 | [`lls-ai-video-script-planner`](skills/lls-ai-video-script-planner/) | 🔵 LLS Original | 从传播任务推进到分镜、素材、生成提示和制作验收。 | Stable |
+| [`lls-ai-drawing-prompt-coach`](skills/lls-ai-drawing-prompt-coach/) | 🔵 LLS Original | 从画面意图到可测试、可迭代的文生图提示词。 | Stable |
+| [`lls-ai-poster-design-coach`](skills/lls-ai-poster-design-coach/) | 🔵 LLS Original | 从传播目标和信息层级推进到海报版式与导出验收。 | Stable |
+| [`lls-jimeng-image-editing-coach`](skills/lls-jimeng-image-editing-coach/) | 🔵 LLS Original | 保留原图关键结构，分区、小步完成图片编辑。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。
@@ -255,6 +258,9 @@ Community skills remain the property of their original authors. Please support t
 | [`lls-short-video-breakdown`](skills/lls-short-video-breakdown/) | Breaks down short videos with timestamps, evidence, retention logic, delivery, and visuals. | Stable |
 | [`lls-douyin-oral-script-writer`](skills/lls-douyin-oral-script-writer/) | Turns real ideas and evidence into natural, timed Douyin spoken scripts. | Stable |
 | [`lls-ai-video-script-planner`](skills/lls-ai-video-script-planner/) | Plans video beats, storyboards, assets, generation prompts, and production acceptance. | Stable |
+| [`lls-ai-drawing-prompt-coach`](skills/lls-ai-drawing-prompt-coach/) | Turns visual intent into testable and iterative text-to-image prompts. | Stable |
+| [`lls-ai-poster-design-coach`](skills/lls-ai-poster-design-coach/) | Designs poster information hierarchy, layout, assets, and export acceptance. | Stable |
+| [`lls-jimeng-image-editing-coach`](skills/lls-jimeng-image-editing-coach/) | Preserves key image structure through masked, single-variable editing and inspection. | Stable |
 
 The first pack came from a concrete use case: turning an English startup playbook into a bilingual study edition for Chinese readers.
 
