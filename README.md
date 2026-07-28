@@ -42,10 +42,11 @@
 |---|---|---|
 | 🔵 `LLS Original` | 罗老师原创 | 收录完整源码和安装包 |
 | 🟡 `LLS Adapted` | 在许可证允许范围内改编 | 标明原作者、原仓库、许可证和修改内容 |
-| 🟢 `Community Pick` | 罗老师实测推荐 | 默认只提供中文介绍和原仓库链接 |
+| 🟢 `Community Pick` | 罗老师核验推荐 | 默认只提供中文介绍和原仓库链接 |
 
 - [查看透明的来源与归属政策](docs/provenance-policy.md)
 - [查看社区精选目录](community/)
+- [查看飞书中文导航](https://m2wlgni9k4.feishu.cn/wiki/NKyYw0fCdibLZokjRafcccHFntg)
 - [查看获得许可的改编区](adapted/)
 
 > 社区 Skill 由原作者创作，请优先前往原仓库给作者一个 ⭐ Star。
@@ -55,7 +56,7 @@
 
 覆盖 Skill 创建、标题、命名、Mermaid、截图隐私、最佳实践、GitHub 首页、决策辩论、文件整理、纸质文件修复、视频学习、安全审计、中文幽默、真人化写作、短视频拆解和国际技术文档。完整清单见 [`registry.json`](registry.json)。
 
-另有 3 个 [`Community Pick`](community/) 仅做中文介绍和上游导航。
+另有 50 个 [`Community Pick`](community/) 仅做中文介绍和上游导航。第三方推荐不复制源码和安装包，也不提交 SkillHub。
 
 
 ### 精选开源工具导航
@@ -243,9 +244,11 @@ It is a growing library of practical skills that are meant to do real work.
 
 - 🔵 **LLS Original**: created and maintained by Luo Laoshi.
 - 🟡 **LLS Adapted**: transparently adapted under the upstream license.
-- 🟢 **Community Pick**: tested recommendation linking to the original repository by default.
+- 🟢 **Community Pick**: curated, provenance-checked recommendation linking to the original repository by default.
 
 Community skills remain the property of their original authors. Please support the upstream author first; Star this repository as well if the testing and Chinese guidance help you.
+
+The [`Community Pick`](community/) directory currently contains 50 link-only recommendations. Third-party source code and packages are not republished, and these entries are not submitted to SkillHub.
 
 ### What is inside?
 

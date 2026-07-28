@@ -10,6 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install unit test dependencies
+        # 图片修复与脱敏测试都从干净环境调用 Pillow；在这里显式安装，
+        # 避免依赖开发机已有包而产生“本地通过、CI 缺包”的漂移。
+        run: python3 -m pip install Pillow
       - name: Validate every public skill
         shell: bash
         run: |
@@ -43,7 +50,9 @@ jobs:
         run: |
           set -euo pipefail
           for tests_dir in skills/*/tests; do
-            if [[ -d "$tests_dir" ]]; then
+            # 部分 Skill 只保留 tests 目录作为后续测试入口；空目录不应被 unittest
+            # 解释为发布失败，因此只运行真正含有 test_*.py 的测试目录。
+            if [[ -d "$tests_dir" ]] && find "$tests_dir" -maxdepth 1 -name 'test_*.py' -print -quit | grep -q .; then
               python3 -m unittest discover -s "$tests_dir" -p 'test_*.py'
             fi
           done
