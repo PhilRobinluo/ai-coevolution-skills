@@ -9,7 +9,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 [![License](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0_%2B_PolyForm_NC-blue)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-45-blue)
+![Skills](https://img.shields.io/badge/skills-47-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -167,7 +167,7 @@
 也可在左侧 **「技能」** → **「添加技能」或「查找技能」** 中搜索精确 slug 后安装；不同 WorkBuddy 版本的界面名称可能略有变化。若没有精确匹配，请不要安装同名条目，改用该 Skill README 的 GitHub Release 或手动复制目录。
 
 - [查看全部 WorkBuddy 安装步骤与当前发布状态](docs/how-to-install.md)
-- [浏览 44 个原创 Skill](skills/)；另有 [1 个透明改编 Skill](adapted/)
+- [浏览 46 个原创 Skill](skills/)；另有 [1 个透明改编 Skill](adapted/)
 
 #### Codex / Claude Code 手动安装
 
