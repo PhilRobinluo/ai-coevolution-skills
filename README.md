@@ -9,7 +9,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 ![License](https://img.shields.io/github/license/PhilRobinluo/ai-coevolution-skills)
-![Skills](https://img.shields.io/badge/skills-27-blue)
+![Skills](https://img.shields.io/badge/skills-30-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -70,6 +70,9 @@
 | [`lls-dialogue-subtext-reader`](skills/lls-dialogue-subtext-reader/) | 🔵 LLS Original | 分开原话事实与推测，生成可验证、低冲突的沟通回应。 | Stable |
 | [`lls-local-excel-vba-data-processor`](skills/lls-local-excel-vba-data-processor/) | 🔵 LLS Original | 用本地 Excel VBA 处理敏感数据，附测试、日志、回滚和验收。 | Stable |
 | [`lls-ip-positioning-coach`](skills/lls-ip-positioning-coach/) | 🔵 LLS Original | 用七步互动找到真实可信、能持续表达并可小步验证的个人 IP 定位。 | Stable |
+| [`lls-mermaid-diagram`](skills/lls-mermaid-diagram/) | 🔵 LLS Original | 选择正确图型、压缩结构并真实编译 Mermaid 图。 | Stable |
+| [`lls-ppt-workflow-builder`](skills/lls-ppt-workflow-builder/) | 🔵 LLS Original | 从演示目标推进到逐页制作、演练与验收。 | Stable |
+| [`lls-prompt-basics-coach`](skills/lls-prompt-basics-coach/) | 🔵 LLS Original | 用真实任务和样例测试教普通用户写提示词。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。
@@ -217,6 +220,9 @@ Community skills remain the property of their original authors. Please support t
 | [`lls-dialogue-subtext-reader`](skills/lls-dialogue-subtext-reader/) | Separates observable dialogue facts from interpretations and produces verifiable, low-conflict replies. | Stable |
 | [`lls-local-excel-vba-data-processor`](skills/lls-local-excel-vba-data-processor/) | Builds privacy-preserving local Excel VBA workflows with tests, logs, rollback, and acceptance checks. | Stable |
 | [`lls-ip-positioning-coach`](skills/lls-ip-positioning-coach/) | Uses a seven-step coaching flow to create credible, sustainable, testable personal-brand positioning. | Stable |
+| [`lls-mermaid-diagram`](skills/lls-mermaid-diagram/) | Selects the right diagram type and validates Mermaid by real compilation. | Stable |
+| [`lls-ppt-workflow-builder`](skills/lls-ppt-workflow-builder/) | Runs a presentation from decision goal and evidence through production and rehearsal. | Stable |
+| [`lls-prompt-basics-coach`](skills/lls-prompt-basics-coach/) | Teaches prompting through clear goals, constraints, formats, and test cases. | Stable |
 
 The first pack came from a concrete use case: turning an English startup playbook into a bilingual study edition for Chinese readers.
 
