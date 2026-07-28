@@ -9,7 +9,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 ![License](https://img.shields.io/github/license/PhilRobinluo/ai-coevolution-skills)
-![Skills](https://img.shields.io/badge/skills-30-blue)
+![Skills](https://img.shields.io/badge/skills-31-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -73,6 +73,7 @@
 | [`lls-mermaid-diagram`](skills/lls-mermaid-diagram/) | 🔵 LLS Original | 选择正确图型、压缩结构并真实编译 Mermaid 图。 | Stable |
 | [`lls-ppt-workflow-builder`](skills/lls-ppt-workflow-builder/) | 🔵 LLS Original | 从演示目标推进到逐页制作、演练与验收。 | Stable |
 | [`lls-prompt-basics-coach`](skills/lls-prompt-basics-coach/) | 🔵 LLS Original | 用真实任务和样例测试教普通用户写提示词。 | Stable |
+| [`lls-code-anatomy`](skills/lls-code-anatomy/) | 🔵 LLS Original | 把一小段代码拆成数据流、语法解剖、亲手运行和可复习学习卡片。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。

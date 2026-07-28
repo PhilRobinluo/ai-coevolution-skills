@@ -3,6 +3,21 @@
   "description": "Reusable capability packs for human-AI co-evolution.",
   "skills": [
     {
+      "name": "lls-code-anatomy",
+      "title": "罗老师代码解剖学习法",
+      "description": "把一小段代码拆成看得懂、跑得通、能复习的中文学习卡片。",
+      "category": "learning",
+      "status": "stable",
+      "version": "1.0.0",
+      "path": "skills/lls-code-anatomy",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-code-anatomy-v1.0.0/lls-code-anatomy-1.0.0.zip",
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/ToAuwccD2iVp6WkrXPSc0Zuen1c",
+      "skillhub_url": "https://skillhub.cn/skills/lls-code-anatomy",
+      "skillhub_status": "pending_review",
+      "provenance": "lls-original",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
       "name": "bilingual-reader-maker",
       "title": "Bilingual Reader Maker",
       "description": "Turn English PDFs or articles into polished Chinese-English HTML/PDF study readers.",

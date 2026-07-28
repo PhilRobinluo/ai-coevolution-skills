@@ -1,0 +1,4 @@
+interface:
+  display_name: "罗老师代码解剖学习法"
+  short_description: "把一小段代码拆成看得懂、跑得通、能复习的学习卡片"
+  default_prompt: "请用 lls-code-anatomy 解剖这段代码：先画数据流，再逐 token 拆最难一行，让我预测并亲手验证一个安全小改动，最后生成学习卡片和 3 道自测题。"
