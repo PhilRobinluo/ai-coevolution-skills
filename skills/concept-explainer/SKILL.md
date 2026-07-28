@@ -4,7 +4,21 @@ description: |
   Plain-language concept explainer and task knowledge-card generator. Use when a task contains tools, commands, files, configs, architecture layers, code mechanisms, business rules, or troubleshooting chains that a user may not understand.
   ⛔ Trigger on unfamiliar concepts, commands, or execution flows. If you skip it, the user may get an answer but still lack the mental model needed to act independently.
   Trigger words: do not understand, explain, what is this, why, how to use, CLI, command, npm, package.json, access credential, environment variable, API, architecture, workflow, error.
+slug: concept-explainer
+version: 1.1.0
+license: CC-BY-NC-SA-4.0
 ---
+
+<!-- workbuddy-install: pending; slug: concept-explainer -->
+## WorkBuddy 安装
+
+本仓当前版本未确认发布到 SkillHub；同名结果不代表本 Skill。
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `concept-explainer`，仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`；完成后核对 `~/.workbuddy/skills/concept-explainer/SKILL.md` 的 name 和 version（如有）。
+```
+
+也可在左侧「技能」→「添加技能」或「查找技能」中搜索 `concept-explainer` 后安装；界面名称会随 WorkBuddy 版本变化。请通过公开仓库复制本目录安装；后续 Release 发布后可从 Release 安装包安装。
 
 # Concept Explainer
 

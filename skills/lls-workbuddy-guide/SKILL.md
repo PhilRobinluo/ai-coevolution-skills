@@ -8,11 +8,23 @@ metadata:
   short-description: WorkBuddy 自适应学习教练
 slug: lls-workbuddy-guide
 displayName: 罗老师教你 WorkBuddy
-version: 2.0.0
+version: 2.1.0
 summary: 从首次安装到独立工作，用学习档案、五级阶梯和十关任务让用户越用越懂 WorkBuddy。
-license: CC-BY-SA-4.0
+license: CC-BY-NC-SA-4.0
+code_license: PolyForm-Noncommercial-1.0.0
 homepage: https://m2wlgni9k4.feishu.cn/wiki/DAv2wAGDXig5sDks5wJcz9yWnAb
 ---
+
+<!-- workbuddy-install: published; slug: lls-workbuddy-guide -->
+## WorkBuddy 安装
+
+已发布，可在 SkillHub 搜索该 slug。
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-workbuddy-guide`，仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`；完成后核对 `~/.workbuddy/skills/lls-workbuddy-guide/SKILL.md` 的 name 和 version（如有）。
+```
+
+也可在左侧「技能」→「添加技能」或「查找技能」中搜索 `lls-workbuddy-guide` 后安装；界面名称会随 WorkBuddy 版本变化。若 SkillHub 搜索无精确 slug，请使用 README 中列出的 GitHub Release。
 
 # 罗老师教你 WorkBuddy
 

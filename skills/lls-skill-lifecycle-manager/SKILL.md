@@ -1,7 +1,22 @@
 ---
 name: lls-skill-lifecycle-manager
-description: 管理完整 AI Skill 生态与仓库生产线。用于新建、升级、查重、合并、审计、打包、公开发布或恢复 Skill，以及维护私有生产母库、GitHub 公开镜像、Release 安装包、飞书 Skill 专区、WorkBuddy 运行副本和 SkillHub 状态。用户提到 Skill 仓库治理、来源版权、LLS Original/Adapted/Community Pick、版本发布、自动打包、飞书联动、WorkBuddy 对账或“后面持续更新”时使用。
+description: 管理相互隔离的私有 Skill 母库与公开 Skill 分享库。用于在选定仓库内新建、升级、查重、审计、打包、发布或恢复 Skill，并维护该仓库自己的版本、来源、许可证、GitHub Release、飞书说明、WorkBuddy 与 SkillHub 状态。两库各自是真源，公开版只能独立创作和审核；不建立复制、镜像、同步、自动导出或一键公开链路。
+slug: lls-skill-lifecycle-manager
+version: 3.0.0
+license: CC-BY-NC-SA-4.0
+code_license: PolyForm-Noncommercial-1.0.0
 ---
+
+<!-- workbuddy-install: published; slug: lls-skill-lifecycle-manager -->
+## WorkBuddy 安装
+
+已发布，可在 SkillHub 搜索该 slug。
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-skill-lifecycle-manager`，仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`；完成后核对 `~/.workbuddy/skills/lls-skill-lifecycle-manager/SKILL.md` 的 name 和 version（如有）。
+```
+
+也可在左侧「技能」→「添加技能」或「查找技能」中搜索 `lls-skill-lifecycle-manager` 后安装；界面名称会随 WorkBuddy 版本变化。若 SkillHub 搜索无精确 slug，请使用 README 中列出的 GitHub Release。
 
 # 罗老师 Skill 全生命周期与仓库治理管家
 
@@ -9,31 +24,31 @@ description: 管理完整 AI Skill 生态与仓库生产线。用于新建、升
 
 把 Skill 当作持续迭代的产品，而不是散落的 ZIP、提示词和平台副本。
 
-始终维护一条清楚的生产链：
+始终维护两条彼此隔离的生产链：
 
 ```text
-生产母库
-  → 校验与版本
-  → 安装包
-  → GitHub 公开镜像与 Release
-  → 飞书中文说明和下载入口
-  → WorkBuddy / SkillHub 安装与运行
-  → 使用反馈回到生产母库
+私有母库                         公开分享库
+  → 私有编辑与版本                  → 公开版独立创作与版本
+  → 私有安装包与运行副本             → GitHub Release
+  → 私有反馈回到私有库               → 飞书 / SkillHub / WorkBuddy
+
+两库之间只允许：阅读思路后在目标库重新创作
+两库之间明确排除：复制、镜像、同步、跨库脚本、一键公开
 ```
 
-只允许一个生产真源。公开仓库、飞书、WorkBuddy 和 SkillHub 都是下游渠道。
+私有母库和公开分享库分别是真源；两边允许同名、不同版本、不同内容和不同历史。
 
 ## 开始前
 
 先声明：
 
 ```text
-使用 skill：lls-skill-lifecycle-manager，原因：本任务涉及 Skill 的仓库治理、版本、发布或跨平台同步。
+使用 skill：lls-skill-lifecycle-manager，原因：本任务涉及 Skill 的仓库治理、版本、发布或渠道联动。
 ```
 
 然后执行只读盘点，不要先改文件：
 
-1. 确认生产母库、公开仓库和目标 Skill。
+1. 先选定本轮唯一写入库：私有母库或公开分享库。
 2. 读取项目级 `AGENTS.md`、`CLAUDE.md` 和现有台账。
 3. 检查 Git 状态、远程地址、当前版本和工作区修改。
 4. 查找重复 Skill、历史包、平台副本和来源信息。
@@ -43,36 +58,33 @@ description: 管理完整 AI Skill 生态与仓库生产线。用于新建、升
 
 ```bash
 python3 scripts/audit-repository.py \
-  --factory <factory-repo> \
-  --public <public-repo> \
-  --workbuddy <runtime-skills-dir>
+  --repository <current-repo> \
+  --role private \
+  --runtime <runtime-skills-dir>
 ```
 
 ## 选择工作模式
 
 | 模式 | 典型请求 | 核心结果 |
 |---|---|---|
-| 新建 | “把这个流程做成 Skill” | 新母版、台账、包、公开说明 |
-| 升级 | “把现有 Skill 提升一下” | 更新同一 Skill、升级版本、保留历史 |
-| 发布 | “同步 GitHub 和飞书” | 镜像、Release、下载链接、页面读回 |
+| 新建 | “把这个流程做成 Skill” | 在选定仓库内新建 Skill、台账和包 |
+| 升级 | “把现有 Skill 提升一下” | 只更新选定仓库中的版本 |
+| 公开发布 | “发布 GitHub 和飞书” | 从公开分享库发布 Release 和说明 |
 | 对账 | “WorkBuddy 里这些要不要导回” | 来源分类、版本差异、回收建议 |
 | 审计 | “看看体系有没有乱” | 真源、重复、漂移、隐私和未闭环项 |
 | 恢复 | “平台版本比母库新” | 隔离回收、差异审查、确认后合并 |
 
 如果已有 Skill 覆盖主要职责，优先升级、合并或补参考资料。只有边界和用户群明显不同才新建。
 
-## 真源优先级
+## 双库双真源
 
-发生冲突时按这个顺序判断：
+先按对象选择真源，不跨库决定版本：
 
-1. 私有生产母库的 `skills/<slug>/`
-2. 母库台账、版本记录和发布证据
-3. GitHub 公开镜像源码
-4. GitHub Release 安装包
-5. 飞书说明页
-6. WorkBuddy、Codex、SkillHub 等运行副本
+- 私有对象：私有母库的 `skills/`、私有台账、私有安装包和私有运行副本。
+- 公开对象：分享库的 `skills/` / `adapted/`、公开台账、GitHub Release、飞书和 SkillHub。
+- 平台副本出现独有修改时，先进入该对象所属仓库的恢复区，不跨库覆盖。
 
-运行副本出现独有修改时，先进入恢复区并做差异审查，不直接覆盖母版。
+分享库的脚本、CI、Token 和发布流程不读取私有母库路径或 Git 历史。
 
 详细角色和目录约定见 [references/repository-architecture.md](references/repository-architecture.md)。
 
@@ -91,6 +103,25 @@ python3 scripts/audit-repository.py \
 社区项目优先引导用户支持原作者；罗老师仓库的价值是筛选、测试、中文说明和持续维护目录。
 
 详细规则见 [references/provenance-and-trust.md](references/provenance-and-trust.md)。
+
+## 许可证决策
+
+发布前先按文件类型判断，不用一个许可证笼统覆盖所有材料：
+
+1. 原创 `SKILL.md`、references、README/docs 与原创 assets 默认 `CC-BY-NC-SA-4.0`；
+2. `scripts/` 和仓库 `tools/` 中的实质软件代码默认 `PolyForm-Noncommercial-1.0.0`；
+3. `adapted/` 与第三方内容始终服从上游许可证，保留 `ORIGIN.md`、版权和修改记录；
+4. 企业内部普通办公可按 `ADDITIONAL-PERMISSIONS.md` 免费使用；收费课程、转售、客户交付、SaaS、代运营等必须走 `COMMERCIAL-LICENSE.md`；
+5. 每个 Skill 都要在 frontmatter 和 `registry.json` 写 `license`；含 `scripts/` 的原创 Skill 还写 `code_license`；
+6. 历史 MIT 版本已经授予的权利继续有效，新规则不追溯撤销。
+
+公开仓根目录必须同步维护 `LICENSE`、`LICENSES/`、`ADDITIONAL-PERMISSIONS.md`、`COMMERCIAL-LICENSE.md`、`THIRD_PARTY_NOTICES.md`，并执行：
+
+```bash
+python3 tools/validate-provenance.py
+```
+
+详细决策与发布门禁见 [references/licensing-strategy.md](references/licensing-strategy.md)。
 
 ## 标准执行流程
 
@@ -116,10 +147,11 @@ python3 scripts/audit-repository.py \
 | SkillHub 最终提交 | 每次单独确认 |
 | 删除旧包、附件、Release、页面 | 每次单独确认 |
 
-### 2. 只改生产母版
+### 2. 锁定单一工作区
 
-- 在 `skills/<slug>/` 新建或更新源文件。
-- 不把 WorkBuddy、飞书附件或公开镜像当编辑源。
+- 私有任务只修改私有母库；公开任务只修改公开分享库。
+- 不把另一个仓库设置成复制源、构建输入或自动化参数。
+- 不把 WorkBuddy、飞书附件或 Release 当编辑源。
 - 核心流程、判定优先级、失败路径和高风险边界写入 Skill。
 - 详细资料放 `references/`，确定性重复操作放 `scripts/`。
 - 保持 `SKILL.md` 简洁，避免把完整项目历史塞入上下文。
@@ -130,7 +162,7 @@ python3 scripts/audit-repository.py \
 - 新增流程、平台或检查项：minor
 - 改变核心定位、目录职责或兼容关系：major
 
-生产母库 `publish-info.md` 的“当前版本”是本次发布版本的唯一人工维护入口。总台账、ZIP 文件名、公开 `registry.json`、Release tag、飞书和运行副本都从它同步并做一致性检查，不在多个地方分别决定版本。
+两个仓库分别维护自己的版本入口。私有版本不驱动公开版本，公开版本也不反向覆盖私有版本。
 
 更新：
 
@@ -172,25 +204,27 @@ python3 scripts/audit-repository.py \
 5. 计算 SHA256；
 6. 记录版本和证据。
 
-### 6. 生成公开镜像
+### 6. 在公开分享库独立制作公开版
 
-- 只同步明确批准公开的 Skill。
-- 排除 `publish-info.md`、内部台账、上传队列、私有素材和凭证。
-- 保留公开仓库独立维护的 README。
-- 同步脚本只刷新 `SKILL.md`、`agents/`、`references/`、`scripts/`、`assets/`，不删除公开 README。
-- 更新公开 `registry.json` 和来源类型。
-- 运行公开仓库的 Skill 与来源校验。
+1. 在私有母库中只读理解功能目标，不复制文件。
+2. 结束私有库阅读，切换到独立的公开分享库。
+3. 仅使用公开资料和明确许可材料，在分享库重新写公开版。
+4. 在分享库独立确定版本、来源、许可证和测试夹具。
+5. 运行公开库自己的隐私、来源、许可证和功能校验。
+6. 人工检查公开 diff 与包清单后，再进入发布。
+
+禁止 Git 子模块、共享工作树、符号链接、`cp` / `rsync`、跨库相对路径或 CI 拉取私有库。
 
 ### 7. GitHub 发布
 
 按顺序执行并读回：
 
-1. 提交并推送公开源码；
-2. 等待 GitHub Actions 校验成功；
-3. 为单个 Skill 生成版本化 Release；
-4. 上传 ZIP 和 SHA256；
-5. 用公网地址实际下载；
-6. 再次解压并检查 `SKILL.md`；
+1. 确认当前目录和 remote 都属于公开分享库；
+2. 提交并推送公开源码；
+3. 等待 GitHub Actions 校验成功；
+4. 为单个 Skill 生成版本化 Release；
+5. 上传 ZIP 和 SHA256；
+6. 用公网地址实际下载并复验；
 7. 记录源码、Release 和下载地址。
 
 幂等规则：
@@ -228,14 +262,14 @@ Star、Watch 和 Download 分开说明：
 
 按来源分类：
 
-- 母库已有的运行副本
+- 当前选定仓库已有的运行副本
 - 社区或市场安装项
 - 本地实验项
 - 来源未知项
 
 只在运行副本包含母库没有的新修改时进入恢复流程：
 
-1. 以“上次正式 Release”为基准，对母库、当前 Release、WorkBuddy 做三方比较；
+1. 以所属仓库的“上次正式版本”为基准，对真源、正式版本、WorkBuddy 做三方比较；
 2. 复制 WorkBuddy 当前副本到带时间和版本的隔离恢复区；
 3. 比较文件、版本和哈希；
 4. 判断新旧方向；
@@ -252,7 +286,7 @@ Star、Watch 和 Download 分开说明：
 6. 执行最小触发测试；
 7. 失败时恢复旧副本。
 
-不要批量把平台安装目录倒回母库。
+不要把平台安装目录批量倒回任何真源仓库，更不要跨库回收。
 
 SkillHub 的最终提交、删除旧附件和批量迁移保留用户确认。
 
@@ -295,8 +329,8 @@ SkillHub 的最终提交、删除旧附件和批量迁移保留用户确认。
 真实任务
 → 记录证据
 → 找到最小改动
-→ 更新母版和版本
-→ 重跑发布闭环
+→ 更新所属真源和版本
+→ 重跑该仓库自己的交付闭环
 → 读回验证
 ```
 
@@ -304,10 +338,13 @@ SkillHub 的最终提交、删除旧附件和批量迁移保留用户确认。
 
 ## 最终质量门禁
 
-- 生产母库是否仍是唯一真源？
+- 本轮是否只写入一个已明确选择的真源仓库？
+- 两库之间是否仍然没有复制、镜像、同步或一键公开链路？
 - 本轮是否更新了原有 Skill，而不是制造重复 Skill？
 - 版本号和变更范围是否匹配？
 - 来源、作者和许可证是否清楚？
+- 是否区分了限制商用与 ShareAlike/Copyleft？
+- Skill 内容、实质代码和第三方材料是否分别标明许可？
 - ZIP 是否实际解压测试？
 - GitHub Actions、Release 和下载是否读回？
 - 飞书页面是否写后读回？

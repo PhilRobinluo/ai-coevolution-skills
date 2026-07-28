@@ -8,7 +8,7 @@
 [中文](#中文) · [English](#english)
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
-![License](https://img.shields.io/github/license/PhilRobinluo/ai-coevolution-skills)
+[![License](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0_%2B_PolyForm_NC-blue)](LICENSE)
 ![Skills](https://img.shields.io/badge/skills-31-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
@@ -66,7 +66,7 @@
 | [`lls-workbuddy-guide`](skills/lls-workbuddy-guide/) | 🔵 LLS Original | 带新手从真实任务开始，跑通 WorkBuddy 的执行、验收与复用。 | Stable |
 | [`lls-ppt-briefing-coach`](skills/lls-ppt-briefing-coach/) | 🔵 LLS Original | 用七阶段访谈澄清 PPT 需求，生成可执行的制作指令。 | Stable |
 | [`lls-learning-guide`](skills/lls-learning-guide/) | 🔵 LLS Original | 陪孩子逐步答题、费曼复述并沉淀学习档案。 | Stable |
-| [`lls-skill-lifecycle-manager`](skills/lls-skill-lifecycle-manager/) | 🔵 LLS Original | 管理 Skill 从母库、版本、发布到飞书和运行副本的完整生态。 | Stable |
+| [`lls-skill-lifecycle-manager`](skills/lls-skill-lifecycle-manager/) | 🔵 LLS Original | 隔离管理私有母库与公开分享库的版本、发布和运行副本。 | Stable |
 | [`lls-dialogue-subtext-reader`](skills/lls-dialogue-subtext-reader/) | 🔵 LLS Original | 分开原话事实与推测，生成可验证、低冲突的沟通回应。 | Stable |
 | [`lls-local-excel-vba-data-processor`](skills/lls-local-excel-vba-data-processor/) | 🔵 LLS Original | 用本地 Excel VBA 处理敏感数据，附测试、日志、回滚和验收。 | Stable |
 | [`lls-ip-positioning-coach`](skills/lls-ip-positioning-coach/) | 🔵 LLS Original | 用七步互动找到真实可信、能持续表达并可小步验证的个人 IP 定位。 | Stable |
@@ -109,47 +109,49 @@
 所以这里的每个 skill，都会尽量被打磨成一个「能力包」：  
 让 AI 不只是聊天，而是稳定地完成一类任务。
 
+### 许可证与商业使用
+
+原创 Skill 的 `SKILL.md`、references、README/docs 和原创素材采用 [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.txt)；`skills/**/scripts/**` 与 `tools/**` 中的实质软件代码采用 [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.txt)。`adapted/`、`community/` 与第三方材料保持各自上游许可证。
+
+企业内部普通办公可按[额外许可](ADDITIONAL-PERMISSIONS.md)免费使用。收费课程、转售、客户交付、SaaS、代运营及其他商业使用须取得[商业授权](COMMERCIAL-LICENSE.md)。[历史 MIT 版本](LICENSE)已经授予的权利继续有效；完整分流说明见 [LICENSE](LICENSE) 和 [第三方通知](THIRD_PARTY_NOTICES.md)。
+
 ### 安装
 
-如果你使用 Codex：
+#### WorkBuddy：先用精确 slug 安装
+
+每个 Skill 页面都写明唯一 slug，并提供两条安装路径。最省事的方式是在 WorkBuddy 对话中粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub CLI。
+搜索目标 Skill 的精确 slug；只有 slug 完全一致时，才安装到 `~/.workbuddy/skills/`。
+安装后读取 `~/.workbuddy/skills/<slug>/SKILL.md`，核对 name 和 version（如有），再新开或重启 WorkBuddy 会话。
+```
+
+也可在左侧 **「技能」** → **「添加技能」或「查找技能」** 中搜索精确 slug 后安装；不同 WorkBuddy 版本的界面名称可能略有变化。若没有精确匹配，请不要安装同名条目，改用该 Skill README 的 GitHub Release 或手动复制目录。
+
+- [查看全部 WorkBuddy 安装步骤与当前发布状态](docs/how-to-install.md)
+- [浏览 6 个 Skill，并复制各自的 slug](skills/)
+
+#### Codex / Claude Code 手动安装
 
 ```bash
+# Codex
 mkdir -p ~/.codex/skills
 cp -R skills/bilingual-reader-maker ~/.codex/skills/
-cp -R skills/concept-explainer ~/.codex/skills/
-```
 
-如果你使用 Claude Code：
-
-```bash
+# Claude Code
 mkdir -p ~/.claude/skills
 cp -R skills/bilingual-reader-maker ~/.claude/skills/
-cp -R skills/concept-explainer ~/.claude/skills/
 ```
 
-如果你使用 OpenClaw / SkillHub 这类兼容 `SKILL.md` 的 Agent Skills 生态，可以把对应 skill 文件夹复制到你的 skills 目录，或在平台支持 GitHub 导入时填写本仓库地址：
-
-```text
-https://github.com/PhilRobinluo/ai-coevolution-skills
-```
-
-然后开启新的会话，说：
-
-```text
-请用 bilingual-reader-maker，把这份英文 PDF 做成中英双语移动阅读版。
-```
-
-或者：
-
-```text
-请用 concept-explainer，一边帮我跑这个 CLI，一边把我不懂的 npm、package.json、环境变量讲成知识卡片。
-```
+安装后开启新的会话，让客户端刷新 Skill 列表。
 
 ### 仓库原则
 
 ```text
-私有生产母库是真源
-GitHub 是经过校验的公开镜像与下载入口
+私有母库与公开分享库各自是真源
+两库之间没有复制、镜像、同步或一键公开
+GitHub 只承载公开分享库的源码与下载
 手机/H5 是普通人的入口
 Skill/CLI 是进阶用户的工具层
 ```
@@ -252,45 +254,32 @@ a reusable unit of work that makes AI more dependable.
 
 ### Install
 
-For Codex:
+#### WorkBuddy
+
+Each skill README contains its exact slug and two WorkBuddy installation paths. In a WorkBuddy chat, ask it to follow `https://skillhub.cn/install/skillhub.md`, search the exact slug, install only an exact match to `~/.workbuddy/skills/`, then read back `~/.workbuddy/skills/<slug>/SKILL.md` and start a new session. The left **Skills** → **Add/Find Skill** flow is the equivalent UI path; labels may vary by version.
+
+If no exact slug is found, do not install a similarly named skill. Use the release or manual-copy fallback documented for that skill instead. See the [full WorkBuddy install guide](docs/how-to-install.md).
+
+#### Codex / Claude Code
 
 ```bash
+# Codex
 mkdir -p ~/.codex/skills
 cp -R skills/bilingual-reader-maker ~/.codex/skills/
-cp -R skills/concept-explainer ~/.codex/skills/
-```
 
-For Claude Code:
-
-```bash
+# Claude Code
 mkdir -p ~/.claude/skills
 cp -R skills/bilingual-reader-maker ~/.claude/skills/
-cp -R skills/concept-explainer ~/.claude/skills/
 ```
 
-For OpenClaw, SkillHub, or other `SKILL.md` compatible agent-skill platforms, copy the skill folder into your skills directory, or import this repository when GitHub import is supported:
-
-```text
-https://github.com/PhilRobinluo/ai-coevolution-skills
-```
-
-Then start a new session and ask:
-
-```text
-Use bilingual-reader-maker to turn this English PDF into a Chinese-English mobile reader.
-```
-
-Or:
-
-```text
-Use concept-explainer while helping me run this CLI. Explain npm, package.json, and environment variables as short knowledge cards.
-```
+Start a new session after installation.
 
 ### Direction
 
 ```text
-The private production repository is the source of truth.
-GitHub is the validated public mirror and download layer.
+The private factory and public sharing repository are separate sources of truth.
+There is no copy, mirror, sync, or one-click-public path between them.
+GitHub serves only the public sharing repository.
 Mobile/H5 is the beginner-friendly front door.
 Skills and CLIs are the advanced working layer.
 ```
@@ -305,4 +294,6 @@ This repository will grow slowly, with a bias toward useful, understandable, and
 
 ### License
 
-MIT. See [LICENSE](LICENSE).
+Original Skill content (`SKILL.md`, references, README/docs, and original assets) is licensed under [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.txt). Material software code in `skills/**/scripts/**` and `tools/**` is licensed under [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.txt). Adapted, community, and third-party material remains under its upstream license.
+
+Free additional permission is available for ordinary internal office use; see [ADDITIONAL-PERMISSIONS.md](ADDITIONAL-PERMISSIONS.md). Paid courses, resale, client delivery, SaaS, managed operations, and other commercial uses require a [commercial license](COMMERCIAL-LICENSE.md). Rights granted for historical MIT releases continue; see [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

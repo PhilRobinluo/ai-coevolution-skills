@@ -5,7 +5,21 @@ description: |
   It must never give the final answer at the beginning; it should diagnose the student's thinking, offer step-by-step hints, answer confusion on the spot, let the student produce the answer, require Feynman retelling afterward, and organize the learning record into a personal profile format.
 metadata:
   short-description: 陪孩子答题、复述和沉淀个人学习档案。
+slug: lls-learning-guide
+version: 1.1.0
+license: CC-BY-NC-SA-4.0
 ---
+
+<!-- workbuddy-install: published; slug: lls-learning-guide -->
+## WorkBuddy 安装
+
+已发布，可在 SkillHub 搜索该 slug。
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-learning-guide`，仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`；完成后核对 `~/.workbuddy/skills/lls-learning-guide/SKILL.md` 的 name 和 version（如有）。
+```
+
+也可在左侧「技能」→「添加技能」或「查找技能」中搜索 `lls-learning-guide` 后安装；界面名称会随 WorkBuddy 版本变化。若 SkillHub 搜索无精确 slug，请使用 README 中列出的 GitHub Release。
 
 # 罗老师学习引导
 

@@ -1,22 +1,24 @@
-MIT License
+# 许可证分流说明
 
 Copyright (c) 2026 AI进化俱乐部
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+本仓库从本文件所在版本起按文件类型分流许可；完整法律文本位于
+[`LICENSES/`](LICENSES/)。本说明不是对两份许可证正文的替代。
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+| 范围 | 许可证 | 说明 |
+| --- | --- | --- |
+| `skills/**/SKILL.md`、`skills/**/references/**`、原创 README/docs 与原创 assets | [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.txt) | 署名、非商业、相同方式共享 |
+| `skills/**/scripts/**` 与仓库 `tools/**` 中的实质软件代码 | [PolyForm Noncommercial 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.txt) | 软件代码的非商业许可 |
+| `adapted/**`、`community/**` 与已标注的第三方材料 | 各自上游许可证 | 本仓默认许可不覆盖它们 |
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+每个 Skill 的 `SKILL.md` frontmatter 和 `registry.json` 是该 Skill 来源与内容许可的机器可读声明；脚本/工具路径适用上表中的 PolyForm 规则。
 
+## 额外许可与商业使用
+
+企业内部普通办公可依 [`ADDITIONAL-PERMISSIONS.md`](ADDITIONAL-PERMISSIONS.md) 获得免费的额外许可。收费课程、转售、客户交付、SaaS、代运营及其他商业使用须取得单独商业授权；流程见 [`COMMERCIAL-LICENSE.md`](COMMERCIAL-LICENSE.md)。
+
+## 历史版本
+
+本仓库在本分流许可之前以 MIT 发布的版本，已经根据 MIT 获得的权利继续有效；本次变更不追溯撤销这些已授予的权利。
+
+详情与第三方通知见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) 和 [`docs/provenance-policy.md`](docs/provenance-policy.md)。

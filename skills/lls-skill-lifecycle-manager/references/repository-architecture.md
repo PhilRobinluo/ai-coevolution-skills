@@ -1,50 +1,44 @@
-# 仓库架构与角色
+# 双库隔离架构
 
-## 目录角色
+## 两套独立真源
 
 ```text
-private-factory/
-├── skills/               # 唯一生产母版
-├── packages/             # 本地安装包产物
-├── registry/             # 版本、状态、队列和证据
-├── scripts/              # 校验、打包、公开同步
-├── inbox/                # 待整理或恢复的候选
-└── docs/                 # 决策、标准和产品台账
-
-public-repository/
-├── skills/               # LLS Original 公开镜像
-├── adapted/              # 透明改编
-├── community/            # 链接型社区精选
-├── registry.json         # 机器可读目录
-├── tools/                # 公开校验
-└── .github/workflows/    # 校验和单 Skill Release
+private-factory/                 public-repository/
+├── skills/                      ├── skills/
+├── packages/                    ├── adapted/
+├── registry/                    ├── community/
+├── scripts/                     ├── registry.json
+└── docs/                        ├── tools/
+                                 └── .github/workflows/
 ```
 
-## 平台职责
-
-| 平台 | 职责 | 不承担 |
+| 对象 | 真源 | 下游渠道 |
 |---|---|---|
-| 私有生产母库 | 编辑、版本、台账、隐私材料、打包 | 公开展示 |
-| GitHub | 公开源码、历史、Actions、Release、Star | 私有生产状态 |
-| 飞书 | 中文解释、课程入口、分类和下载导航 | 源码真源、长期保存重复 ZIP |
-| WorkBuddy / Codex | 安装和运行 | 编辑母版 |
-| SkillHub | 分发和审核 | 保存唯一源码 |
+| 私有 Skill | 私有母库 | 私有安装包、私有运行副本 |
+| 公开 Skill | 公开分享库 | GitHub Release、飞书、SkillHub、WorkBuddy |
 
-## 稳定标识
+## 允许与禁止
 
-- Skill slug：长期稳定，如 `lls-skill-lifecycle-manager`
-- 显示名称：可以迭代
-- Release tag：`<slug>-v<semver>`
-- 安装包：`<slug>-<semver>.zip`
-- 来源类型：`lls-original`、`lls-adapted`、`community-pick`
+允许：
+
+- 有权限的人或 AI 只读理解私有 Skill 的功能目标；
+- 退出私有库后，在公开分享库重新创作公开版；
+- 两库存在同名但版本、内容和历史不同的 Skill。
+
+禁止：
+
+- `cp`、`rsync`、镜像或自动导出；
+- Git 子模块、共享 worktree、符号链接和跨库相对路径；
+- 公开仓 CI、脚本、Token 或 Deploy Key 读取私有库；
+- 用文件哈希相同证明“公开成功”；
+- 从私有母库一键发布 GitHub、飞书或 SkillHub。
 
 ## 冲突处理
 
 | 冲突 | 处理 |
 |---|---|
-| WorkBuddy 比母库内容不同 | 先隔离和 diff，不覆盖 |
-| GitHub 与母库不同 | 母库重新生成公开镜像 |
-| Release 与源码版本不同 | 停止飞书更新，重新打包发布 |
-| 飞书链接失效 | 先验证 Release，再修入口 |
-| 来源许可不清 | 退回 link-only 社区推荐 |
-
+| WorkBuddy 与所属真源不同 | 先隔离和 diff，再决定恢复方向 |
+| 私有版与公开版不同 | 视为正常；分别按各自需求维护 |
+| 公开 Release 与分享库版本不同 | 停止渠道更新，在分享库修正 |
+| 飞书链接失效 | 先验证公开 Release，再修入口 |
+| 来源许可不清 | 保持 link-only 社区推荐 |

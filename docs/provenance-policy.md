@@ -48,15 +48,28 @@
 > 这个 Skill 由原作者创作，请优先前往原仓库给作者一个 ⭐ Star。  
 > 如果你认可罗老师的筛选、测试和中文说明，也欢迎 ⭐ Star 本导航仓库。
 
-## 许可证说明
+## 许可证与商业使用
 
-- 改编与再分发前必须遵守上游许可证。
-- 原项目版权声明和许可证文件按上游要求保留。
-- GitHub 公开可见不代表自动获得复制、修改和再发布许可。
-- 大幅改编时优先使用 GitHub Fork，让上游关系保持透明。
+本仓库按文件类型分流许可，完整法律文本见根目录 [`LICENSE`](../LICENSE)。
 
-参考：
+| 范围 | 默认规则 | 机器可读位置 |
+|---|---|---|
+| `skills/` 下 `lls-original` 的 `SKILL.md`、references、README/docs、原创 assets | `CC-BY-NC-SA-4.0` | `SKILL.md` frontmatter 与 `registry.json` 的 `license` |
+| `skills/**/scripts/**` 和仓库 `tools/**` 的实质软件代码 | `PolyForm-Noncommercial-1.0.0` | 含 scripts 的 Skill 还须有 `code_license` |
+| `adapted/` | 上游许可证优先 | `ORIGIN.md`、上游许可证、frontmatter 与 registry 必须一致 |
+| `community/` | 上游许可证；默认仅链接 | `community/catalog.json` |
 
-- [GitHub Fork 官方说明](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)
-- [GitHub 许可证官方说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
+原创内容的 CC BY-NC-SA 4.0 要求署名、限制商业使用，并要求公开传播的改编采用相同许可。软件代码不使用 CC 许可证，改用 PolyForm Noncommercial 1.0.0。
+
+企业内部普通办公可依据 [`ADDITIONAL-PERMISSIONS.md`](../ADDITIONAL-PERMISSIONS.md) 免费使用。收费课程、转售、客户交付、SaaS、代运营、托管或其他商业使用需要 [`COMMERCIAL-LICENSE.md`](../COMMERCIAL-LICENSE.md) 所述的单独商业授权。
+
+历史 MIT 版本已经授予的权利继续有效。本仓默认许可不覆盖第三方内容；详情见 [`THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md)。
+
+每次新增或更新 Skill 都运行：
+
+```bash
+python3 tools/validate-provenance.py
+```
+
+该校验会阻止缺少 `license` 的 Skill、原创内容误用非 CC BY-NC-SA 许可、含脚本却漏标 PolyForm，以及改编内容与上游许可证不一致的情况。
 
