@@ -196,6 +196,6 @@ metadata:
 - [飞书中文教程](https://m2wlgni9k4.feishu.cn/wiki/NfC5wqStRisWWWkfnyOcgSc2nzd)
 - [SkillHub 安装页](https://skillhub.cn/skills/lls-leader-speechwriter-expert)
 - [GitHub 源码](https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-leader-speechwriter-expert)
-- [GitHub 1.1.0 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-leader-speechwriter-expert-v1.1.0/lls-leader-speechwriter-expert-1.1.0.zip)
+- [GitHub 1.1.0 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-leader-speechwriter-expert-v1.1.1/lls-leader-speechwriter-expert-1.1.1.zip)
 
 如果这套流程让正式讲话更真实、更可执行，欢迎给总仓库点一个 Star；需要新版提醒时，请订阅 GitHub Releases。
