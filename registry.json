@@ -113,7 +113,9 @@
       "path": "skills/lls-article-screenshot",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-article-screenshot-v1.0.0/lls-article-screenshot-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/C9QqwoWa9iz9oNk2fgIcovFRnme"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/C9QqwoWa9iz9oNk2fgIcovFRnme",
+      "skillhub_url": "https://skillhub.cn/skills/lls-article-screenshot",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-best-minds-consultation",
@@ -132,7 +134,9 @@
         "changes": "独立重写中文教学流程，加入问题重构、会诊共识、行动处方与验证指标。",
         "adapted_version": "1.0.0"
       },
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/YnPbwZm7KimkTkkW71YcjsBPnqh"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/YnPbwZm7KimkTkkW71YcjsBPnqh",
+      "skillhub_url": "https://skillhub.cn/skills/lls-best-minds-consultation",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-best-practices-researcher",
@@ -144,7 +148,9 @@
       "path": "skills/lls-best-practices-researcher",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-best-practices-researcher-v1.0.0/lls-best-practices-researcher-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/NdYhwEXjhiFXN9kDA0acyjr8n8c"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/NdYhwEXjhiFXN9kDA0acyjr8n8c",
+      "skillhub_url": "https://skillhub.cn/skills/lls-best-practices-researcher",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-chinese-humor",
@@ -156,7 +162,9 @@
       "path": "skills/lls-chinese-humor",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-chinese-humor-v1.0.0/lls-chinese-humor-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/LTLCwGw6TiCO2CkXUaacP31xnfh"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/LTLCwGw6TiCO2CkXUaacP31xnfh",
+      "skillhub_url": "https://skillhub.cn/skills/lls-chinese-humor",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-document-print-restorer",
@@ -168,7 +176,9 @@
       "path": "skills/lls-document-print-restorer",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-document-print-restorer-v1.0.0/lls-document-print-restorer-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/J6KLwLfvAiemc2kXss0cjOVmnnd"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/J6KLwLfvAiemc2kXss0cjOVmnnd",
+      "skillhub_url": "https://skillhub.cn/skills/lls-document-print-restorer",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-github-profile-writer",
@@ -180,7 +190,9 @@
       "path": "skills/lls-github-profile-writer",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-github-profile-writer-v1.0.0/lls-github-profile-writer-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/VGD7woXEKivcbikHFE2cPCZ6nhf"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/VGD7woXEKivcbikHFE2cPCZ6nhf",
+      "skillhub_url": "https://skillhub.cn/skills/lls-github-profile-writer",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-headline-summary-maker",
@@ -192,7 +204,9 @@
       "path": "skills/lls-headline-summary-maker",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-headline-summary-maker-v1.0.0/lls-headline-summary-maker-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/BF5TwVVOMi2UQ8kA7Y8ctW3Jnze"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/BF5TwVVOMi2UQ8kA7Y8ctW3Jnze",
+      "skillhub_url": "https://skillhub.cn/skills/lls-headline-summary-maker",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-human-writing-editor",
@@ -204,7 +218,9 @@
       "path": "skills/lls-human-writing-editor",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-human-writing-editor-v1.0.0/lls-human-writing-editor-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/N75swTqMXilGu5kzM0LcSOYQnbb"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/N75swTqMXilGu5kzM0LcSOYQnbb",
+      "skillhub_url": "https://skillhub.cn/skills/lls-human-writing-editor",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-image-privacy-redactor",
@@ -216,7 +232,9 @@
       "path": "skills/lls-image-privacy-redactor",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-image-privacy-redactor-v1.0.0/lls-image-privacy-redactor-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/NYC6wTWBEi9QjbkIdOmchBx3nZq"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/NYC6wTWBEi9QjbkIdOmchBx3nZq",
+      "skillhub_url": "https://skillhub.cn/skills/lls-image-privacy-redactor",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-image-renamer",
@@ -228,7 +246,9 @@
       "path": "skills/lls-image-renamer",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-image-renamer-v1.0.0/lls-image-renamer-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/CPi8wqiefiPDDrkA0XOcklW8n0b"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/CPi8wqiefiPDDrkA0XOcklW8n0b",
+      "skillhub_url": "https://skillhub.cn/skills/lls-image-renamer",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-international-techdoc-writer",
@@ -240,7 +260,9 @@
       "path": "skills/lls-international-techdoc-writer",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-international-techdoc-writer-v1.0.0/lls-international-techdoc-writer-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/ScG0wCkB1iBb1nkO8MbcnopqnDx"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/ScG0wCkB1iBb1nkO8MbcnopqnDx",
+      "skillhub_url": "https://skillhub.cn/skills/lls-international-techdoc-writer",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-mermaid-validator",
@@ -252,7 +274,9 @@
       "path": "skills/lls-mermaid-validator",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-mermaid-validator-v1.0.0/lls-mermaid-validator-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/FUN1wZmSWigrl3kpEMmcSXkgn2f"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/FUN1wZmSWigrl3kpEMmcSXkgn2f",
+      "skillhub_url": "https://skillhub.cn/skills/lls-mermaid-validator",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-mirror-debate",
@@ -264,7 +288,9 @@
       "path": "skills/lls-mirror-debate",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-mirror-debate-v1.0.0/lls-mirror-debate-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/LloUwQxfbiZ4LlklTcXcFI7wnZd"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/LloUwQxfbiZ4LlklTcXcFI7wnZd",
+      "skillhub_url": "https://skillhub.cn/skills/lls-mirror-debate",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-naming-coach",
@@ -276,7 +302,9 @@
       "path": "skills/lls-naming-coach",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-naming-coach-v1.0.0/lls-naming-coach-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/BiZdwoBqCiDKyXkm14eci1HenOf"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/BiZdwoBqCiDKyXkm14eci1HenOf",
+      "skillhub_url": "https://skillhub.cn/skills/lls-naming-coach",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-short-video-breakdown",
@@ -288,7 +316,9 @@
       "path": "skills/lls-short-video-breakdown",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-short-video-breakdown-v1.0.0/lls-short-video-breakdown-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/LyJ8wdz53iFHfkkw7KYc7plMnGh"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/LyJ8wdz53iFHfkkw7KYc7plMnGh",
+      "skillhub_url": "https://skillhub.cn/skills/lls-short-video-breakdown",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-skill-builder",
@@ -300,7 +330,9 @@
       "path": "skills/lls-skill-builder",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-builder-v1.0.0/lls-skill-builder-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/QtrVwWBpZilxCHkbFECcvQT0ngP"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/QtrVwWBpZilxCHkbFECcvQT0ngP",
+      "skillhub_url": "https://skillhub.cn/skills/lls-skill-builder",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-skill-security-auditor",
@@ -312,7 +344,9 @@
       "path": "skills/lls-skill-security-auditor",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-skill-security-auditor-v1.0.0/lls-skill-security-auditor-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/H2Dhw1uuliyAqck3CDxcCMYcnnh"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/H2Dhw1uuliyAqck3CDxcCMYcnnh",
+      "skillhub_url": "https://skillhub.cn/skills/lls-skill-security-auditor",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-video-digester",
@@ -324,7 +358,9 @@
       "path": "skills/lls-video-digester",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-video-digester-v1.0.0/lls-video-digester-1.0.0.zip",
       "provenance": "lls-original",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Kd5WwxI7dikwGFkHxEJcWBC6nus"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Kd5WwxI7dikwGFkHxEJcWBC6nus",
+      "skillhub_url": "https://skillhub.cn/skills/lls-video-digester",
+      "skillhub_status": "published"
     },
     {
       "name": "lls-ip-positioning-coach",
