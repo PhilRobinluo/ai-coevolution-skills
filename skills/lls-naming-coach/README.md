@@ -1,12 +1,20 @@
 # 罗老师全能命名教练
 
-为项目、产品、课程、文件和 Skill 生成清楚、可搜索、能长期使用的名字。
-
-- 来源：LLS Original
-- **当前源码版本：`1.1.0`**（最近 Release：`1.0.0`）
-- 完整用法：见 [SKILL.md](SKILL.md)
+- 类型：🔵 `LLS Original`
+- **当前源码版本：`1.1.0`**（最近 Release：`1.1.0`）
 - 飞书教程：https://m2wlgni9k4.feishu.cn/wiki/BiZdwoBqCiDKyXkm14eci1HenOf
-- SkillHub slug：`lls-naming-coach`
+- SkillHub：https://skillhub.cn/skills/lls-naming-coach
+- Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-naming-coach-v1.1.0
+
+从命名任务书和约束出发，生成多策略候选，检查读音、slug、搜索、扩展、跨语言与权利风险，并通过真实句子和用户盲测收敛。
+
+## 在 WorkBuddy 安装
+
+搜索唯一 slug `lls-naming-coach`，安装到 `~/.workbuddy/skills/`；安装后读回 `SKILL.md` 的 `name` 和实际路径，再新开会话使用。
+
+## 许可证与商业使用
+
+本 Skill 的原创内容采用 [CC BY-NC-SA 4.0](../../LICENSES/CC-BY-NC-SA-4.0.txt)。企业内部普通办公可按[额外许可](../../ADDITIONAL-PERMISSIONS.md)免费使用；收费课程、转售、客户交付、SaaS、代运营等须取得[商业授权](../../COMMERCIAL-LICENSE.md)。
 
 ## 在 WorkBuddy 安装
 
@@ -20,7 +28,3 @@
 ```
 
 也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-naming-coach` 后安装；界面文字可能随 WorkBuddy 版本变化。
-
-## 许可证与商业使用
-
-本 Skill 的原创内容采用 [CC BY-NC-SA 4.0](../../LICENSES/CC-BY-NC-SA-4.0.txt)。企业内部普通办公可按[额外许可](../../ADDITIONAL-PERMISSIONS.md)免费使用；收费课程、转售、客户交付、SaaS、代运营等须取得[商业授权](../../COMMERCIAL-LICENSE.md)。

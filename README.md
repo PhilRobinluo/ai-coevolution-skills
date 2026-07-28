@@ -108,6 +108,9 @@
 | [`lls-github-profile-writer`](skills/lls-github-profile-writer/) | 🔵 LLS Original | 从访客任务和真实资产设计 GitHub 首屏、代表作和快速开始。 | Stable |
 | [`lls-headline-summary-maker`](skills/lls-headline-summary-maker/) | 🔵 LLS Original | 从正文主张生成多机制标题、摘要并检查兑现度。 | Stable |
 | [`lls-human-writing-editor`](skills/lls-human-writing-editor/) | 🔵 LLS Original | 锁定事实和作者声音，分层去除模板腔。 | Stable |
+| [`lls-chinese-humor`](skills/lls-chinese-humor/) | 🔵 LLS Original | 按受众、场合和边界设计可朗读的中文幽默。 | Stable |
+| [`lls-mirror-debate`](skills/lls-mirror-debate/) | 🔵 LLS Original | 用钢人化论证、证据质询和可逆试验压力测试决策。 | Stable |
+| [`lls-naming-coach`](skills/lls-naming-coach/) | 🔵 LLS Original | 从命名约束到候选策略、场景测试和正式核验清单。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。
