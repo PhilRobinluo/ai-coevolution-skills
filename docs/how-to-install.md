@@ -52,7 +52,7 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 | [`lls-mermaid-validator`](../skills/lls-mermaid-validator/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
 | [`lls-mirror-debate`](../skills/lls-mirror-debate/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
 | [`lls-naming-coach`](../skills/lls-naming-coach/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
-| [`lls-short-video-breakdown`](../skills/lls-short-video-breakdown/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
+| [`lls-short-video-breakdown`](../skills/lls-short-video-breakdown/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-skill-builder`](../skills/lls-skill-builder/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
 | [`lls-skill-security-auditor`](../skills/lls-skill-security-auditor/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
 | [`lls-video-digester`](../skills/lls-video-digester/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
@@ -60,6 +60,11 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 | [`lls-mermaid-diagram`](../skills/lls-mermaid-diagram/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
 | [`lls-ppt-workflow-builder`](../skills/lls-ppt-workflow-builder/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
 | [`lls-prompt-basics-coach`](../skills/lls-prompt-basics-coach/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
+| [`lls-douyin-oral-script-writer`](../skills/lls-douyin-oral-script-writer/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-ai-video-script-planner`](../skills/lls-ai-video-script-planner/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-nuwa-cognitive-distiller`](../adapted/lls-nuwa-cognitive-distiller/README.md) | `1.0.0` / `1.0.0` | 本仓版本未确认已上架 |
+| [`lls-darwin-skill-optimizer`](../adapted/lls-darwin-skill-optimizer/README.md) | `1.0.0` / `1.0.0` | 本仓版本未确认已上架 |
+| [`lls-colleague-skill-distiller`](../adapted/lls-colleague-skill-distiller/README.md) | `1.0.0` / `1.0.0` | 本仓版本未确认已上架 |
 
 “已检索到”只表示 SkillHub 有精确 slug；安装后仍要读回 `SKILL.md` 的 name、version 和路径。
 

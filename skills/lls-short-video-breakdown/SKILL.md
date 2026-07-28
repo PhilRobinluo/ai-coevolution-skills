@@ -1,5 +1,6 @@
 ---
 name: lls-short-video-breakdown
+version: 1.1.0
 description: "对用户提供的公开视频、字幕或口播稿做证据驱动的短视频拆解。用于分析开头为什么留人、信息如何推进、情绪和镜头怎样配合、哪些结构可以迁移时；必须保留时间点和原文依据，区分观察、推断与建议，只引用完成分析所需的短片段，不把逐字稿改写成换皮作品。"
 license: CC-BY-NC-SA-4.0
 metadata:
@@ -14,7 +15,7 @@ metadata:
 在 WorkBuddy 新会话粘贴：
 
 ```text
-请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-short-video-breakdown`；仅在 slug 完全一致时安装。安装后读取对应 SKILL.md，核对 name 与实际目录，然后新开会话触发该 Skill。
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-short-video-breakdown`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-short-video-breakdown/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
 ```
 
 
