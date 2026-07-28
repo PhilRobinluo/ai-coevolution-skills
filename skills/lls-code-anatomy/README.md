@@ -1,12 +1,12 @@
 # 罗老师代码解剖学习法
 
 - 类型：🔵 `LLS Original`
-- 版本：`1.0.0`
+- 版本：`1.0.1`
 - 唯一 slug：`lls-code-anatomy`
 - 用途：把一小段代码拆成看得懂、跑得通、能复习的中文学习卡片。
 - 飞书教程：https://m2wlgni9k4.feishu.cn/wiki/ToAuwccD2iVp6WkrXPSc0Zuen1c
 - SkillHub：https://skillhub.cn/skills/lls-code-anatomy
-- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-code-anatomy-v1.0.0
+- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-code-anatomy-v1.0.1
 
 ## 它不是普通的“逐行翻译”
 
@@ -42,4 +42,3 @@
 ## 许可
 
 Skill 教学内容采用 `CC-BY-NC-SA-4.0`。类型为罗老师原创；不复制私人母库文件，公开版在分享库独立维护。
-
