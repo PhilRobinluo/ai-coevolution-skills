@@ -1,12 +1,14 @@
 # 罗老师最强大脑会诊
 
-把复杂问题交给最懂它的公开专家视角会诊，再形成统一行动建议。
+- **当前源码版本：`1.1.0`**（最近 Release：`1.1.0`）
 
-- 来源：LLS Adapted
-- **当前源码版本：`1.1.0`**（最近 Release：`1.0.0`）
-- 完整用法：见 [SKILL.md](SKILL.md)
-- 飞书教程：https://m2wlgni9k4.feishu.cn/wiki/YnPbwZm7KimkTkkW71YcjsBPnqh
-- SkillHub slug：`lls-best-minds-consultation`
+为高不确定决策选择少量相关专家视角，分别论证后汇总共识、冲突、行动和反证条件。
+
+- 当前版本：1.1.0
+- [完整用法](SKILL.md)
+- [飞书教程](https://m2wlgni9k4.feishu.cn/wiki/YnPbwZm7KimkTkkW71YcjsBPnqh)
+- SkillHub：`lls-best-minds-consultation`
+- [Release](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-best-minds-consultation-v1.1.0)
 
 ## 在 WorkBuddy 安装
 

@@ -1,7 +1,7 @@
 ---
 name: lls-international-techdoc-writer
 license: CC-BY-NC-SA-4.0
-description: 把Markdown内容整理成结构清楚、警示明确、适合对外交付的技术文档。 当用户需要“制作操作手册、技术规格书、培训方案和交付说明。”时使用。
+description: 把原始材料重构为面向任务、警示可执行、术语一致并适合翻译与交付的技术文档。 当用户面对相应复杂任务并需要可验证结果时使用。
 ---
 
 <!-- workbuddy-install: published; slug: lls-international-techdoc-writer -->
@@ -21,88 +21,46 @@ description: 把Markdown内容整理成结构清楚、警示明确、适合对�
 
 > 类型：LLS Original  
 > 当前版本：1.1.0
-## 一句话用途
+## 文档不是排版美化
 
-把Markdown内容整理成结构清楚、警示明确、适合对外交付的技术文档。
+先保证读者能在正确条件下安全完成任务，再处理字体和版式。适用于操作手册、安装指南、维护说明、培训教材和技术交付；品牌复刻与未经核准的工程参数不进入成品。
 
-## 什么时候使用
+## 信息架构
 
-制作操作手册、技术规格书、培训方案和交付说明。
+1. **文档控制页**：编号、版本、状态、所有者、适用产品/版本、发布日期。
+2. **读者与前置条件**：角色、所需知识、工具、权限、环境。
+3. **任务型章节**：一个章节完成一个目标；标题用动作词。
+4. **步骤**：一个编号只包含一个主要动作；先条件、再动作、再可观察结果。
+5. **风险信息**：危险源、后果、避免方法三者齐全；警示必须放在危险动作之前。
+6. **故障排查**：症状 → 可能原因 → 检查 → 处理 → 升级条件。
+7. **参考信息**：参数、术语、兼容矩阵与变更记录独立维护。
 
-## 哪些情况换别的方法
+## 国际化写作规则
 
-直接复刻特定品牌的受保护版式或未经授权的客户文件。
+短句、主动语态、一个术语只表达一个概念；按钮和字段名与界面一致；避免双关、文化梗、含糊代词和只有本地读者懂的缩写；数字带单位，日期使用无歧义格式；不要把文字嵌在图片里。
 
-## 3 分钟上手
+## 标准流程
 
-复制下面这句话给 AI：
+盘点事实与缺口 → 建内容模型 → 写最危险/高频任务 → 技术审核 → 编辑审核 → 用户试走 → 链接/目录/打印检查 → 批准发布。未知参数保留 `TBD` 并指定责任人，禁止由写作者猜值。
+
+使用 [references/techdoc-review.md](references/techdoc-review.md) 完成评审。
+
+## 验收
+
+随机选择一个新读者，按文档完成关键任务；每一步均有可观察结果；警示位置正确；术语与界面一致；所有 `TBD` 已关闭或明确阻止发布；目录、交叉链接、代码块、分页和打印正常。
+
+## 推荐启动语
 
 ```text
-请用 lls-international-techdoc-writer，把这份Markdown整理成专业操作手册。
+请用 lls-international-techdoc-writer 把材料整理成【文档类型】。读者是【】、适用版本是【】。先列事实缺口和内容模型，再写任务步骤、警示、故障排查及用户试走验收。
 ```
 
-## 标准工作流程
+## 版本与三端入口
 
-1. **明确读者、任务、版本和文档编号**
-2. **按概述、准备、步骤、警示、故障排查组织内容**
-3. **统一标题、字体、表格、页眉页脚和警示层级**
-4. **导出后检查目录、分页、链接和打印效果**
+- 1.1.0：实质重写独有方法、边界与验收。
+- GitHub：https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-international-techdoc-writer
+- Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-international-techdoc-writer-v1.1.0
+- 飞书：https://m2wlgni9k4.feishu.cn/wiki/ScG0wCkB1iBb1nkO8MbcnopqnDx
+- SkillHub：搜索 `lls-international-techdoc-writer`
 
-## 完整案例
-
-输入：设备安装步骤和三条风险提醒。
-
-输出：文档大纲、格式规范、警示块和交付检查表。
-
-## 输出标准
-
-最终结果至少包含：
-
-- 用户真正要完成的任务；
-- 可执行步骤，而不是只有观点；
-- 关键事实、假设和未知项；
-- 完成前的检查清单；
-- 下一步最小动作。
-
-## 隐私、依赖与权限
-
-客户名称、Logo和内部参数必须由用户确认后进入最终文档。
-
-默认只读取用户明确提供的材料。涉及账号登录、文件写入、网络请求或外部发布时，先说明实际动作与影响范围。
-
-## 质量检查
-
-交付前逐项检查：
-
-1. 是否回答了用户的真实任务；
-2. 是否把事实、推断和建议分开；
-3. 是否给出至少一个可复制的下一步；
-4. 是否移除了本机路径、账号、密钥和客户资料；
-5. 是否说明依赖、权限和失败处理。
-
-## 常见问题
-
-### 结果太泛怎么办？
-
-补充目标用户、真实输入、期望输出和一个失败例子，再运行一次。
-
-### 可以直接公开结果吗？
-
-先检查来源、个人信息、客户内容、截图和下载链接，再决定发布范围。
-
-## 版本与更新记录
-
-- 1.0.0：首次公开教学版。
-
-## 三端入口
-
-- GitHub 源码：https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-international-techdoc-writer
-- GitHub Release：https://github.com/PhilRobinluo/ai-coevolution-skills/releases/tag/lls-international-techdoc-writer-v1.0.0
-- 飞书中文教程：https://m2wlgni9k4.feishu.cn/wiki/ScG0wCkB1iBb1nkO8MbcnopqnDx
-- SkillHub：搜索唯一 slug `lls-international-techdoc-writer`
-
-## 支持项目
-
-如果这个 Skill 帮你节省了时间，欢迎给总仓库点一个 Star，并使用 Watch Releases 接收新版通知：
-
-https://github.com/PhilRobinluo/ai-coevolution-skills
+有帮助欢迎 Star；需要更新通知请 Watch Releases：https://github.com/PhilRobinluo/ai-coevolution-skills
