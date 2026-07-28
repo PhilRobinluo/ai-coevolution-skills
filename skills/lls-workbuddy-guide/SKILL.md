@@ -6,6 +6,12 @@ description: |
   不调用 = 容易把 WorkBuddy 讲成普通聊天工具，遗漏“选场景、装能力、喂资料、执行、验收、沉淀复用”的关键路径。
 metadata:
   short-description: WorkBuddy 实操陪跑教练
+slug: lls-workbuddy-guide
+displayName: 罗老师教你 WorkBuddy
+version: 1.1.1
+summary: 带新手从真实任务开始，把 WorkBuddy 用成可交付、可验收、可复用的 AI 工作台。
+license: CC-BY-SA-4.0
+homepage: https://m2wlgni9k4.feishu.cn/wiki/SEcIwM5kginZInkBpspcuOgonPe
 ---
 
 # 罗老师教你 WorkBuddy
@@ -380,3 +386,12 @@ AI 中间怎么推进：
 ## 隐私提醒
 
 不得要求用户提供或上传不必要的账号、密码、访问凭证、浏览器登录信息、密钥、个人证件号码、银行卡信息、客户私密资料、内部配置文件。涉及登录、付款、发布、删除、发消息、提交表单等高风险动作时，必须让用户自己确认后再继续。
+
+## 罗老师中文使用说明与更新入口
+
+- 📘 [飞书完整教程、案例和推荐启动语](https://m2wlgni9k4.feishu.cn/wiki/SEcIwM5kginZInkBpspcuOgonPe)
+- 🧩 [在 SkillHub 查看和安装](https://skillhub.cn/skills/lls-workbuddy-guide)
+- 💻 [查看 GitHub 公开源码](https://github.com/PhilRobinluo/ai-coevolution-skills/tree/main/skills/lls-workbuddy-guide)
+- 📦 [下载 1.1.1 安装包](https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-workbuddy-guide-v1.1.1/lls-workbuddy-guide-1.1.1.zip)
+
+三个入口各有分工：SkillHub 负责发现和安装，飞书负责中文教学，GitHub 负责源码、版本和安装包。⭐ Star 用于收藏与支持；🔔 Watch Releases 用于接收版本通知。
