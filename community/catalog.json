@@ -34,6 +34,39 @@
       "verified_at": "2026-07-28",
       "recommendation": "把Git提交整理成用户看得懂的更新日志；当前先做来源导航。",
       "distribution": "link-only"
+    },
+    {
+      "name": "nuwa-skill",
+      "category": "skill-generation",
+      "author": "Huashu（花叔）",
+      "source_url": "https://github.com/alchaincyf/nuwa-skill",
+      "license": "MIT",
+      "verified_version": "27642f5",
+      "verified_at": "2026-07-28",
+      "recommendation": "从公开资料中提取人物的心智模型、决策启发式、表达结构与诚实边界；适合制作人物或主题认知 Skill。",
+      "distribution": "link-only"
+    },
+    {
+      "name": "darwin-skill",
+      "category": "skill-optimization",
+      "author": "alchaincyf（花叔）",
+      "source_url": "https://github.com/alchaincyf/darwin-skill",
+      "license": "MIT",
+      "verified_version": "2fbaf41",
+      "verified_at": "2026-07-28",
+      "recommendation": "用基线、测试题、单变量实验与保留或回退机制持续优化已有 Skill。",
+      "distribution": "link-only"
+    },
+    {
+      "name": "dot-skill",
+      "category": "knowledge-distillation",
+      "author": "titanwings",
+      "source_url": "https://github.com/titanwings/colleague-skill/tree/dot-skill",
+      "license": "MIT",
+      "verified_version": "47039d0",
+      "verified_at": "2026-07-28",
+      "recommendation": "把同事、导师、亲密关系或公众人物的资料蒸馏成角色与能力 Skill；同事路线尤其要重视资料授权和隐私隔离。",
+      "distribution": "link-only"
     }
   ]
 }

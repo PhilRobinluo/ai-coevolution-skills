@@ -525,66 +525,6 @@
       "license": "CC-BY-NC-SA-4.0"
     },
     {
-      "name": "lls-nuwa-cognitive-distiller",
-      "title": "罗老师女娲认知蒸馏器",
-      "description": "从公开资料中提取人物或主题的心智模型、判断规则、表达特点与诚实边界。",
-      "category": "knowledge",
-      "status": "stable",
-      "version": "1.0.0",
-      "release_version": "1.0.0",
-      "path": "adapted/lls-nuwa-cognitive-distiller",
-      "skillhub_status": "pending",
-      "provenance": "lls-adapted",
-      "license": "MIT",
-      "origin": {
-        "author": "Huashu（花叔）",
-        "source_url": "https://github.com/alchaincyf/nuwa-skill",
-        "license": "MIT",
-        "changes": "独立重写中文认知蒸馏流程，强化证据分层、三组验证、发布隔离与诚实边界。",
-        "adapted_version": "1.0.0"
-      }
-    },
-    {
-      "name": "lls-darwin-skill-optimizer",
-      "title": "罗老师达尔文 Skill 进化器",
-      "description": "用基线、单变量修改、配对测试和保留或回退机制持续提升 Skill。",
-      "category": "development",
-      "status": "stable",
-      "version": "1.0.0",
-      "release_version": "1.0.0",
-      "path": "adapted/lls-darwin-skill-optimizer",
-      "skillhub_status": "pending",
-      "provenance": "lls-adapted",
-      "license": "MIT",
-      "origin": {
-        "author": "alchaincyf（花叔）",
-        "source_url": "https://github.com/alchaincyf/darwin-skill",
-        "license": "MIT",
-        "changes": "独立重写五阶段优化流程，强化只读基线、单变量实验、配对比较与人工检查点。",
-        "adapted_version": "1.0.0"
-      }
-    },
-    {
-      "name": "lls-colleague-skill-distiller",
-      "title": "罗老师同事经验蒸馏器",
-      "description": "把同事、导师或岗位的工作流程、判断标准和交付习惯整理成可复用 Skill。",
-      "category": "knowledge",
-      "status": "stable",
-      "version": "1.0.0",
-      "release_version": "1.0.0",
-      "path": "adapted/lls-colleague-skill-distiller",
-      "skillhub_status": "pending",
-      "provenance": "lls-adapted",
-      "license": "MIT",
-      "origin": {
-        "author": "titanwings",
-        "source_url": "https://github.com/titanwings/colleague-skill/tree/dot-skill",
-        "license": "MIT",
-        "changes": "独立重写岗位经验蒸馏流程，强化资料权利、双库隔离、合成试岗与隐私门禁。",
-        "adapted_version": "1.0.0"
-      }
-    },
-    {
       "name": "lls-ai-drawing-prompt-coach",
       "title": "罗老师 AI 绘画提示词教练",
       "description": "从画面意图、主体、构图和光线推进到可测试、可迭代的文生图提示词。",

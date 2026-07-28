@@ -62,9 +62,9 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 | [`lls-prompt-basics-coach`](../skills/lls-prompt-basics-coach/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
 | [`lls-douyin-oral-script-writer`](../skills/lls-douyin-oral-script-writer/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-ai-video-script-planner`](../skills/lls-ai-video-script-planner/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
-| [`lls-nuwa-cognitive-distiller`](../adapted/lls-nuwa-cognitive-distiller/README.md) | `1.0.0` / `1.0.0` | 本仓版本未确认已上架 |
-| [`lls-darwin-skill-optimizer`](../adapted/lls-darwin-skill-optimizer/README.md) | `1.0.0` / `1.0.0` | 本仓版本未确认已上架 |
-| [`lls-colleague-skill-distiller`](../adapted/lls-colleague-skill-distiller/README.md) | `1.0.0` / `1.0.0` | 本仓版本未确认已上架 |
+| [`lls-ai-drawing-prompt-coach`](../skills/lls-ai-drawing-prompt-coach/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-ai-poster-design-coach`](../skills/lls-ai-poster-design-coach/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-jimeng-image-editing-coach`](../skills/lls-jimeng-image-editing-coach/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 
 “已检索到”只表示 SkillHub 有精确 slug；安装后仍要读回 `SKILL.md` 的 name、version 和路径。
 
