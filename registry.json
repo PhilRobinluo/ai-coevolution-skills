@@ -13,10 +13,10 @@
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-code-anatomy-v1.0.2/lls-code-anatomy-1.0.2.zip",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/ToAuwccD2iVp6WkrXPSc0Zuen1c",
       "skillhub_url": "https://skillhub.cn/skills/lls-code-anatomy",
-      "skillhub_status": "pending_review",
+      "skillhub_status": "published",
       "provenance": "lls-original",
       "license": "CC-BY-NC-SA-4.0",
-      "release_version": "1.0.1"
+      "release_version": "1.0.2"
     },
     {
       "name": "bilingual-reader-maker",
