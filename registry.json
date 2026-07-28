@@ -766,6 +766,27 @@
       "release_version": "1.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "code_license": "PolyForm-Noncommercial-1.0.0"
+    },
+    {
+      "name": "lls-cangjie-knowledge-distiller",
+      "title": "罗老师仓颉知识蒸馏器",
+      "description": "把书籍、课程、访谈和长视频文字稿中的方法论蒸馏成 WorkBuddy 可调用、可测试的独立 Skill。",
+      "category": "knowledge",
+      "status": "stable",
+      "version": "1.0.0",
+      "release_version": "1.0.0",
+      "path": "adapted/lls-cangjie-knowledge-distiller",
+      "skillhub_status": "pending",
+      "provenance": "lls-adapted",
+      "license": "MIT",
+      "code_license": "PolyForm-Noncommercial-1.0.0",
+      "origin": {
+        "author": "kangarooking",
+        "source_url": "https://github.com/kangarooking/cangjie-skill",
+        "license": "MIT",
+        "changes": "面向 WorkBuddy 重写为串行可完成的六阶段流程，增加工作区初始化、单 Skill 安装、读回验证与发布检查点。",
+        "adapted_version": "1.0.0"
+      }
     }
   ],
   "provenance_policy": "docs/provenance-policy.md"

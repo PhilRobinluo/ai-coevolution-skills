@@ -1,0 +1,20 @@
+{
+  "skill": "{{skill-slug}}",
+  "cases": [
+    {
+      "type": "should_trigger",
+      "prompt": "{{真实任务}}",
+      "expected_behavior": "{{应执行的动作}}"
+    },
+    {
+      "type": "should_not_trigger",
+      "prompt": "{{相似但不适用的任务}}",
+      "expected_behavior": "{{不调用的理由}}"
+    },
+    {
+      "type": "edge_case",
+      "prompt": "{{边界任务}}",
+      "expected_behavior": "{{先检查的条件}}"
+    }
+  ]
+}
