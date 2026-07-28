@@ -9,7 +9,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 ![License](https://img.shields.io/github/license/PhilRobinluo/ai-coevolution-skills)
-![Skills](https://img.shields.io/badge/skills-26-blue)
+![Skills](https://img.shields.io/badge/skills-27-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -69,6 +69,7 @@
 | [`lls-skill-lifecycle-manager`](skills/lls-skill-lifecycle-manager/) | 🔵 LLS Original | 管理 Skill 从母库、版本、发布到飞书和运行副本的完整生态。 | Stable |
 | [`lls-dialogue-subtext-reader`](skills/lls-dialogue-subtext-reader/) | 🔵 LLS Original | 分开原话事实与推测，生成可验证、低冲突的沟通回应。 | Stable |
 | [`lls-local-excel-vba-data-processor`](skills/lls-local-excel-vba-data-processor/) | 🔵 LLS Original | 用本地 Excel VBA 处理敏感数据，附测试、日志、回滚和验收。 | Stable |
+| [`lls-ip-positioning-coach`](skills/lls-ip-positioning-coach/) | 🔵 LLS Original | 用七步互动找到真实可信、能持续表达并可小步验证的个人 IP 定位。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。
@@ -215,6 +216,7 @@ Community skills remain the property of their original authors. Please support t
 | [`lls-skill-lifecycle-manager`](skills/lls-skill-lifecycle-manager/) | Governs the full skill lifecycle across source, releases, documentation, and runtime copies. | Stable |
 | [`lls-dialogue-subtext-reader`](skills/lls-dialogue-subtext-reader/) | Separates observable dialogue facts from interpretations and produces verifiable, low-conflict replies. | Stable |
 | [`lls-local-excel-vba-data-processor`](skills/lls-local-excel-vba-data-processor/) | Builds privacy-preserving local Excel VBA workflows with tests, logs, rollback, and acceptance checks. | Stable |
+| [`lls-ip-positioning-coach`](skills/lls-ip-positioning-coach/) | Uses a seven-step coaching flow to create credible, sustainable, testable personal-brand positioning. | Stable |
 
 The first pack came from a concrete use case: turning an English startup playbook into a bilingual study edition for Chinese readers.
 

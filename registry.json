@@ -310,6 +310,18 @@
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-video-digester-v1.0.0/lls-video-digester-1.0.0.zip",
       "provenance": "lls-original",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Kd5WwxI7dikwGFkHxEJcWBC6nus"
+    },
+    {
+      "name": "lls-ip-positioning-coach",
+      "title": "罗老师 IP 定位教练",
+      "description": "用七步互动找到真实可信、能持续表达并可小步验证的个人 IP 定位。",
+      "category": "personal-brand",
+      "status": "stable",
+      "version": "1.1.1",
+      "path": "skills/lls-ip-positioning-coach",
+      "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ip-positioning-coach-v1.1.1/lls-ip-positioning-coach-1.1.1.zip",
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Yh5pw9AcViasgNkfxiLcXVzyno6",
+      "provenance": "lls-original"
     }
   ],
   "provenance_policy": "docs/provenance-policy.md"
