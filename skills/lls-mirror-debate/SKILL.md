@@ -1,9 +1,5 @@
 ---
 name: lls-mirror-debate
-slug: lls-mirror-debate
-displayName: 罗老师照妖镜决策辩论
-version: 1.1.0
-summary: 让正反双方围绕同一命题交锋，暴露隐藏假设和决策盲点。
 license: CC-BY-NC-SA-4.0
 description: 让正反双方围绕同一命题交锋，暴露隐藏假设和决策盲点。 当用户需要“在两个方案之间犹豫，或想压力测试一个决定。”时使用。
 ---

@@ -1,9 +1,5 @@
 ---
 name: lls-best-minds-consultation
-slug: lls-best-minds-consultation
-displayName: 罗老师最强大脑会诊
-version: 1.1.0
-summary: 把复杂问题交给最懂它的公开专家视角会诊，再形成统一行动建议。
 license: MIT
 description: 把复杂问题交给最懂它的公开专家视角会诊，再形成统一行动建议。 当用户需要“策略、方法和重大判断需要多位专家视角。”时使用。
 ---

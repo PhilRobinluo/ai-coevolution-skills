@@ -64,9 +64,16 @@ def main() -> int:
                 fail(f'{slug}: README missing WorkBuddy install requirement: {required}')
 
         skill_text = skill_md.read_text(encoding='utf-8')
-        skill_version = f'version: {version}'
-        if skill_version not in skill_text.split('---', 2)[1]:
-            fail(f'{slug}: SKILL.md version does not match registry version {version}')
+        frontmatter = skill_text.split('---', 2)[1]
+        # WorkBuddy 加载的是标准 Agent Skill，而不是 SkillHub 的发布清单。
+        # 版本以 registry/README/Release 为权威，标准 SKILL.md 不保留平台专用
+        # version 字段；发布时由 build-skillhub-package.py 注入临时包。
+        if any(
+            line.split(':', 1)[0].strip() == 'version'
+            for line in frontmatter.splitlines()
+            if ':' in line
+        ):
+            fail(f'{slug}: standard SKILL.md must not contain top-level version')
         expected_marker = f'<!-- workbuddy-install: {status}; slug: {slug} -->'
         if expected_marker not in skill_text:
             fail(f'{slug}: SKILL.md missing status marker {expected_marker}')

@@ -1,9 +1,5 @@
 ---
 name: lls-headline-summary-maker
-slug: lls-headline-summary-maker
-displayName: 罗老师标题与摘要助手
-version: 1.1.0
-summary: 为文章、视频和报告生成清楚、有吸引力但不夸大的标题与摘要。
 license: CC-BY-NC-SA-4.0
 description: 为文章、视频和报告生成清楚、有吸引力但不夸大的标题与摘要。 当用户需要“正文已基本确定，需要标题候选和短摘要。”时使用。
 ---

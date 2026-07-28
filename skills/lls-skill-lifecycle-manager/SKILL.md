@@ -1,21 +1,21 @@
 ---
 name: lls-skill-lifecycle-manager
 description: 管理相互隔离的私有 Skill 母库与公开 Skill 分享库。用于在选定仓库内新建、升级、查重、审计、打包、发布或恢复 Skill，并维护该仓库自己的版本、来源、许可证、GitHub Release、飞书说明、WorkBuddy 与 SkillHub 状态。两库各自是真源，公开版只能独立创作和审核；不建立复制、镜像、同步、自动导出或一键公开链路。
-slug: lls-skill-lifecycle-manager
-version: 3.0.0
 license: CC-BY-NC-SA-4.0
 ---
 
 <!-- workbuddy-install: published; slug: lls-skill-lifecycle-manager -->
-## WorkBuddy 安装
+## 在 WorkBuddy 中找到并安装
 
-已发布，可在 SkillHub 搜索该 slug。
+**Skill slug：`lls-skill-lifecycle-manager`**
+
+在 WorkBuddy 新会话粘贴：
 
 ```text
-请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-skill-lifecycle-manager`，仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`；完成后核对 `~/.workbuddy/skills/lls-skill-lifecycle-manager/SKILL.md` 的 name 和 version（如有）。
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-skill-lifecycle-manager`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-skill-lifecycle-manager/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
 ```
 
-也可在左侧「技能」→「添加技能」或「查找技能」中搜索 `lls-skill-lifecycle-manager` 后安装；界面名称会随 WorkBuddy 版本变化。若 SkillHub 搜索无精确 slug，请使用 README 中列出的 GitHub Release。
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-skill-lifecycle-manager` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师 Skill 全生命周期与仓库治理管家
 

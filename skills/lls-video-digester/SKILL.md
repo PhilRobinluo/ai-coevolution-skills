@@ -1,9 +1,5 @@
 ---
 name: lls-video-digester
-slug: lls-video-digester
-displayName: 罗老师视频消化助手
-version: 1.1.0
-summary: 提取公开视频字幕，整理核心观点、关键概念、时间点和行动清单。
 license: CC-BY-NC-SA-4.0
 description: 提取公开视频字幕，整理核心观点、关键概念、时间点和行动清单。 当用户需要“拿到YouTube或B站链接，想快速判断内容和学习价值。”时使用。
 ---

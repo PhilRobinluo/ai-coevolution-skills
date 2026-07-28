@@ -1,9 +1,5 @@
 ---
 name: lls-chinese-humor
-slug: lls-chinese-humor
-displayName: 罗老师中文幽默助手
-version: 1.1.0
-summary: 用反差、误会、类比、自嘲等结构化技法让中文表达更有趣。
 license: CC-BY-NC-SA-4.0
 description: 用反差、误会、类比、自嘲等结构化技法让中文表达更有趣。 当用户需要“课程、口播和文章需要增加轻松感与记忆点。”时使用。
 ---

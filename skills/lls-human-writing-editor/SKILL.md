@@ -1,9 +1,5 @@
 ---
 name: lls-human-writing-editor
-slug: lls-human-writing-editor
-displayName: 罗老师真人化写作助手
-version: 1.1.0
-summary: 通过节奏、具体细节和真实语气，让AI草稿更自然、更像人在说话。
 license: CC-BY-NC-SA-4.0
 description: 通过节奏、具体细节和真实语气，让AI草稿更自然、更像人在说话。 当用户需要“文章、演讲和口播已经有事实，需要去除模板腔。”时使用。
 ---

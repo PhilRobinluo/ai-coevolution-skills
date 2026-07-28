@@ -1,9 +1,5 @@
 ---
 name: lls-international-techdoc-writer
-slug: lls-international-techdoc-writer
-displayName: 罗老师国际技术文档助手
-version: 1.1.0
-summary: 把Markdown内容整理成结构清楚、警示明确、适合对外交付的技术文档。
 license: CC-BY-NC-SA-4.0
 description: 把Markdown内容整理成结构清楚、警示明确、适合对外交付的技术文档。 当用户需要“制作操作手册、技术规格书、培训方案和交付说明。”时使用。
 ---

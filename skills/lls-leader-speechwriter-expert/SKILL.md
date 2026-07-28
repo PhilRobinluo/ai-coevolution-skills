@@ -9,7 +9,15 @@ metadata:
 <!-- workbuddy-install: published; slug: lls-leader-speechwriter-expert -->
 ## 在 WorkBuddy 中找到并安装
 
-在 WorkBuddy 搜索唯一 slug `lls-leader-speechwriter-expert`，仅在 slug 完全一致时安装；安装后核对 `SKILL.md` 的 `name`，再新开会话使用。
+**Skill slug：`lls-leader-speechwriter-expert`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-leader-speechwriter-expert`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-leader-speechwriter-expert/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-leader-speechwriter-expert` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师领导讲话稿专家
 

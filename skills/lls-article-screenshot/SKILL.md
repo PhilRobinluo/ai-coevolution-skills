@@ -1,9 +1,5 @@
 ---
 name: lls-article-screenshot
-slug: lls-article-screenshot
-displayName: 罗老师文章截图助手
-version: 1.1.0
-summary: 为教程建议截图位置，并在 macOS 上生成命名清楚的项目截图。
 license: CC-BY-NC-SA-4.0
 description: 为教程建议截图位置，并在 macOS 上生成命名清楚的项目截图。 当用户需要“写软件教程、操作说明或产品复盘，需要真实界面证据。”时使用。
 ---

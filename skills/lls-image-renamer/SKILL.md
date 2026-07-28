@@ -1,9 +1,5 @@
 ---
 name: lls-image-renamer
-slug: lls-image-renamer
-displayName: 罗老师图片智能改名助手
-version: 1.1.0
-summary: 根据图片内容生成可搜索的文件名，同时保留原始时间戳或设备编号。
 license: CC-BY-NC-SA-4.0
 description: 根据图片内容生成可搜索的文件名，同时保留原始时间戳或设备编号。 当用户需要“笔记和项目里出现IMG_1234、Pasted image等难搜索图片名。”时使用。
 ---

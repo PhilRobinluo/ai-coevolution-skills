@@ -1,9 +1,5 @@
 ---
 name: lls-skill-builder
-slug: lls-skill-builder
-displayName: 罗老师 Skill 创建助手
-version: 1.1.0
-summary: 把模糊想法一步步整理成可复用、可验证的 AI Skill。
 license: CC-BY-NC-SA-4.0
 description: 把模糊想法一步步整理成可复用、可验证的 AI Skill。 当用户需要“当你有一套反复使用的方法，想把它沉淀成 Skill。”时使用。
 ---

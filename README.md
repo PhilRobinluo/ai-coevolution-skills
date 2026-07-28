@@ -9,7 +9,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 [![License](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0_%2B_PolyForm_NC-blue)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-42-blue)
+![Skills](https://img.shields.io/badge/skills-45-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -99,6 +99,9 @@
 | [`lls-aida-marketing-copywriter`](skills/lls-aida-marketing-copywriter/) | 🔵 LLS Original | 以真实证据和渠道约束写 AIDA 营销文案。 | Stable |
 | [`lls-leader-speechwriter-expert`](skills/lls-leader-speechwriter-expert/) | 🔵 LLS Original | 基于身份、场合和真实材料写正式讲话稿。 | Stable |
 | [`lls-slide-storyline-planner`](skills/lls-slide-storyline-planner/) | 🔵 LLS Original | 从听众认知变化到章节逻辑和逐页结论标题。 | Stable |
+| [`lls-ai-microdrama-planner`](skills/lls-ai-microdrama-planner/) | 🔵 LLS Original | 从冲突发动机推进到逐集节拍、悬念账本和 AI 制作连续性。 | Stable |
+| [`lls-ai-novel-prompt-engineer`](skills/lls-ai-novel-prompt-engineer/) | 🔵 LLS Original | 用分层上下文、场景循环和写后回填管理长篇小说。 | Stable |
+| [`lls-education-illustration-maker`](skills/lls-education-illustration-maker/) | 🔵 LLS Original | 从学习目标和准确性约束制作可验证的教育插图。 | Stable |
 
 第一个能力包来自一个很具体的需求：  
 把一份英文创业手册，做成适合中文读者学习英语的双语读物。
@@ -155,7 +158,7 @@
 也可在左侧 **「技能」** → **「添加技能」或「查找技能」** 中搜索精确 slug 后安装；不同 WorkBuddy 版本的界面名称可能略有变化。若没有精确匹配，请不要安装同名条目，改用该 Skill README 的 GitHub Release 或手动复制目录。
 
 - [查看全部 WorkBuddy 安装步骤与当前发布状态](docs/how-to-install.md)
-- [浏览 35 个原创 Skill](skills/)；另有 [1 个透明改编 Skill](adapted/)
+- [浏览 44 个原创 Skill](skills/)；另有 [1 个透明改编 Skill](adapted/)
 
 #### Codex / Claude Code 手动安装
 

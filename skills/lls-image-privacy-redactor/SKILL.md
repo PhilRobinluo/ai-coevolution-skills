@@ -1,9 +1,5 @@
 ---
 name: lls-image-privacy-redactor
-slug: lls-image-privacy-redactor
-displayName: 罗老师图片隐私打码助手
-version: 1.1.0
-summary: 检查公开截图中的账号、路径、密钥和个人资料，并生成可复核的打码版本。
 license: CC-BY-NC-SA-4.0
 description: 检查公开截图中的账号、路径、密钥和个人资料，并生成可复核的打码版本。 当用户需要“截图准备放进文章、课程、GitHub或飞书。”时使用。
 ---

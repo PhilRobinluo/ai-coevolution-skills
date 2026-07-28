@@ -1,9 +1,5 @@
 ---
 name: lls-github-profile-writer
-slug: lls-github-profile-writer
-displayName: 罗老师 GitHub 首页助手
-version: 1.1.0
-summary: 把GitHub个人主页或仓库README写成访客快速看懂、愿意使用和收藏的门面。
 license: CC-BY-NC-SA-4.0
 description: 把GitHub个人主页或仓库README写成访客快速看懂、愿意使用和收藏的门面。 当用户需要“新建或升级GitHub主页、项目README和开源作品集。”时使用。
 ---

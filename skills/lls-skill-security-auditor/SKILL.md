@@ -1,9 +1,5 @@
 ---
 name: lls-skill-security-auditor
-slug: lls-skill-security-auditor
-displayName: 罗老师 Skill 安全审计助手
-version: 1.1.0
-summary: 在安装前检查Skill的权限、脚本、外部请求、提示词注入和数据外传风险。
 license: CC-BY-NC-SA-4.0
 description: 在安装前检查Skill的权限、脚本、外部请求、提示词注入和数据外传风险。 当用户需要“准备安装社区Skill、插件或包含脚本的能力包。”时使用。
 ---

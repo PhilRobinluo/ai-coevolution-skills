@@ -1,9 +1,5 @@
 ---
 name: lls-naming-coach
-slug: lls-naming-coach
-displayName: 罗老师全能命名教练
-version: 1.1.0
-summary: 为项目、产品、课程、文件和 Skill 生成清楚、可搜索、能长期使用的名字。
 license: CC-BY-NC-SA-4.0
 description: 为项目、产品、课程、文件和 Skill 生成清楚、可搜索、能长期使用的名字。 当用户需要“新建项目、仓库、课程、产品、文件或 Skill。”时使用。
 ---

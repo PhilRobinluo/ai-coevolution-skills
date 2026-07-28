@@ -39,7 +39,12 @@ def update_skill(path: Path, entry: dict) -> str:
         if provenance == "lls-original"
         else entry["origin"]["license"]
     )
-    frontmatter = replace_field(frontmatter, "version", entry["version"])
+    # 公开源码与 WorkBuddy 运行副本必须遵循官方 Agent Skill schema。
+    # version 是发布渠道字段：由 registry/README/Release 保存，并只在构建
+    # SkillHub 临时包时注入；若把它写回标准源，官方 quick_validate 会失败。
+    frontmatter = replace_field(frontmatter, "version", None)
+    for platform_key in ("slug", "displayName", "summary", "homepage"):
+        frontmatter = replace_field(frontmatter, platform_key, None)
     frontmatter = replace_field(frontmatter, "license", license_name)
     # Codex 官方 Skill schema 不接收 code_license 顶层字段；代码许可由
     # registry.json、LICENSE.md 与 LICENSES/ 中的 PolyForm 正文共同声明。
@@ -52,9 +57,8 @@ def update_skill(path: Path, entry: dict) -> str:
         count=1,
     )
     marker = f"<!-- workbuddy-install: {entry['skillhub_status']}; slug: {entry['name']} -->"
-    if marker not in body:
-        slug = entry["name"]
-        guide = f"""
+    slug = entry["name"]
+    guide = f"""
 {marker}
 ## 在 WorkBuddy 中找到并安装
 
@@ -69,6 +73,15 @@ def update_skill(path: Path, entry: dict) -> str:
 也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `{slug}` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 """
+    # 历史 Skill 可能已有较短的安装段。每次应用策略都整体替换这一段，
+    # 防止只因 marker 存在就跳过官方指南、精确路径或安装后读回要求。
+    existing_guide = re.compile(
+        r"(?ms)^<!-- workbuddy-install:.*?-->\n+"
+        r"## 在 WorkBuddy 中找到并安装\n.*?(?=^# )"
+    )
+    if existing_guide.search(body):
+        body = existing_guide.sub(guide.lstrip(), body, count=1)
+    else:
         body = guide.lstrip() + body
     return f"---\n{frontmatter}\n---\n\n{body.lstrip()}"
 

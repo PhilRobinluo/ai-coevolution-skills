@@ -1,21 +1,21 @@
 ---
 name: bilingual-reader-maker
 description: Use when the user asks to make bilingual reading materials, bilingual PDFs, Chinese-English study editions, mobile-readable HTML/PDF readers, or to turn an English PDF/article into a polished bilingual reader.
-slug: bilingual-reader-maker
-version: 1.1.0
 license: CC-BY-NC-SA-4.0
 ---
 
 <!-- workbuddy-install: pending; slug: bilingual-reader-maker -->
-## WorkBuddy 安装
+## 在 WorkBuddy 中找到并安装
 
-本仓当前版本未确认发布到 SkillHub；同名结果不代表本 Skill。
+**Skill slug：`bilingual-reader-maker`**
+
+在 WorkBuddy 新会话粘贴：
 
 ```text
-请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `bilingual-reader-maker`，仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`；完成后核对 `~/.workbuddy/skills/bilingual-reader-maker/SKILL.md` 的 name 和 version（如有）。
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `bilingual-reader-maker`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/bilingual-reader-maker/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
 ```
 
-也可在左侧「技能」→「添加技能」或「查找技能」中搜索 `bilingual-reader-maker` 后安装；界面名称会随 WorkBuddy 版本变化。请通过公开仓库复制本目录安装；后续 Release 发布后可从 Release 安装包安装。
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `bilingual-reader-maker` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # Bilingual Reader Maker
 

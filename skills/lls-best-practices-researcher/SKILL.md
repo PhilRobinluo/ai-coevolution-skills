@@ -1,9 +1,5 @@
 ---
 name: lls-best-practices-researcher
-slug: lls-best-practices-researcher
-displayName: 罗老师最佳实践研究助手
-version: 1.1.0
-summary: 从官方资料和多方证据中提炼可执行的最佳实践。
 license: CC-BY-NC-SA-4.0
 description: 从官方资料和多方证据中提炼可执行的最佳实践。 当用户需要“需要回答“成熟团队通常怎么做”并给出证据。”时使用。
 ---

@@ -65,6 +65,15 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 | [`lls-ai-drawing-prompt-coach`](../skills/lls-ai-drawing-prompt-coach/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-ai-poster-design-coach`](../skills/lls-ai-poster-design-coach/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-jimeng-image-editing-coach`](../skills/lls-jimeng-image-editing-coach/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-ai-data-analysis-starter`](../skills/lls-ai-data-analysis-starter/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-government-publicity-data-analyst`](../skills/lls-government-publicity-data-analyst/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-geo-brand-visibility-coach`](../skills/lls-geo-brand-visibility-coach/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-aida-marketing-copywriter`](../skills/lls-aida-marketing-copywriter/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-leader-speechwriter-expert`](../skills/lls-leader-speechwriter-expert/README.md) | `1.1.1` / `1.1.1` | 已检索到 |
+| [`lls-slide-storyline-planner`](../skills/lls-slide-storyline-planner/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-ai-microdrama-planner`](../skills/lls-ai-microdrama-planner/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-ai-novel-prompt-engineer`](../skills/lls-ai-novel-prompt-engineer/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-education-illustration-maker`](../skills/lls-education-illustration-maker/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 
 “已检索到”只表示 SkillHub 有精确 slug；安装后仍要读回 `SKILL.md` 的 name、version 和路径。
 

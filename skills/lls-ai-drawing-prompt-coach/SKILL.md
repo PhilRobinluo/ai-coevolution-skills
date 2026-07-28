@@ -1,6 +1,5 @@
 ---
 name: lls-ai-drawing-prompt-coach
-version: 1.1.0
 description: "把用户的模糊画面想法整理成可测试、可迭代的文生图提示词和视觉方案。用于角色、场景、商品氛围图、插画、封面素材或概念图创作时；必须先明确画面用途、主体、叙事瞬间、构图、光线、色彩与限制，一次只调整一个变量并记录结果，不堆砌互相冲突的风格词。"
 license: CC-BY-NC-SA-4.0
 metadata:
@@ -10,7 +9,15 @@ metadata:
 <!-- workbuddy-install: published; slug: lls-ai-drawing-prompt-coach -->
 ## 在 WorkBuddy 中找到并安装
 
+**Skill slug：`lls-ai-drawing-prompt-coach`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
 请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-ai-drawing-prompt-coach`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-ai-drawing-prompt-coach/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-ai-drawing-prompt-coach` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师 AI 绘画提示词教练
 
