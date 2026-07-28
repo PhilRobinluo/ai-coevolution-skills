@@ -1,7 +1,7 @@
 # 罗老师代码解剖学习法
 
 - 类型：🔵 `LLS Original`
-- **当前源码版本：`1.0.2`**（最近 Release：`1.0.1`）
+- **当前源码版本：`1.0.2`**（最近 Release：`1.0.2`）
 - 唯一 slug：`lls-code-anatomy`
 - 用途：把一小段代码拆成看得懂、跑得通、能复习的中文学习卡片。
 - 飞书教程：https://m2wlgni9k4.feishu.cn/wiki/ToAuwccD2iVp6WkrXPSc0Zuen1c
