@@ -46,7 +46,7 @@ Skill 教学内容采用 `CC-BY-NC-SA-4.0`。类型为罗老师原创；不复�
 ## 在 WorkBuddy 安装
 
 - **Skill slug：`lls-code-anatomy`**
-- **SkillHub 状态：审核中**
+- **SkillHub 状态：已发布**
 
 把下面内容粘贴到 WorkBuddy 新会话：
 

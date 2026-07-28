@@ -7,7 +7,7 @@ metadata:
   short-description: 把代码变成看得懂、跑得通、能复习的学习卡片
 ---
 
-<!-- workbuddy-install: pending_review; slug: lls-code-anatomy -->
+<!-- workbuddy-install: published; slug: lls-code-anatomy -->
 ## 在 WorkBuddy 中找到并安装
 
 **Skill slug：`lls-code-anatomy`**
