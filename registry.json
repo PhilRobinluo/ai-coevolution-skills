@@ -258,7 +258,8 @@
       "provenance": "lls-original",
       "release_version": "1.2.0",
       "skillhub_status": "published",
-      "license": "CC-BY-NC-SA-4.0"
+      "license": "CC-BY-NC-SA-4.0",
+      "skillhub_url": "https://skillhub.cn/skills/lls-dialogue-subtext-reader"
     },
     {
       "name": "lls-document-print-restorer",
@@ -453,7 +454,8 @@
       "provenance": "lls-original",
       "release_version": "1.2.0",
       "skillhub_status": "published",
-      "license": "CC-BY-NC-SA-4.0"
+      "license": "CC-BY-NC-SA-4.0",
+      "skillhub_url": "https://skillhub.cn/skills/lls-ip-positioning-coach"
     },
     {
       "name": "lls-jimeng-image-editing-coach",
@@ -500,7 +502,8 @@
       "skillhub_status": "published",
       "release_version": "1.1.0",
       "license": "CC-BY-NC-SA-4.0",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Ub1DwTHaUi1AEFkBktpc6x94nDb"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Ub1DwTHaUi1AEFkBktpc6x94nDb",
+      "skillhub_url": "https://skillhub.cn/skills/lls-learning-guide"
     },
     {
       "name": "lls-local-excel-vba-data-processor",
@@ -515,7 +518,8 @@
       "provenance": "lls-original",
       "release_version": "1.2.0",
       "skillhub_status": "published",
-      "license": "CC-BY-NC-SA-4.0"
+      "license": "CC-BY-NC-SA-4.0",
+      "skillhub_url": "https://skillhub.cn/skills/lls-local-excel-vba-data-processor"
     },
     {
       "name": "lls-mermaid-diagram",
@@ -530,7 +534,8 @@
       "provenance": "lls-original",
       "release_version": "1.2.0",
       "skillhub_status": "published",
-      "license": "CC-BY-NC-SA-4.0"
+      "license": "CC-BY-NC-SA-4.0",
+      "skillhub_url": "https://skillhub.cn/skills/lls-mermaid-diagram"
     },
     {
       "name": "lls-mermaid-validator",
@@ -594,7 +599,8 @@
       "skillhub_status": "published",
       "release_version": "1.1.0",
       "license": "CC-BY-NC-SA-4.0",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/BvIUwJEmsiXjwYkaSpycMnxUnLg"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/BvIUwJEmsiXjwYkaSpycMnxUnLg",
+      "skillhub_url": "https://skillhub.cn/skills/lls-ppt-briefing-coach"
     },
     {
       "name": "lls-ppt-workflow-builder",
@@ -609,7 +615,8 @@
       "provenance": "lls-original",
       "release_version": "1.2.0",
       "skillhub_status": "published",
-      "license": "CC-BY-NC-SA-4.0"
+      "license": "CC-BY-NC-SA-4.0",
+      "skillhub_url": "https://skillhub.cn/skills/lls-ppt-workflow-builder"
     },
     {
       "name": "lls-prompt-basics-coach",
@@ -624,7 +631,8 @@
       "provenance": "lls-original",
       "release_version": "1.2.0",
       "skillhub_status": "published",
-      "license": "CC-BY-NC-SA-4.0"
+      "license": "CC-BY-NC-SA-4.0",
+      "skillhub_url": "https://skillhub.cn/skills/lls-prompt-basics-coach"
     },
     {
       "name": "lls-short-video-breakdown",
@@ -672,7 +680,8 @@
       "skillhub_status": "published",
       "license": "CC-BY-NC-SA-4.0",
       "code_license": "PolyForm-Noncommercial-1.0.0",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/IunjwDVWSiHmZfkeJLgcikjpnEc"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/IunjwDVWSiHmZfkeJLgcikjpnEc",
+      "skillhub_url": "https://skillhub.cn/skills/lls-skill-lifecycle-manager"
     },
     {
       "name": "lls-skill-security-auditor",
@@ -738,7 +747,8 @@
       "release_version": "2.1.0",
       "license": "CC-BY-NC-SA-4.0",
       "code_license": "PolyForm-Noncommercial-1.0.0",
-      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/DAv2wAGDXig5sDks5wJcz9yWnAb"
+      "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/DAv2wAGDXig5sDks5wJcz9yWnAb",
+      "skillhub_url": "https://skillhub.cn/skills/lls-workbuddy-guide"
     },
     {
       "name": "lls-workbuddy-openclaw-automation",
