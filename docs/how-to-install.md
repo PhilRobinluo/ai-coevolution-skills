@@ -56,6 +56,9 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 | [`lls-skill-security-auditor`](../skills/lls-skill-security-auditor/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
 | [`lls-video-digester`](../skills/lls-video-digester/README.md) | `1.1.0` / `1.0.0` | 已检索到 |
 | [`lls-ip-positioning-coach`](../skills/lls-ip-positioning-coach/README.md) | `1.2.0` / `1.1.1` | 已检索到 |
+| [`lls-mermaid-diagram`](../skills/lls-mermaid-diagram/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
+| [`lls-ppt-workflow-builder`](../skills/lls-ppt-workflow-builder/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
+| [`lls-prompt-basics-coach`](../skills/lls-prompt-basics-coach/README.md) | `1.2.0` / `1.1.0` | 已检索到 |
 
 “已检索到”只表示 SkillHub 有精确 slug；安装后仍要读回 `SKILL.md` 的 name、version 和路径。
 

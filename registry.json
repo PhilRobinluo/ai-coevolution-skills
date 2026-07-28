@@ -400,7 +400,10 @@
       "path": "skills/lls-ip-positioning-coach",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ip-positioning-coach-v1.1.1/lls-ip-positioning-coach-1.1.1.zip",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Yh5pw9AcViasgNkfxiLcXVzyno6",
-      "provenance": "lls-original"
+      "provenance": "lls-original",
+      "release_version": "1.1.1",
+      "skillhub_status": "published",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-mermaid-diagram",
@@ -408,11 +411,14 @@
       "description": "选择正确图型、压缩结构并用 Mermaid CLI 实际编译验证。",
       "category": "visualization",
       "status": "stable",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "path": "skills/lls-mermaid-diagram",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-mermaid-diagram-v1.1.0/lls-mermaid-diagram-1.1.0.zip",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Ilv9wdwC8ioW0bke4tMcgodinqg",
-      "provenance": "lls-original"
+      "provenance": "lls-original",
+      "release_version": "1.1.0",
+      "skillhub_status": "published",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-ppt-workflow-builder",
@@ -420,11 +426,14 @@
       "description": "从演示目标、材料审计和故事线推进到逐页制作、演练与验收。",
       "category": "presentation",
       "status": "stable",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "path": "skills/lls-ppt-workflow-builder",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-ppt-workflow-builder-v1.1.0/lls-ppt-workflow-builder-1.1.0.zip",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/Pi6kwLUdmipuetknXazcWl6AnDb",
-      "provenance": "lls-original"
+      "provenance": "lls-original",
+      "release_version": "1.1.0",
+      "skillhub_status": "published",
+      "license": "CC-BY-NC-SA-4.0"
     },
     {
       "name": "lls-prompt-basics-coach",
@@ -432,11 +441,14 @@
       "description": "用目标、上下文、约束、输出格式和样例测试教普通用户写提示词。",
       "category": "prompting",
       "status": "stable",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "path": "skills/lls-prompt-basics-coach",
       "download_url": "https://github.com/PhilRobinluo/ai-coevolution-skills/releases/download/lls-prompt-basics-coach-v1.1.0/lls-prompt-basics-coach-1.1.0.zip",
       "feishu_url": "https://m2wlgni9k4.feishu.cn/wiki/VhZXwm5R0imlOSkMRLTcOJkInYc",
-      "provenance": "lls-original"
+      "provenance": "lls-original",
+      "release_version": "1.1.0",
+      "skillhub_status": "published",
+      "license": "CC-BY-NC-SA-4.0"
     }
   ],
   "provenance_policy": "docs/provenance-policy.md"

@@ -1,9 +1,24 @@
 ---
 name: lls-ppt-workflow-builder
+version: 1.2.0
+license: CC-BY-NC-SA-4.0
 description: "把零散材料推进成可交付演示文稿的全流程构建器。用于用户需要从目标澄清、受众分析、材料审计、故事线、逐页脚本、视觉规范、制作到演练验收时；必须先确认演示场景和决策目标，再建立证据台账与页面任务，不从模板或配色直接开工。"
 metadata:
   short-description: 从演示目标到逐页制作、演练和验收的完整工作流
 ---
+
+<!-- workbuddy-install: published; slug: lls-ppt-workflow-builder -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-ppt-workflow-builder`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-ppt-workflow-builder`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-ppt-workflow-builder/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-ppt-workflow-builder` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师 PPT 全流程构建器
 

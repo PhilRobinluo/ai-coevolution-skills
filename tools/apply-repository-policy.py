@@ -161,6 +161,25 @@ def update_install_catalog(path: Path, entries: list[dict]) -> str:
     return pattern.sub(block, text, count=1)
 
 
+def update_root_readme(path: Path, entries: list[dict]) -> str:
+    text = path.read_text(encoding="utf-8")
+    originals = sum(entry["provenance"] == "lls-original" for entry in entries)
+    adapted = sum(entry["provenance"] == "lls-adapted" for entry in entries)
+    text = re.sub(
+        r"skills-\d+-blue",
+        f"skills-{len(entries)}-blue",
+        text,
+        count=1,
+    )
+    text = re.sub(
+        r"- \[浏览 \d+ 个原创 Skill\]\(skills/\)；另有 \[\d+ 个透明改编 Skill\]\(adapted/\)",
+        f"- [浏览 {originals} 个原创 Skill](skills/)；另有 [{adapted} 个透明改编 Skill](adapted/)",
+        text,
+        count=1,
+    )
+    return text
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--apply", action="store_true")
@@ -186,6 +205,12 @@ def main() -> int:
         changes.append(install_doc.relative_to(ROOT).as_posix())
         if args.apply:
             install_doc.write_text(expected_install_doc, encoding="utf-8")
+    root_readme = ROOT / "README.md"
+    expected_root_readme = update_root_readme(root_readme, registry["skills"])
+    if root_readme.read_text(encoding="utf-8") != expected_root_readme:
+        changes.append(root_readme.relative_to(ROOT).as_posix())
+        if args.apply:
+            root_readme.write_text(expected_root_readme, encoding="utf-8")
     if changes and not args.apply:
         for path in changes:
             print(f"MISSING_OR_STALE: {path}")

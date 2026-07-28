@@ -1,9 +1,24 @@
 ---
 name: lls-prompt-basics-coach
+version: 1.2.0
+license: CC-BY-NC-SA-4.0
 description: "用真实任务教普通用户写清楚、可测试、可迭代的提示词。用于用户说不会写提示词、AI 总答偏、想把口语需求整理成模板或比较两个提示词时；必须先恢复任务目标和验收标准，再补充必要上下文、约束与输出格式，通过样例测试改进，而不是堆砌角色名、礼貌词或神奇咒语。"
 metadata:
   short-description: 用目标、上下文、约束、输出和测试学会提示词
 ---
+
+<!-- workbuddy-install: published; slug: lls-prompt-basics-coach -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-prompt-basics-coach`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-prompt-basics-coach`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-prompt-basics-coach/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-prompt-basics-coach` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师提示词基础教练
 

@@ -1,9 +1,24 @@
 ---
 name: lls-mermaid-diagram
+version: 1.2.0
+license: CC-BY-NC-SA-4.0
 description: "把业务流程、系统关系、项目计划、用户旅程或对比逻辑转成可读、可验证的 Mermaid 图。用于用户说画流程图、架构图、时序图、状态图或梳理复杂关系时；必须先选择正确图型、压缩节点文字、为中文和特殊字符加引号，并用 Mermaid CLI 实际编译，失败时修复后再交付。"
 metadata:
   short-description: 先选对图型，再生成并真实验证 Mermaid 图
 ---
+
+<!-- workbuddy-install: published; slug: lls-mermaid-diagram -->
+## 在 WorkBuddy 中找到并安装
+
+**Skill slug：`lls-mermaid-diagram`**
+
+在 WorkBuddy 新会话粘贴：
+
+```text
+请按 https://skillhub.cn/install/skillhub.md 检查 SkillHub，搜索 `lls-mermaid-diagram`；仅在 slug 完全一致时安装到 `~/.workbuddy/skills/`。安装后读取 `~/.workbuddy/skills/lls-mermaid-diagram/SKILL.md`，核对 name、version 和实际路径，然后新开会话触发该 Skill。
+```
+
+也可以打开左侧「技能」→「添加技能 / 查找技能」，搜索 `lls-mermaid-diagram` 后安装；界面文字可能随 WorkBuddy 版本变化。
 
 # 罗老师 Mermaid 图解助手
 
