@@ -56,7 +56,7 @@
 
 覆盖 Skill 创建、标题、命名、Mermaid、截图隐私、最佳实践、GitHub 首页、决策辩论、文件整理、纸质文件修复、视频学习、安全审计、中文幽默、真人化写作、短视频拆解和国际技术文档。完整清单见 [`registry.json`](registry.json)。
 
-另有 50 个 [`Community Pick`](community/) 仅做中文介绍和上游导航。第三方推荐不复制源码和安装包，也不提交 SkillHub。
+另有 63 个 [`Community Pick`](community/) 仅做中文介绍和上游导航。第三方推荐不复制源码和安装包，也不提交 SkillHub。
 
 
 ### 精选开源工具导航
@@ -248,7 +248,7 @@ It is a growing library of practical skills that are meant to do real work.
 
 Community skills remain the property of their original authors. Please support the upstream author first; Star this repository as well if the testing and Chinese guidance help you.
 
-The [`Community Pick`](community/) directory currently contains 50 link-only recommendations. Third-party source code and packages are not republished, and these entries are not submitted to SkillHub.
+The [`Community Pick`](community/) directory currently contains 63 link-only recommendations. Third-party source code and packages are not republished, and these entries are not submitted to SkillHub.
 
 ### What is inside?
 

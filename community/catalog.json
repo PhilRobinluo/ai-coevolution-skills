@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-28",
+  "updated_at": "2026-09-05",
   "distribution_policy": "All entries are link-only Community Picks; no source copy, package, Release, or SkillHub submission.",
   "items": [
     {
@@ -44,6 +44,20 @@
       "tier": "A",
       "cost_model": "本地运行免费；需要 Bun 和 Chrome",
       "privacy_note": "涉及登录页面时会使用浏览器会话，输出前检查个人信息。"
+    },
+    {
+      "name": "c-drive-cleaner",
+      "category": "基础工具与办公",
+      "author": "彭超 / staruhub",
+      "source_url": "https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-c-drive-cleaner",
+      "license": "MIT",
+      "verified_version": "66e02d2",
+      "verified_at": "2026-09-05",
+      "recommendation": "分析并清理 Windows C 盘临时文件、缓存和回收站；默认演习模式，适合磁盘空间排查。",
+      "distribution": "link-only",
+      "tier": "C",
+      "cost_model": "开源免费；仅适用于 Windows",
+      "privacy_note": "包含真实删除能力，但默认 dry-run，并保护 System32、WinSxS、Program Files 等系统目录；实际删除前必须人工确认。"
     },
     {
       "name": "docx",
@@ -100,6 +114,20 @@
       "tier": "A",
       "cost_model": "本地免费；Python 3.10+，可选 LibreOffice 与 ImageMagick",
       "privacy_note": "文档留在本地；对敏感资料更友好。"
+    },
+    {
+      "name": "mineru-pdf-parser",
+      "category": "基础工具与办公",
+      "author": "彭超 / staruhub",
+      "source_url": "https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-mineru-pdf-parser",
+      "license": "MIT",
+      "verified_version": "66e02d2",
+      "verified_at": "2026-09-05",
+      "recommendation": "调用本地 MinerU 把复杂 PDF 转成 Markdown 或 JSON，保留表格、公式和图片结构。",
+      "distribution": "link-only",
+      "tier": "B",
+      "cost_model": "开源免费；需要 Python 与 MinerU，首次运行可能下载模型",
+      "privacy_note": "PDF 主要在本地解析；首次模型下载会联网，敏感文档仍应检查宿主环境和输出目录。"
     },
     {
       "name": "obsidian-vault",
@@ -228,6 +256,20 @@
       "privacy_note": "使用前检查第三方项目的数据与权限边界"
     },
     {
+      "name": "deck-studio",
+      "category": "设计开发与测试",
+      "author": "彭超 / staruhub",
+      "source_url": "https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-deck-studio",
+      "license": "MIT",
+      "verified_version": "66e02d2",
+      "verified_at": "2026-09-05",
+      "recommendation": "先定大纲和逐页简报，再统一风格生成 PPT 内容稿或视觉页，减少逻辑散乱与风格漂移。",
+      "distribution": "link-only",
+      "tier": "A",
+      "cost_model": "开源免费；可选本地 Node.js 与无头 Chrome 渲染",
+      "privacy_note": "提示词本身不上传素材；可选渲染流程在本地运行，宿主 Agent 仍可能按任务读取文件。"
+    },
+    {
       "name": "diagnosing-bugs",
       "category": "设计开发与测试",
       "author": "Matt Pocock",
@@ -298,6 +340,20 @@
       "privacy_note": "与本地通用 Skill 创建能力不同，冲突低。"
     },
     {
+      "name": "pair-programming",
+      "category": "设计开发与测试",
+      "author": "彭超 / staruhub",
+      "source_url": "https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-pair-programming",
+      "license": "MIT",
+      "verified_version": "66e02d2",
+      "verified_at": "2026-09-05",
+      "recommendation": "写代码后按正确性、安全、性能、可读性和健壮性自审，重点检查 AI 代码常见缺陷。",
+      "distribution": "link-only",
+      "tier": "A",
+      "cost_model": "开源免费；Skill 主体为提示词与参考文档，实际工具成本由宿主 Agent 决定",
+      "privacy_note": "宿主 Agent 可能按任务读取文件、联网或写入产物；使用前确认客户端权限边界。"
+    },
+    {
       "name": "playwright-cli",
       "category": "设计开发与测试",
       "author": "Microsoft",
@@ -312,6 +368,20 @@
       "privacy_note": "与 Anthropic webapp-testing 重叠；一个偏 CLI，一个偏测试流程。"
     },
     {
+      "name": "product-manager",
+      "category": "设计开发与测试",
+      "author": "彭超 / staruhub",
+      "source_url": "https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-product-manager",
+      "license": "MIT",
+      "verified_version": "66e02d2",
+      "verified_at": "2026-09-05",
+      "recommendation": "先读仓库证据，每轮只解决一个产品决策，把模糊想法整理成可批准的产品文档。",
+      "distribution": "link-only",
+      "tier": "A",
+      "cost_model": "开源免费；带本地会话状态校验脚本",
+      "privacy_note": "校验脚本只读取本地访谈状态和产品文档；具体资料访问仍由宿主 Agent 权限控制。"
+    },
+    {
       "name": "remotion-best-practices",
       "category": "设计开发与测试",
       "author": "Remotion",
@@ -324,6 +394,20 @@
       "tier": "C",
       "cost_model": "以原项目说明为准",
       "privacy_note": "本轮未读到独立许可证，且依赖 Remotion 技术栈，先观察。"
+    },
+    {
+      "name": "security-audit",
+      "category": "设计开发与测试",
+      "author": "彭超 / staruhub",
+      "source_url": "https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-security-audit",
+      "license": "MIT",
+      "verified_version": "66e02d2",
+      "verified_at": "2026-09-05",
+      "recommendation": "检查代码、依赖和服务器配置中的漏洞、密钥泄露与高风险配置，并输出分级报告。",
+      "distribution": "link-only",
+      "tier": "B",
+      "cost_model": "开源免费；可调用 pip-audit、npm audit 等本地外部扫描器",
+      "privacy_note": "会读取目标代码并写出审计报告；部分外部扫描器可能联网，运行前确认扫描范围并避免回显真实密钥。"
     },
     {
       "name": "shadcn",
@@ -354,6 +438,20 @@
       "privacy_note": "本地存在同名 Skill；适合做官方参考导航，不宜排在首批。"
     },
     {
+      "name": "solution-architect",
+      "category": "设计开发与测试",
+      "author": "彭超 / staruhub",
+      "source_url": "https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-solution-architect",
+      "license": "MIT",
+      "verified_version": "66e02d2",
+      "verified_at": "2026-09-05",
+      "recommendation": "用于系统架构设计、技术选型、扩展性评审和演进路线规划。",
+      "distribution": "link-only",
+      "tier": "B",
+      "cost_model": "开源免费；Skill 主体为提示词与参考文档，实际工具成本由宿主 Agent 决定",
+      "privacy_note": "宿主 Agent 可能按任务读取文件、联网或写入产物；使用前确认客户端权限边界。"
+    },
+    {
       "name": "systematic-debugging",
       "category": "设计开发与测试",
       "author": "Jesse Vincent / obra",
@@ -380,6 +478,20 @@
       "tier": "A",
       "cost_model": "以原项目说明为准",
       "privacy_note": "本地没有同名 Skill。"
+    },
+    {
+      "name": "threejs-performance",
+      "category": "设计开发与测试",
+      "author": "彭超 / staruhub",
+      "source_url": "https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-threejs-performance",
+      "license": "MIT",
+      "verified_version": "66e02d2",
+      "verified_at": "2026-09-05",
+      "recommendation": "诊断 Three.js 与 React Three Fiber 的掉帧、内存增长、加载和 draw call 问题。",
+      "distribution": "link-only",
+      "tier": "B",
+      "cost_model": "开源免费；Skill 主体为提示词与参考文档，实际工具成本由宿主 Agent 决定",
+      "privacy_note": "宿主 Agent 可能按任务读取文件、联网或写入产物；使用前确认客户端权限边界。"
     },
     {
       "name": "vercel-react-best-practices",
@@ -480,6 +592,20 @@
       "privacy_note": "与任务规划、看板能力重叠。"
     },
     {
+      "name": "ai-sales-champion",
+      "category": "内容营销与SEO",
+      "author": "彭超 / staruhub",
+      "source_url": "https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-ai-sales-champion",
+      "license": "MIT",
+      "verified_version": "66e02d2",
+      "verified_at": "2026-09-05",
+      "recommendation": "把 AI 技术翻译成客户听得懂的岗位收益、投资回报、风险边界和小步试点方案。",
+      "distribution": "link-only",
+      "tier": "A",
+      "cost_model": "开源免费；Skill 主体为提示词与参考文档，实际工具成本由宿主 Agent 决定",
+      "privacy_note": "客户数据、工资和业务指标可能进入宿主 Agent 上下文；涉及真实客户时先脱敏，通用 ROI 数字只能作为假设。"
+    },
+    {
       "name": "content-strategy",
       "category": "内容营销与SEO",
       "author": "Corey Haines",
@@ -562,6 +688,20 @@
       "tier": "A",
       "cost_model": "以原项目说明为准",
       "privacy_note": "与官方 SEO 指南重叠；它偏实操诊断，官方指南偏规则。"
+    },
+    {
+      "name": "wechat-article-writer",
+      "category": "内容营销与SEO",
+      "author": "彭超 / staruhub",
+      "source_url": "https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-wechat-article-writer",
+      "license": "MIT",
+      "verified_version": "66e02d2",
+      "verified_at": "2026-09-05",
+      "recommendation": "把公众号正文、配图提示词清单和微信安全 HTML 拆成可校验的三件套，支持企业、技术、活动和评测文章。",
+      "distribution": "link-only",
+      "tier": "A",
+      "cost_model": "开源免费；带本地图片清单校验与 HTML 渲染脚本",
+      "privacy_note": "本地脚本会读取文章与清单并写出 HTML，不会自动生图或发布；联网研究和素材读取由宿主 Agent 决定。"
     },
     {
       "name": "agent-supply-chain",
@@ -648,6 +788,20 @@
       "privacy_note": "与深度思考类能力部分重叠，但交互形式鲜明。"
     },
     {
+      "name": "keqian-method",
+      "category": "Agent与Skill治理",
+      "author": "彭超 / staruhub",
+      "source_url": "https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-keqian-method",
+      "license": "MIT",
+      "verified_version": "66e02d2",
+      "verified_at": "2026-09-05",
+      "recommendation": "用文档驱动、单 Agent 顺序执行和每个动作对应验收的方式构建边界明确的 AI 产品。",
+      "distribution": "link-only",
+      "tier": "A",
+      "cost_model": "开源免费；Skill 主体为提示词与参考文档，实际工具成本由宿主 Agent 决定",
+      "privacy_note": "宿主 Agent 可能按任务读取文件、联网或写入产物；使用前确认客户端权限边界。"
+    },
+    {
       "name": "nuwa-skill",
       "category": "Agent与Skill治理",
       "author": "Huashu（花叔）",
@@ -674,6 +828,34 @@
       "tier": "A",
       "cost_model": "本地扫描免费；部分漏洞数据库查询可能联网",
       "privacy_note": "先扫描再运行；扫描通过仍需人工审阅高权限脚本。"
+    },
+    {
+      "name": "xuefeng-method",
+      "category": "Agent与Skill治理",
+      "author": "彭超 / staruhub",
+      "source_url": "https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-xuefeng-method",
+      "license": "MIT",
+      "verified_version": "66e02d2",
+      "verified_at": "2026-09-05",
+      "recommendation": "面向用户行为开放的 AI-native 产品，用专精 Agent、行为属性测试、降级和漂移检测替代穷举。",
+      "distribution": "link-only",
+      "tier": "A",
+      "cost_model": "开源免费；Skill 主体为提示词与参考文档，实际工具成本由宿主 Agent 决定",
+      "privacy_note": "宿主 Agent 可能按任务读取文件、联网或写入产物；使用前确认客户端权限边界。"
+    },
+    {
+      "name": "deep-research",
+      "category": "数据云服务与专业工具",
+      "author": "彭超 / staruhub",
+      "source_url": "https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-deep-research",
+      "license": "MIT",
+      "verified_version": "66e02d2",
+      "verified_at": "2026-09-05",
+      "recommendation": "从研究边界、来源登记、冲突核验到引用校验，生成有证据、有限制说明的研究简报或报告。",
+      "distribution": "link-only",
+      "tier": "A",
+      "cost_model": "开源免费；需要宿主提供联网搜索，附带本地证据与引用校验脚本",
+      "privacy_note": "搜索词和网页访问会经过宿主的联网能力；本地脚本读取研究文件并写出校验与运行记录，不需要凭证。"
     },
     {
       "name": "parallel-web-search",

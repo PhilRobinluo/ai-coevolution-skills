@@ -14,12 +14,12 @@
 
 ## 收录统计
 
-- Community Pick：**50 项**
+- Community Pick：**63 项**
 - 分类：**5 类**
 - SkillHub：**0 项提交**
 - 第三方源码与安装包：**0 份复制**
 
-## 基础工具与办公（14）
+## 基础工具与办公（16）
 
 | Skill | 一句话用途 | 作者 | 许可证/条款 | 原项目 |
 |---|---|---|---|---|
@@ -37,8 +37,10 @@
 | `whisper-transcription` | 使用本地 Whisper 把录音和视频转成文字，不依赖云端识别接口。 | Guia Matthieu | MIT | [打开](https://github.com/guia-matthieu/clawfu-skills/tree/main/skills/automation/whisper-transcription) |
 | `xlsx` | 读取、创建、修改 Word、PDF、PPT 和 Excel 文件。 | Anthropic | Anthropic Service Terms（source-available） | [打开](https://github.com/anthropics/skills/tree/main/skills/xlsx) |
 | `youtube-downloader` | 调用 yt-dlp 下载可访问的视频、提取音频或字幕。 | Guia Matthieu | MIT | [打开](https://github.com/guia-matthieu/clawfu-skills/tree/main/skills/automation/youtube-downloader) |
+| `c-drive-cleaner` | 分析并清理 Windows C 盘临时文件、缓存和回收站；默认演习模式，适合磁盘空间排查。 | 彭超 / staruhub | MIT | [打开](https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-c-drive-cleaner) |
+| `mineru-pdf-parser` | 调用本地 MinerU 把复杂 PDF 转成 Markdown 或 JSON，保留表格、公式和图片结构。 | 彭超 / staruhub | MIT | [打开](https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-mineru-pdf-parser) |
 
-## 设计开发与测试（20）
+## 设计开发与测试（26）
 
 | Skill | 一句话用途 | 作者 | 许可证/条款 | 原项目 |
 |---|---|---|---|---|
@@ -62,8 +64,14 @@
 | `webapp-testing` | 用 Playwright 操作和测试本地网页，检查功能、截图、控制台报错。 | Anthropic | Apache-2.0 | [打开](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) |
 | `workers-best-practices` | 检查 Cloudflare Workers 代码里的流式处理、异步、密钥和可观测性问题。 | Cloudflare | Apache-2.0 | [打开](https://github.com/cloudflare/skills/tree/main/skills/workers-best-practices) |
 | `writing-plans` | 把需求拆成可以逐步执行和验证的计划。 | Jesse Vincent / obra | MIT | [打开](https://github.com/obra/superpowers/tree/main/skills/writing-plans) |
+| `deck-studio` | 先定大纲和逐页简报，再统一风格生成 PPT 内容稿或视觉页，减少逻辑散乱与风格漂移。 | 彭超 / staruhub | MIT | [打开](https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-deck-studio) |
+| `pair-programming` | 写代码后按正确性、安全、性能、可读性和健壮性自审，重点检查 AI 代码常见缺陷。 | 彭超 / staruhub | MIT | [打开](https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-pair-programming) |
+| `product-manager` | 先读仓库证据，每轮只解决一个产品决策，把模糊想法整理成可批准的产品文档。 | 彭超 / staruhub | MIT | [打开](https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-product-manager) |
+| `security-audit` | 检查代码、依赖和服务器配置中的漏洞、密钥泄露与高风险配置，并输出分级报告。 | 彭超 / staruhub | MIT | [打开](https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-security-audit) |
+| `solution-architect` | 用于系统架构设计、技术选型、扩展性评审和演进路线规划。 | 彭超 / staruhub | MIT | [打开](https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-solution-architect) |
+| `threejs-performance` | 诊断 Three.js 与 React Three Fiber 的掉帧、内存增长、加载和 draw call 问题。 | 彭超 / staruhub | MIT | [打开](https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-threejs-performance) |
 
-## 内容营销与SEO（6）
+## 内容营销与SEO（8）
 
 | Skill | 一句话用途 | 作者 | 许可证/条款 | 原项目 |
 |---|---|---|---|---|
@@ -73,8 +81,10 @@
 | `humanizer` | 识别常见AI写作痕迹，适合在公开发布前做语言清理。 | blader | MIT | [打开](https://github.com/blader/humanizer) |
 | `marketing-psychology` | 用认知偏差、社会认同、损失厌恶等解释用户为什么购买。 | Corey Haines | MIT | [打开](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology) |
 | `seo-audit` | 检查网站为什么收录差、排名低、速度慢，并给出 SEO 修复顺序。 | Corey Haines | MIT | [打开](https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit) |
+| `ai-sales-champion` | 把 AI 技术翻译成客户听得懂的岗位收益、投资回报、风险边界和小步试点方案。 | 彭超 / staruhub | MIT | [打开](https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-ai-sales-champion) |
+| `wechat-article-writer` | 把公众号正文、配图提示词清单和微信安全 HTML 拆成可校验的三件套，支持企业、技术、活动和评测文章。 | 彭超 / staruhub | MIT | [打开](https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-wechat-article-writer) |
 
-## Agent与Skill治理（8）
+## Agent与Skill治理（10）
 
 | Skill | 一句话用途 | 作者 | 许可证/条款 | 原项目 |
 |---|---|---|---|---|
@@ -86,13 +96,16 @@
 | `grill-me` | 在执行前连续追问，把含糊想法逼成清晰方案。 | Matt Pocock | MIT | [打开](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me) |
 | `nuwa-skill` | 从公开资料中提取人物的心智模型、决策启发式、表达结构与诚实边界；适合制作人物或主题认知 Skill。 | Huashu（花叔） | MIT | [打开](https://github.com/alchaincyf/nuwa-skill) |
 | `skill-security-auditor` | 安装前检查危险命令、提示词注入、凭证读取、依赖风险和文件篡改。 | Alireza Rezvani / GitHub community | MIT | [打开](https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skills/skill-security-auditor) |
+| `keqian-method` | 用文档驱动、单 Agent 顺序执行和每个动作对应验收的方式构建边界明确的 AI 产品。 | 彭超 / staruhub | MIT | [打开](https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-keqian-method) |
+| `xuefeng-method` | 面向用户行为开放的 AI-native 产品，用专精 Agent、行为属性测试、降级和漂移检测替代穷举。 | 彭超 / staruhub | MIT | [打开](https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-xuefeng-method) |
 
-## 数据云服务与专业工具（2）
+## 数据云服务与专业工具（3）
 
 | Skill | 一句话用途 | 作者 | 许可证/条款 | 原项目 |
 |---|---|---|---|---|
 | `parallel-web-search` | 从互联网查询最新资料并输出带来源的搜索结果。 | Parallel Web | MIT | [打开](https://github.com/parallel-web/parallel-agent-skills/tree/main/skills/parallel-web-search) |
 | `supabase-postgres-best-practices` | 按 Supabase 官方经验优化 Postgres 查询、表结构、索引和数据库配置。 | Supabase | MIT | [打开](https://github.com/supabase/agent-skills/tree/main/skills/supabase-postgres-best-practices) |
+| `deep-research` | 从研究边界、来源登记、冲突核验到引用校验，生成有证据、有限制说明的研究简报或报告。 | 彭超 / staruhub | MIT | [打开](https://github.com/staruhub/ClaudeSkills/tree/main/skills/Geek-skills-deep-research) |
 
 ## 使用方式
 
@@ -105,4 +118,4 @@
 
 - 原项目失效、许可证变化或长期停更时，条目标记复核，不保留过期副本。
 - 罗老师对筛选、中文说明和组合方式负责；第三方功能、版本和版权归原项目维护者。
-- 最后全量核验：2026-07-28。
+- 最后全量核验：2026-09-05。
