@@ -9,7 +9,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/PhilRobinluo/ai-coevolution-skills?style=social)](https://github.com/PhilRobinluo/ai-coevolution-skills)
 [![License](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0_%2B_PolyForm_NC-blue)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-47-blue)
+![Skills](https://img.shields.io/badge/skills-48-blue)
 ![Status](https://img.shields.io/badge/status-growing-brightgreen)
 
 </div>
@@ -71,12 +71,23 @@
 
 详细中文说明见 [`Community Pick`](community/)。喜欢具体 Skill，请优先给原作者 Star。
 
+### WorkBuddy 知识蒸馏适配版
+
+[`lls-cangjie-knowledge-distiller`](adapted/lls-cangjie-knowledge-distiller/) 是基于
+[kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill)
+制作的 🟡 `LLS Adapted` 公开版。它保留五视角提取、三重验证、RIA++ 和压力测试，
+并重写为 WorkBuddy 默认串行可完成、逐个安装、安装后读回的流程。
+
+本改编版保留上游作者、固定提交和 MIT 许可证；新增脚本的许可证单独记录。
+请同时支持原作者仓库。
+
 ### 现在有什么？
 
 | 能力包 | 来源 | 它解决什么问题 | 状态 |
 | --- | --- | --- | --- |
 | [`bilingual-reader-maker`](skills/bilingual-reader-maker/) | 🔵 LLS Original | 把英文 PDF / 长文做成中英双语移动阅读版，输出 HTML + PDF。 | Stable |
 | [`concept-explainer`](skills/concept-explainer/) | 🔵 LLS Original | 在做真实任务时，把陌生工具、命令、配置、架构和报错链路解释成通俗知识卡片。 | Stable |
+| [`lls-cangjie-knowledge-distiller`](adapted/lls-cangjie-knowledge-distiller/) | 🟡 LLS Adapted | 把书籍、课程和长视频中的方法论蒸馏成 WorkBuddy 可调用、可测试的独立 Skill。 | Stable |
 | [`lls-workbuddy-guide`](skills/lls-workbuddy-guide/) | 🔵 LLS Original | 带新手从真实任务开始，跑通 WorkBuddy 的执行、验收与复用。 | Stable |
 | [`lls-ppt-briefing-coach`](skills/lls-ppt-briefing-coach/) | 🔵 LLS Original | 用七阶段访谈澄清 PPT 需求，生成可执行的制作指令。 | Stable |
 | [`lls-learning-guide`](skills/lls-learning-guide/) | 🔵 LLS Original | 陪孩子逐步答题、费曼复述并沉淀学习档案。 | Stable |
@@ -168,7 +179,7 @@
 也可在左侧 **「技能」** → **「添加技能」或「查找技能」** 中搜索精确 slug 后安装；不同 WorkBuddy 版本的界面名称可能略有变化。若没有精确匹配，请不要安装同名条目，改用该 Skill README 的 GitHub Release 或手动复制目录。
 
 - [查看全部 WorkBuddy 安装步骤与当前发布状态](docs/how-to-install.md)
-- [浏览 46 个原创 Skill](skills/)；另有 [1 个透明改编 Skill](adapted/)
+- [浏览 46 个原创 Skill](skills/)；另有 [2 个透明改编 Skill](adapted/)
 
 #### Codex / Claude Code 手动安装
 
@@ -256,6 +267,7 @@ The [`Community Pick`](community/) directory currently contains 63 link-only rec
 | --- | --- | --- |
 | [`bilingual-reader-maker`](skills/bilingual-reader-maker/) | Turns English PDFs or long articles into polished Chinese-English mobile readers, with HTML and PDF output. | Stable |
 | [`concept-explainer`](skills/concept-explainer/) | Explains unfamiliar tools, commands, configs, architecture, and troubleshooting chains as short knowledge cards during real tasks. | Stable |
+| [`lls-cangjie-knowledge-distiller`](adapted/lls-cangjie-knowledge-distiller/) | Distills methods from books, courses, interviews, and long-form transcripts into testable WorkBuddy skills. | Stable |
 | [`lls-workbuddy-guide`](skills/lls-workbuddy-guide/) | Guides beginners through real WorkBuddy tasks, verification, and reusable workflows. | Stable |
 | [`lls-ppt-briefing-coach`](skills/lls-ppt-briefing-coach/) | Clarifies presentation needs through a seven-stage interview and produces an actionable brief. | Stable |
 | [`lls-learning-guide`](skills/lls-learning-guide/) | Guides students through problem solving, Feynman retelling, and learning records. | Stable |

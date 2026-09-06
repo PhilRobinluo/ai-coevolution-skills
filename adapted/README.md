@@ -7,6 +7,7 @@
 | Skill | 用途 | 上游来源 |
 |---|---|---|
 | [`lls-best-minds-consultation`](lls-best-minds-consultation/) | 多位公开专家视角会诊 | [Ceeon/best-minds](https://github.com/Ceeon/best-minds) |
+| [`lls-cangjie-knowledge-distiller`](lls-cangjie-knowledge-distiller/) | 把长内容中的方法论蒸馏成 WorkBuddy 可调用的独立 Skill | [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) |
 
 只有发生了清晰、可说明的实质改动，才进入本目录。单纯认可、推荐、写中文介绍或做安装引导的项目进入 [`community/`](../community/)，不包装成罗老师改编版。
 

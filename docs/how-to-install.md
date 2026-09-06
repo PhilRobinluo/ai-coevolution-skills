@@ -76,6 +76,7 @@ SkillHub 安装说明要求通过 `--dir` 指向 Agent 的 skills 目录；WorkB
 | [`lls-video-digester`](../skills/lls-video-digester/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
 | [`lls-workbuddy-guide`](../skills/lls-workbuddy-guide/README.md) | `2.1.0` / `2.1.0` | 已检索到 |
 | [`lls-workbuddy-openclaw-automation`](../skills/lls-workbuddy-openclaw-automation/README.md) | `1.1.0` / `1.1.0` | 已检索到 |
+| [`lls-cangjie-knowledge-distiller`](../adapted/lls-cangjie-knowledge-distiller/README.md) | `1.0.0` / `1.0.0` | 本仓版本未确认已上架 |
 
 “已检索到”只表示 SkillHub 有精确 slug；安装后仍要读回 `SKILL.md` 的 name、version 和路径。
 
